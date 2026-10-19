@@ -1990,6 +1990,53 @@
   ],
   "fallback": "d/kunde-baywa-420.png"
  },
+ "kunde-bundeswehr.png": {
+  "w": 933,
+  "h": 692,
+  "avif": [
+   {
+    "name": "d/kunde-bundeswehr-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-bundeswehr-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-bundeswehr-933.avif",
+    "w": 933
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-bundeswehr-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-bundeswehr-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-bundeswehr-933.webp",
+    "w": 933
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-bundeswehr-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-bundeswehr-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-bundeswehr-933.png",
+    "w": 933
+   }
+  ],
+  "fallback": "d/kunde-bundeswehr-933.png"
+ },
  "kunde-convotherm.png": {
   "w": 1550,
   "h": 380,
@@ -2331,6 +2378,136 @@
   ],
   "fallback": "d/kunde-mtu-1549.png"
  },
+ "kunde-schandl.png": {
+  "w": 660,
+  "h": 169,
+  "avif": [
+   {
+    "name": "d/kunde-schandl-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-schandl-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-schandl-660.avif",
+    "w": 660
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-schandl-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-schandl-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-schandl-660.webp",
+    "w": 660
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-schandl-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-schandl-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-schandl-660.png",
+    "w": 660
+   }
+  ],
+  "fallback": "d/kunde-schandl-660.png"
+ },
+ "kunde-sd-hirsch.png": {
+  "w": 1661,
+  "h": 631,
+  "avif": [
+   {
+    "name": "d/kunde-sd-hirsch-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-sd-hirsch-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-sd-hirsch-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1661.avif",
+    "w": 1661
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-sd-hirsch-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-sd-hirsch-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-sd-hirsch-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1661.webp",
+    "w": 1661
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-sd-hirsch-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-sd-hirsch-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-sd-hirsch-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1280.png",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1600.png",
+    "w": 1600
+   },
+   {
+    "name": "d/kunde-sd-hirsch-1661.png",
+    "w": 1661
+   }
+  ],
+  "fallback": "d/kunde-sd-hirsch-1661.png"
+ },
  "kunde-siemens.png": {
   "w": 453,
   "h": 75,
@@ -2365,6 +2542,124 @@
    }
   ],
   "fallback": "d/kunde-siemens-453.png"
+ },
+ "kunde-swm.png": {
+  "w": 888,
+  "h": 299,
+  "avif": [
+   {
+    "name": "d/kunde-swm-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-swm-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-swm-888.avif",
+    "w": 888
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-swm-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-swm-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-swm-888.webp",
+    "w": 888
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-swm-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-swm-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-swm-888.png",
+    "w": 888
+   }
+  ],
+  "fallback": "d/kunde-swm-888.png"
+ },
+ "kunde-tum.png": {
+  "w": 1549,
+  "h": 470,
+  "avif": [
+   {
+    "name": "d/kunde-tum-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-tum-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-tum-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-tum-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-tum-1549.avif",
+    "w": 1549
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-tum-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-tum-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-tum-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-tum-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-tum-1549.webp",
+    "w": 1549
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-tum-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-tum-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-tum-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-tum-1280.png",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-tum-1549.png",
+    "w": 1549
+   }
+  ],
+  "fallback": "d/kunde-tum-1549.png"
  },
  "laden-1200-x700.png": {
   "w": 1200,

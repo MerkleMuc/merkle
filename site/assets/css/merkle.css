@@ -2846,3 +2846,42 @@ html:not(.mk-js) .mk-bottle__pic{opacity:1}
 .mk-rating__save{padding:5px 5px 5px 16px}
 .mk-rating__savecheck{width:21px;height:21px;flex-basis:21px}
 .mk-rating__savecheck .mk-icon{width:12px;height:12px}
+
+/* ==========================================================================
+   57. Bühne: Film im Hintergrund, mehr Ruhe oben und unten
+   ========================================================================== */
+/* Der Film liegt über dem Standbild, aber unter dem Abdunkler. Er blendet
+   sich erst ein, wenn er abspielbereit ist — bis dahin steht das Bild. */
+.mk-hero__video{
+  position:absolute;inset:0;z-index:1;
+  width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity 900ms var(--mk-ease-out);
+  pointer-events:none;
+}
+.mk-hero__video.is-ready{opacity:1}
+.mk-hero__scrim{z-index:2}
+.mk-hero__inner{z-index:3}
+
+/* Mehr Luft: oben zwischen Kopfzeile und Kicker, unten zwischen den
+   Schaltflächen und dem Kennzahlenband. */
+.mk-hero{min-height:calc(min(84vh,820px) + 230px)}
+.mk-hero__inner{padding-bottom:calc(clamp(3rem,8vw,6.5rem) + 150px)}
+@media (max-width:767px){
+  /* Am Handy ist der Bildschirm knapp — dort reicht die Hälfte. */
+  .mk-hero{min-height:calc(min(84vh,820px) + 90px)}
+  .mk-hero__inner{padding-bottom:calc(clamp(3rem,8vw,6.5rem) + 60px)}
+}
+
+/* Das Bundeswehr-Zeichen ist hochformatig und braucht weniger Höhe. */
+.mk-logos__item--hoch img{max-height:42px}
+/* Vierzehn Logos gehen in fünf Spalten nicht auf — die letzte Reihe bliebe
+   rechtsbündig mit einer Lücke. Als umbrechende Reihe zentriert sie sich. */
+.mk-logos__list{
+  display:flex;flex-wrap:wrap;justify-content:center;
+  gap:clamp(14px,2vw,26px) clamp(18px,2.6vw,38px);
+}
+.mk-logos__item{flex:0 1 calc(33.333% - 26px)}
+@media (min-width:640px){.mk-logos__item{flex-basis:calc(25% - 30px)}}
+@media (min-width:1024px){.mk-logos__item{flex-basis:calc(20% - 34px)}}
+/* Logofeld ausdrücklich auf Weiß. */
+.mk-logos{background:#fff}

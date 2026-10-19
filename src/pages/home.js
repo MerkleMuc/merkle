@@ -9,6 +9,10 @@ module.exports = function home() {
     ui.hero({
       img: '20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623.jpg',
       alt: 'WIG-Schweißbrenner mit Keramikdüse in der Halterung auf einem Schweißtisch, dahinter ein rot leuchtender Schweißvorhang',
+      /* Der Film liegt hinter dem Standbild und laeuft nur auf grossen
+         Bildschirmen mit schneller Leitung, siehe site/assets/js/merkle.js. */
+      video: 'https://verwaltung.merkle-allinclusive.de/wp-content/uploads/2026/02/YTDown.com_YouTube_Media_onZ8zQtn8hU_001_1080p.mp4',
+      videoLoop: 12,
       kicker: 'Fachhandel für Schweiß- und Schneidtechnik',
       h1: 'Alles, was ein Schweißer braucht.<br>Auf Lager, in München-Freiham.',
       sub: 'Geräte, Zusatzwerkstoffe, Zubehör, Gas und Kühlwasser — dazu Werkstatt, Mietgeräte und Beratung von Leuten, die selbst schweißen.',

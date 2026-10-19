@@ -334,7 +334,11 @@ function footer(lang) {
 /* 6.2 Hero */
 function hero(o) {
   return `<section class="mk-hero">
-  <div class="mk-hero__media">${plainImg(o.img, o.alt, { eager: true, extra: ' fetchpriority="high"', sizes: SIZES.full })}</div>
+  <div class="mk-hero__media">
+    ${plainImg(o.img, o.alt, { eager: true, extra: ' fetchpriority="high"', sizes: SIZES.full })}
+    ${o.video ? `<video class="mk-hero__video" data-herovideo data-src="${attr(o.video)}" data-loop="${o.videoLoop || 12}"
+      muted loop playsinline preload="none" tabindex="-1" aria-hidden="true"></video>` : ''}
+  </div>
   <div class="mk-hero__scrim" aria-hidden="true"></div>
   <div class="mk-container mk-hero__inner">
     <div class="mk-hero__body">
@@ -758,7 +762,7 @@ function bayernMap() {
    derselben Box, alle entsättigt. Beim Überfahren kommt die Farbe zurück. */
 function logos(o) {
   o = o || {};
-  const items = (o.items || KUNDEN).map(k => `<li class="mk-logos__item${k.boxed ? ' mk-logos__item--boxed' : ''}">
+  const items = (o.items || KUNDEN).map(k => `<li class="mk-logos__item${k.boxed ? ' mk-logos__item--boxed' : ''}${k.hoch ? ' mk-logos__item--hoch' : ''}">
         ${plainImg(k.img, (o.altPrefix || 'Logo ') + k.name, { sizes: '160px' })}
       </li>`).join('\n      ');
 

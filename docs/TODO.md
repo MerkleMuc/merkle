@@ -164,3 +164,15 @@ Stand: 19.10.2026
 | 49 | **Gelbe Schaltfläche angeglichen** | Beschriftung jetzt „Webseite speichern". Sie liegt in Breite und Höhe exakt auf der Bewertungspille darunter (178 × 33 zu 178 × 31 px bei 1440 px) und schwebt darüber. |
 | 50 | **Karte: feineres Raster, größere Ereignisse** | Die Punkte sind halbiert (0,11 und 0,18 statt 0,22 und 0,36), die Abstände blieben unverändert — das Muster tritt zurück. Nadeln, Sprechzeilen und Fahrzeuge sind um die Hälfte größer. |
 | 51 | **Fünf Kundenlogos fehlen noch** | SWM, Bundeswehr, TUM, Schandl und SD Hirsch sind in der gewünschten Reihenfolge vorgesehen, die Dateien haben uns aber nicht erreicht. Die Lücken stehen als Kommentar in `src/data.js` an der richtigen Stelle. |
+
+---
+
+## 12. Stand nach der Ausbaustufe 9
+
+Stand: 19.10.2026
+
+| # | Punkt | Detail |
+|---|---|---|
+| 52 | **Vierzehn Kundenlogos** (löst 51 ab) | Reihenfolge nach Vorgabe: Maurer, Siemens, SWM, Bundeswehr, TUM, MTU, Landeshauptstadt München, BayWa, Eaton, dann Convotherm, Lausser, Hochland, Schandl, SD Hirsch. Das Feld bricht um und zentriert die letzte Reihe. Bundeswehr steht hochformatig und deshalb etwas kleiner, BayWa und Hochland liegen auf deckender Fläche. → Freigaben der Markeninhaber liegen uns weiterhin nicht vor. |
+| 53 | **Mehr Ruhe auf der Bühne** | Die Bühne ist um 180 px gewachsen: rund 260 px zwischen Kopfzeile und Kicker, rund 100 px zwischen den Schaltflächen und dem Kennzahlenband. Am Handy nur die Hälfte, sonst rutscht die Überschrift aus dem Bild. |
+| 54 | **Film hinter der Bühne — liegt, lädt aber nicht** | Markup, CSS und Steuerung stehen (`[data-herovideo]`, `site/assets/js/merkle.js`). Der Film startet stumm, läuft in Schleife und spielt nur die ersten 12 Sekunden, damit der Browser über Bereichsanfragen nicht die ganze Datei zieht. Er kommt nur bei mindestens 1024 px, ohne Sparmodus, ohne langsame Leitung und ohne reduzierte Bewegung; schlägt etwas fehl, entfernt sich das Element und das Standbild bleibt. **Zwei Hindernisse:** das Zertifikat von `verwaltung.merkle-allinclusive.de` ist am 30.04.2026 abgelaufen, jeder Browser blockt die Datei (`ERR_CERT_DATE_INVALID`); und die Datei ist 112 MB groß, als Hintergrundfilm unbrauchbar. → Zertifikat erneuern und den Film auf rund 1280 px, 10–15 Sekunden und wenige MB bringen, dann greift alles von selbst. |

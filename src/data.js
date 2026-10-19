@@ -498,18 +498,20 @@ const BERATER_TEAM = [
 const KUNDEN = [
   { img: 'kunde-maurer.png',                    name: 'Maurer' },
   { img: 'kunde-siemens.png',                   name: 'Siemens' },
-  /* swm — Datei liegt noch nicht vor */
-  /* bundeswehr — Datei liegt noch nicht vor */
-  /* tum — Datei liegt noch nicht vor */
+  { img: 'kunde-swm.png',                       name: 'Stadtwerke München' },
+  { img: 'kunde-bundeswehr.png',                name: 'Bundeswehr', hoch: true },
+  { img: 'kunde-tum.png',                       name: 'Technische Universität München' },
   { img: 'kunde-mtu.png',                       name: 'MTU Aero Engines' },
   { img: 'kunde-landeshauptstadt-muenchen.png', name: 'Landeshauptstadt München' },
   { img: 'kunde-baywa.png',                     name: 'BayWa', boxed: true },
   { img: 'kunde-eaton.png',                     name: 'Eaton' },
   { img: 'kunde-convotherm.png',                name: 'Convotherm' },
   { img: 'kunde-lausser.png',                   name: 'Lausser Anlagenbau Stuttgart' },
-  { img: 'kunde-hochland.png',                  name: 'Hochland', boxed: true }
-  /* schandl, sd-hirsch — Dateien liegen noch nicht vor */
+  { img: 'kunde-hochland.png',                  name: 'Hochland', boxed: true },
+  { img: 'kunde-schandl.png',                   name: 'Schandl' },
+  { img: 'kunde-sd-hirsch.png',                 name: 'SD Hirsch automotive' }
 ];
+
 
 
 /* --------------------------------------------------- Schweißgeräte-Finder */

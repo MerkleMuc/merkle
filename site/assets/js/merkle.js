@@ -502,6 +502,53 @@
     window.setTimeout(show, 9000);
   })();
 
+  /* ------------------------------------------------- Film auf der Bühne */
+  /* Das Standbild lädt zuerst und bleibt die Grundlage. Der Film kommt nur
+     dazu, wenn er niemandem schadet: großer Bildschirm, kein Sparmodus,
+     keine langsame Leitung, keine reduzierte Bewegung. Gespielt wird nur ein
+     kurzes Fenster am Anfang — so lädt der Browser über Bereichsanfragen
+     auch nur dieses Stück und nicht die ganze Datei. Schlägt etwas fehl,
+     verschwindet das Element und das Standbild steht weiter. */
+  (function buehnenfilm() {
+    var video = document.querySelector('[data-herovideo]');
+    if (!video) return;
+
+    function verwerfen() {
+      if (video.parentNode) video.parentNode.removeChild(video);
+    }
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { verwerfen(); return; }
+    if (!window.matchMedia('(min-width: 1024px)').matches) { verwerfen(); return; }
+
+    var netz = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    if (netz) {
+      if (netz.saveData) { verwerfen(); return; }
+      var art = netz.effectiveType || '';
+      if (art === 'slow-2g' || art === '2g' || art === '3g') { verwerfen(); return; }
+    }
+
+    var fenster = parseFloat(video.getAttribute('data-loop')) || 12;
+
+    video.addEventListener('error', verwerfen);
+    video.addEventListener('timeupdate', function () {
+      if (video.currentTime > fenster) video.currentTime = 0;
+    });
+    video.addEventListener('canplay', function () {
+      video.classList.add('is-ready');
+    });
+
+    function starten() {
+      video.src = video.getAttribute('data-src');
+      var p = video.play();
+      if (p && p.catch) p.catch(verwerfen);
+    }
+
+    /* Erst wenn die Seite steht, damit der Film dem Standbild nicht die
+       Leitung wegnimmt. */
+    if (document.readyState === 'complete') window.setTimeout(starten, 400);
+    else window.addEventListener('load', function () { window.setTimeout(starten, 400); });
+  })();
+
   /* --------------------------------------------------- Beraterhinweis */
   /* Erscheint nur innerhalb der Öffnungszeiten des Ladens in München und
      nur einmal je Sitzung. Ohne sessionStorage erscheint er trotzdem —
