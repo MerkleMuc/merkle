@@ -1,0 +1,122 @@
+===== 404-2.html ==========
+TITLE: 404 - Wilhelm Merkle Schweißtechnik GmbH: merkle-muenchen.de
+DESC: 
+CANON: https://www.merkle-muenchen.de/404-2/
+h1: 404
+p: Diese Seite wurde leider nicht gefunden.
+a: zurück zur Startseite
+
+===== bewertung.html ==========
+TITLE: Bewerten Sie unseren Service! - Wilhelm Merkle Schweißtechnik GmbH: merkle-muenchen.de
+DESC: 
+CANON: https://www.merkle-muenchen.de/bewertung/
+p: Bewertung abgeben für Merkle München
+p: Google Bewertung schreiben
+p: Bewertung abgeben für Merkle Landshut
+p: Bewertung abgeben für Merkle Rosenheim
+
+===== durchfluss-waechter.html ==========
+TITLE: Schweißzubehör München | Wilhelm Merkle Schweißtechnik GmbH
+DESC: Ob WIG, MIG, MAG oder E-Hand-Schweißen – in unserem Shop haben Sie garantiert immer das passende Schweißzubehör München parat.
+CANON: https://www.merkle-muenchen.de/durchfluss-waechter/
+h1: Wasserdurchfluss-Wächter
+p: Ein Wassermangelschalter ist auf Druck eingestellt, der in der Regel erst dann reagiert, wenn der Druck unter 0,5 bar abfällt. Da ein abgeknickter Wasserschlauch im Schlauchpaket jedoch keinen Druckabfall bewirkt, sehr wohl aber zu wenig Wasser durchlässt und somit die Kühlung des Brenners nicht mehr optimal ist, ist ein Wasserdurchfluss-Wächter die eindeutig bessere Lösung.
+p: Ein zu geringer Durchfluss, hervorgerufen durch Ablagerungen und Verunreinigungen des Kühlmittels, wird ebenfalls durch den Wasserdurchfluss-Wächter abgedeckt.
+p: Deshalb ist der von uns eingebaute Durchflusswächter ein optimaler Schutz für Ihren Schweißbrenner, vor allem für das teure Strom-Wasser-Kabel im Wasservorlauf, da sich dadurch die Häufigkeit von Brenner-Reparaturen deutlich verringern sollte und damit auch die damit verbunden Kosten. Sie können davon ausgehen, dass dieser neu eingebaute Wasserdurchfluss-Wächter sofort dann reagiert, wenn der Wasserdurch-Fluss unter 0,5 Liter/Minute absinkt und nicht erst dann, wenn zu wenig Druck vorhanden ist.
+p: Nachdem Kühlwasser mit einem PH-Wert von unter 6 nicht nur sauer wird, sondern auch aggressiv und somit vor allem Bauteile in der Pumpe und im Brenner zerstört, was Reparaturen und Ausfälle zu Folge hat, empfehlen wir dringend nur unsere Kühlflüssigkeit ME 30.100.2-ECO mit einem optimalen PH-Wert von 7,8 zu verwenden. Wir haben uns deshalb erlaubt, bei Ihrer Anlage die alte Kühlflüssigkeit abzulassen, den Tank inkl. Wasse
+
+===== glossary.html ==========
+TITLE: Glossary - Wilhelm Merkle Schweißtechnik GmbH: merkle-muenchen.de
+DESC: 
+CANON: https://www.merkle-muenchen.de/glossary/
+
+===== kontakt__sitemap.html ==========
+TITLE: Sitemap - Wilhelm Merkle Schweißtechnik GmbH: merkle-muenchen.de
+DESC: 
+CANON: https://www.merkle-muenchen.de/kontakt/sitemap/
+h2: Sitemap
+
+===== water.html ==========
+TITLE: Coolant | München | Wilhelm Merkle Schweißtechnik GmbH
+DESC: The biggest benefit of using our Coolant ME 30-100.2-ECO is the reduction in costs associated with the failure of your water pump and in storing and transporting without required labelling.
+CANON: https://www.merkle-muenchen.de/water/
+h1: Coolant
+h4: Why is it inherently important to use only the ME 30-100.2-ECO Coolant?
+p: Since a welding or cutting system is not of little value and every user is interested in doing its work for a long time without great expense, the use of the right Coolant is of extreme importance.
+p: The use of the Coolant ME 30-100.2-ECO ensures that the high level of corrosion protection it contains optimally protects all important components, especially the susceptible non-ferrous heavy metals used in welding and cutting systems.
+h4: Why is the use of a proper Coolant especially in a TIG area of highest importance?
+p: Especially for the operational lifetime of a TIG-torch it is very important which Coolant is used. Perfect ignition requires a very low conductivity combined with an optimally balanced pH value of 7.8. This is the case with the Merkle Coolant. You will undoubtedly achieve an increase in quality using our Coolant, especially in the TIG area.
+p: Coolant with a pH value of less than 6 is considered to be acidic and aggressive and thus primarily destroys components in the pump and in the torch. A direct consequence of this are necessary repairs, therefore we strongly recommend only the use of our Coolant ME 30-100.2-ECO.
+h4: What does the water pump have to do with the Coolant?
+p: The operational lifetime depends to a large extend on which Coolant is used. Using a wrong Coolant will cause damage to the seal and shaft in a very short time. A leaking
+
+===== zusatzwerkstoffe__aluminium.html ==========
+TITLE: Zusatzwerkstoffe Aluminium | München | Merkle Schweißtechnik GmbH
+DESC: Bei uns finden Sie eine große Auswahl an Zusatzwerkstoffen, um hochwertige Schweißarbeiten mühelos durchführen zu können.
+CANON: https://www.merkle-muenchen.de/zusatzwerkstoffe/aluminium/
+h1: Zusatzwerkstoffe - Aluminium
+h5: Bei uns finden Sie eine große Auswahl an Schweißzusatzwerkstoffen!
+h4: Hochwertige Schweißzusatzwerkstoffe für jedes Schweißverfahren
+p: Neben der Qualität Ihres Schweißgerätes sind beim hochwertigen Schweißen vor allem die Eigenschaften der verwendeten Schweißzusatzwerkstoffe entscheidend. Schon die Schweißlage bestimmt mit, welche Zusatzwerkstoffe idealerweise verwendet werden sollten. Natürlich spielen auch die Anforderungen an Schweißgut und Schweißnaht ein wichtige Rolle bei der Wahl des richtigen Schweißzusatzwerkstoffes. In unserem Laden erhalten Sie zu jedem Produkt detaillierte Beschreibungen, um hochwertige Schweißarbeiten mühelos durchführen zu können.
+h4: Schweißdraht
+h4: Schweißelektroden
+h4: Schweißstab
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop
+
+===== zusatzwerkstoffe__edelstahl.html ==========
+TITLE: Edelstahl - Wilhelm Merkle Schweißtechnik GmbH: merkle-muenchen.de
+DESC: Bei uns finden Sie eine große Auswahl an Zusatzwerkstoffen, um hochwertige Schweißarbeiten mühelos durchführen zu können.
+CANON: https://www.merkle-muenchen.de/fr/zusatzwerkstoffe/edelstahl/
+h1: Zusatzwerkstoffe - Edelstahl
+h5: Bei uns finden Sie eine große Auswahl an Schweißzusatzwerkstoffen!
+h4: Hochwertige Edelstahl Zusatzwerkstoffe für jedes Schweißverfahren
+p: Neben der Qualität Ihres Schweißgerätes sind beim hochwertigen Schweißen vor allem die Eigenschaften der verwendeten Zusatzwerkstoffe entscheidend. Schon die Schweißlage bestimmt mit, welche Zusatzwerkstoffe idealerweise verwendet werden sollten. Natürlich spielen auch die Anforderungen an Schweißgut und Schweißnaht ein wichtige Rolle bei der Wahl des richtigen Schweißzusatzwerkstoffes. In unserem Laden erhalten Sie zu jedem Produkt detaillierte Beschreibungen, um hochwertige Schweißarbeiten mühelos durchführen zu können.
+h4: Schweißdraht
+h4: Faß
+h4: Schweißelektroden
+h4: Schweißstab
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop
+
+===== zusatzwerkstoffe__stahl.html ==========
+TITLE: Zusatzwerkstoffe Stahl | München | Merkle Schweißtechnik GmbH
+DESC: Bei uns finden Sie eine große Auswahl an Zusatzwerkstoffen, um hochwertige Schweißarbeiten mühelos durchführen zu können.
+CANON: https://www.merkle-muenchen.de/zusatzwerkstoffe/stahl/
+h1: Zusatzwerkstoffe - Stahl
+h5: Bei uns finden Sie eine große Auswahl an Schweißzusatzwerkstoffen
+h4: Hochwertige Stahl Zusatzwerkstoffe für jedes Schweißverfahren
+p: Neben der Qualität Ihres Schweißgerätes sind beim hochwertigen Schweißen vor allem die Eigenschaften der verwendeten Schweißzusatzwerkstoffe entscheidend. Schon die Schweißlage bestimmt mit, welche Zusatzwerkstoffe idealerweise verwendet werden sollten. Natürlich spielen auch die Anforderungen an Schweißgut und Schweißnaht ein wichtige Rolle bei der Wahl des richtigen Schweißzusatzwerkstoffes. In unserem Laden erhalten Sie zu jedem Produkt detaillierte Beschreibungen, um hochwertige Schweißarbeiten mühelos durchführen zu können.
+h4: Schweißdraht
+h4: Faß
+h4: Schweißelektroden
+h4: Schweißstab
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop

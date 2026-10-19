@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /suche/
+
+Sitemap: https://www.merkle-muenchen.de/sitemap.xml

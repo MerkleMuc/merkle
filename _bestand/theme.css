@@ -1,0 +1,19 @@
+/*
+ Theme Name:   HPH Child Theme
+ Description:  HPH Child Theme
+ Template:     hph
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  hph-child
+*/
+
+@import url('css/reset.css');
+@import url('css/jquery.bxslider.css');
+@import url('css/cookieconsent.min.css');
+/*@import url('css/swiper.min.css');*/
+@import url('css/lightcase.css');
+/*@import url('css/jquery.fancybox.css');*/
+@import url('css/style.css');
+/*@import url('css/shop.css');*/
+@import url('css/mobile.css');

@@ -1,0 +1,17 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteRule ^service-2/?$ /service/ [R=301,L]
+RewriteRule ^404-2/?$ /404.html [R=301,L]
+RewriteRule ^de/?$ / [R=301,L]
+RewriteRule ^de/schweissgeraete/?$ /schweissgeraete/ [R=301,L]
+RewriteRule ^de/schweissgeraete/plasma-schneidanlagen/?$ /schweissgeraete/plasma-schneidanlagen/ [R=301,L]
+RewriteRule ^fr/?$ / [R=301,L]
+RewriteRule ^fr/zusatzwerkstoffe/edelstahl/?$ /zusatzwerkstoffe/edelstahl/ [R=301,L]
+RewriteRule ^es/?$ / [R=301,L]
+RewriteRule ^ru/?$ / [R=301,L]
+RewriteRule ^en/?$ / [R=301,L]
+
+# Kanonisch mit www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.merkle-muenchen.de/$1 [R=301,L]

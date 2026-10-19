@@ -1,0 +1,197 @@
+===== jobs.html ==========
+TITLE: Merkle München Jobs | Merkle Schweißtechnik GmbH
+DESC: Merkle München sucht Sie! Sehen Sie hier unsere offenen Stellenausschreibungen. Senden Sie uns Ihre aussagekräftigen Bewerbungsunterlagen.
+CANON: https://www.merkle-muenchen.de/jobs/
+h1: Aktuelle Stellenangebote: SERVICE-TECHNIKER / ELEKTRONIKER / ELEKTRIKER mit Schwerpunkt UVV-Prüfungen an Schweißgeräten
+h3: hier: 📍MERKLE München (m/w/d) +50km Radius
+h3: Vollzeit/Teilzeit – gute Bezahlung – sicherer Job!
+h5: Genieße hervorragende Vorteile in deinem neuen Job:
+p: ✔ Firmenauto inkl. privater Nutzung ✔ Firmenhandy ✔ Familiäres Arbeitsklima ✔ Zusätzliche Sonderleistungen ✔ Eigenverantwortliches Arbeiten ✔ Moderner Arbeitsplatz ✔ Abwechslungsreicher Arbeitsalltag ✔ Langfristig sicherer Arbeitsplatz
+h3: Das bringst du mit:
+p: ✔ Du bist ausgebildeter und erfahrener Elektroniker/Techniker ✔ Du hast eine gültige Fahrerlaubnis ✔ Du hast gute Deutschkenntnisse und kannst sicher kommunizieren
+p: Ein großes Plus für dich (kein Muss): ✔ abgeschlossene Fortbildung zur Prüfung ortsveränderlicher elektrischer Geräte, Arbeits- und Betriebsmittel ✔ abgeschlossene Fortbildung zur elektronisch unterwiesenen Person
+p: Das ist uns das wichtigste, wenn das passt, schreibe uns jetzt eine Mail mit Lebenslauf für ein Kennenlernen:
+a: Email schreiben mit Lebenslauf
+p: PDF-Download Service-Techniker/in (m/w/d) mit Schwerpunkt UVV-Prüfungen Schweißanlagen
+p: Standort: München-Freiham
+p: Fachkraft (m/w/d) für Lagerlogistik PDF-Download
+
+===== kontakt.html ==========
+TITLE: Kontakt Merkle München | Merkle Schweißtechnik GmbH
+DESC: Merkle Schweißtechnik GmbH Kontakt Merkle München Anton-Böck-Str. 31 81249 München Telefon: +49 89 89 77 17 - 0 E-Mail: info@merkle-muenchen.de
+CANON: https://www.merkle-muenchen.de/kontakt/
+h1: Kontakt
+h4: Wilhelm Merkle Schweißtechnik GmbH
+h3: München
+p: Anton-Böck-Str. 31 81249 München
+td: +49 89 89 77 17 – 0
+p: Abteilungen:
+td: Werkstatt
+td: +49 89 89 77 17 – 18
+td: Verkauf
+td: +49 89 89 77 17 – 16
+td: Schweißtechnik
+td: +49 89 89 77 17 – 20
+td: Gase
+td: +49 89 89 77 17 – 17
+td: Gebrauchte Schweißgeräte
+td: +49 89 89 77 17 – 12
+td: Einkauf
+td: +49 89 89 77 17 – 19
+td: Buchhaltung
+td: +49 89 89 77 17 – 21
+td: Mahnwesen
+td: +49 89 89 77 17 – 22
+h3: Landshut
+p: Meisenstraße 11a 84030 Ergolding bei Landshut
+td: +49 87 19 33 17 – 0
+td: info@merkle-landshut.de
+h3: Rosenheim
+p: Weidestraße 5A 83024 Rosenheim
+td: +49 80 31 28 54 – 0
+td: info@merkle-rosenheim.de
+
+===== schweissgeraete.html ==========
+TITLE: Schweißgeräte München | Wilhelm Merkle Schweißtechnik GmbH
+DESC: Unsere Schweißgeräte glänzen durch Funktionalität und Leistung. Merkle Schweißtechnik bietet für jedes Schweißverfahren das passende Gerät.
+CANON: https://www.merkle-muenchen.de/schweissgeraete/
+h1: Schweißgeräte
+h5: Funktionalität und Leistung – Ausgereifte Technik im Detail
+h4: Unsere Schweißgeräte nach Schweißverfahren
+p: Je nach Schweißverfahren eignen sich verschiedene Schweißgeräte. Merkle Schweißtechnik bietet für jedes Verfahren passende Geräte an.
+h4: MIG/MAG
+p: MAG-Schweißen wird vornehmlich bei Edelstahl und Stahl angewandt, MIG-Schweißen bei Nichteisen-Metallen (NE-Metalle). Unsere Schutzgasgeräte beherrschen beide Schweißarten. Es können dünne Bleche und große Körper verschweißt werden.
+h4: TIG (WIG)
+p: Beim WIG-Schweißen handelt es sich ebenfalls um Schutzgas-Schweißen, allerdings mit deutlich reduzierter Wärme. Dabei wird ebenfalls inertes, also reaktionsschwaches Gas verwendet. Damit ist das WIG-Schweißen für jedes Metall geeignet, das durch Schmelzschweißen bearbeitet werden kann.
+h4: Pulse-Arc
+p: Das Pulse-Arc-Schweißverfahren ist durch einen pulsierenden Lichtbogen gekennzeichnet. Besonders vorteilhaft ist, dass dieses Verfahren mit verhältnismäßig dicken Drahtelektroden genutzt werden können. Unser Produktspektrum reicht von der tragbaren Handstromquelle bis zur automatisierten Sonderlösung.
+h4: Elektroden-Schweißgeräte
+p: Das Elektrodenhandschweißen, kurz E-Handschweißen genannt, ist eines der ältesten Schweißverfahren, das heute noch hauptsächlich auf Montage angewandt wird. Mit dem E-Schweißen kann ich grundsätzlich genau die gleichen Arbeiten ausführen, wie beim MAG-Schweißen, eher grobe Arbeiten und kein dünnes Blech.
+h4: Plasma-Schneidanlagen
+p: Mit dem Plasma-Schneidanlagen lassen sich nahezu alle leitfähigen Metalle schneiden. Das Plasma-Schneiden mit Druckluft als Plasmagas ist eine wirtschaftliche Alternative zum Autogen-Schneiden.
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+
+===== schweisszubehoer.html ==========
+TITLE: Schweißzubehör München | Wilhelm Merkle Schweißtechnik GmbH
+DESC: Ob WIG, MIG, MAG oder E-Hand-Schweißen – in unserem Shop haben Sie garantiert immer das passende Schweißzubehör München parat.
+CANON: https://www.merkle-muenchen.de/schweisszubehoer/
+h1: Schweißzubehör
+h5: Auf das richtige Zubehör kommt es an!
+h4: Alles was ein Schweißer braucht!
+p: Kein erfolgreiches Projekt ohne das richtige Zubehör! Aus diesem Grund finden Sie bei uns ein umfassendes Angebot an Schweißzubehör für Ihre Schweißarbeiten. Denn wie jeder erfahrene Schweißer weiß: Nur wer mit dem richtigen Zubehör schweißt, erreicht das gewünschte Ergebnis.
+p: Zum Schweißzubehör gehört alles, was an einem richtigen Schweißort nicht fehlen darf: Arbeitshilfen, Schweißspiegel, Elektrodenhalter, Schlackenhämmer und natürlich die richtigen Schweißkabel.
+p: Besonders wichtig ist die Qualität des Zubehörs. Bei Merkle finden Sie deshalb ausgewähltes und qualitativ hochwertiges Schweißzubehör, das die Leistungsfähigkeit und Zuverlässigkeit Ihres Brenners erhöht. Klicken Sie sich durch unseren Laden und finden Sie alles Wichtige für Ihren persönlichen Arbeitsplatz. Ob WIG, MIG, MAG oder E-Hand-Schweißen – in unserem Laden haben Sie garantiert immer das passende Schweißzubehör parat.
+h4: Schutzmasken
+p: Schutzmasken, Visieren, Brillen und Schweißhelme
+h4: Gehörschutz
+p: Stöpsel-, Bügel- und Kapselhörschutz
+h4: Schutzkleidung
+p: Von Schweißerhandschuh bis Hitzeschutzjacke
+h4: Reinigungsmittel & -zubehör
+p: Electrolyte, Polisher und Ex-Clean Reinigungssystem Zubehör
+h4: Autogentechnik
+p: Komplettaustattung von Gasflaschen bis zu Schneiddüse
+h4: Absaugtechnik
+p: Aubsaug- und Filter Anlagen sowie Zubehör
+h4: Widerstandstechnik
+p: Alles zum Bolzenschweißen was das Herz begehrt.
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop
+
+===== service-2.html ==========
+TITLE: Merkle München Service | Merkle Schweißtechnik GmbH
+DESC: Der Merkle München Service, bietet Ihnen Vorteile wie Gebrauchtanlagen und Verleihservice sowie lange Öffnungszeiten und einen Notdienst.
+CANON: https://www.merkle-muenchen.de/service-2/
+h1: Merkle München Service Unsere Leistungen - Ihre Vorteile!
+h4: 24h Notdienst
+p: Wir sind zu jeder Tages- und Nachtzeit gegen einen geringen Aufschlag für Sie da – wirklich einmalig in unserer Branche.
+h4: lange Öffnungszeiten
+p: Standort München: Mo bis Fr: 6:30 – 18:00 Uhr Sa: 8:00 – 12:00 Uhr Standort Landshut: Mo bis Fr: 7:00 – 12:00 Uhr u. 13:00 – 17:30 Uhr Standort Rosenheim: Mo bis Do: 7:00 – 12:00 Uhr u. 13:00 – 17:30 Uhr Fr: 7:00 – 12:00 Uhr u. 13:00 – 15:00 Uhr
+h4: Lieferservice
+p: Bei Bedarf liefern wir die bestellte Ware auch direkt zu Ihnen nach Hause.
+h4: Vorführung
+p: Sie können jedes Gerät ausgiebig testen, entweder in unserem Vorführraum oder bei Ihnen zu Hause.
+h4: Finanzierung
+p: Alle unsere Anlagen können Sie bei uns einfach und unkompliziert ohne Bankeinschaltung direkt finanzieren.
+h4: Schweißkurse
+p: Wir bieten MIG/MAG-, WIG- und Elektroden-Schweißkurse für Einsteiger und Hobbybastler an. www.schweisskurse-merkle.de
+h4: Mietanlagen
+p: Wir vermieten so gut wie jede Schweiß- und Schneidanlage. www.schweissgeraete-mieten.de
+h4: Gebrauchtanlagen
+p: Suchen Sie eine besonders günstige Gebrauchtanlage? Dann fragen Sie unser Fachpersonal. www.gebrauchte-schweissgeraete.de
+h4: Reparaturen
+p: Wir reparieren defekte Anlagen aller Fabrikate und führen auch die gesetzlich vorgeschriebenen Prüfungen nach EN/IEC 60 974-4 durch, entweder in unserer Werkstatt oder auch in Ihrem Betrieb. www.schweissgeraete-mieten.de/reparaturen
+
+===== service.html ==========
+TITLE: Merkle München Service | Merkle Schweißtechnik GmbH
+DESC: Der Merkle München Service, bietet Ihnen Vorteile wie Gebrauchtanlagen und Verleihservice sowie lange Öffnungszeiten und einen Notdienst.
+CANON: https://www.merkle-muenchen.de/service/
+h1: Merkle München Service Unsere Leistungen - Ihre Vorteile!
+h4: 24h Notdienst
+p: Wir sind zu jeder Tages- und Nachtzeit gegen einen geringen Aufschlag für Sie da – wirklich einmalig in unserer Branche.
+h4: lange Öffnungszeiten
+p: Standort München: Mo bis Fr: 6:30 – 18:00 Uhr Sa: 8:00 – 12:00 Uhr Standort Landshut: Mo bis Fr: 7:00 – 12:00 Uhr u. 13:00 – 17:30 Uhr Standort Rosenheim: Mo bis Do: 7:00 – 12:00 Uhr u. 13:00 – 17:30 Uhr Fr: 7:00 – 12:00 Uhr u. 13:00 – 15:00 Uhr
+h4: Lieferservice
+p: Bei Bedarf liefern wir die bestellte Ware auch direkt zu Ihnen nach Hause.
+h4: Vorführung
+p: Sie können jedes Gerät ausgiebig testen, entweder in unserem Vorführraum oder bei Ihnen zu Hause.
+h4: Finanzierung
+p: Alle unsere Anlagen können Sie bei uns einfach und unkompliziert ohne Bankeinschaltung direkt finanzieren.
+h4: Schweißkurse
+p: Wir bieten MIG/MAG-, WIG- und Elektroden-Schweißkurse für Einsteiger und Hobbybastler an. www.schweisskurse-merkle.de
+h4: Mietanlagen
+p: Wir vermieten so gut wie jede Schweiß- und Schneidanlage. www.schweissgeraete-mieten.de
+h4: Gebrauchtanlagen
+p: Suchen Sie eine besonders günstige Gebrauchtanlage? Dann fragen Sie unser Fachpersonal. www.gebrauchte-schweissgeraete.de
+h4: Reparaturen
+p: Wir reparieren defekte Anlagen aller Fabrikate und führen auch die gesetzlich vorgeschriebenen Prüfungen nach EN/IEC 60 974-4 durch, entweder in unserer Werkstatt oder auch in Ihrem Betrieb. www.schweissgeraete-mieten.de/reparaturen
+
+===== wasser.html ==========
+TITLE: Kühlwasser | München | Wilhelm Merkle Schweißtechnik GmbH
+DESC: Der größte Nutzen unserer Kühlflüssigkeit ME 30-100.2-ECO ist die Reduzierung der Kosten durch Ausfall der Wasserpumpe und die kennzeichnungsfreie Verwendung.
+CANON: https://www.merkle-muenchen.de/wasser/
+h1: Kühlwasser
+h4: Warum ist es grundsätzlich wichtig, nur die Kühlflüssigkeit ME 30-100.2-ECO zu verwenden?
+p: Nachdem ein Schweiß- oder Schneidgerät nicht gerade von geringem Wert ist und jeder Anwender Interesse daran hat, dass es ohne große Kosten lange seine Arbeit verrichtet, ist besonders die Verwendung der richtigen Kühlflüssigkeit von extremer Bedeutung.
+p: Die Verwendung der Kühlflüssigkeit ME 30-100.2-ECO stellt sicher, dass der darin enthaltene hohe Anteil an Korrosionsschutz alle wichtigen Bauteile optimal schützt, vor allem die besonders in den Schweiß- und Schneidanlagen verbauten und dafür extrem anfälligen Buntmetalle.
+h4: Warum ist die richtige Kühlflüssigkeit besonders im WIG-Bereich am wichtigsten?
+p: Gerade für die Lebensdauer eines WIG-Brenners ist es von großer Bedeutung, welche Kühlflüssigkeit dort eingesetzt wird. Für das perfekte Zünden ist eine sehr geringe Leitfähigkeit verbunden mit einem optimal abgestimmten PH-Wert von 7,8 erforderlich. Dies ist bei der MERKLE-Kühlflüssigkeit der Fall. Zweifellos erzielen Sie durch den Einsatz unserer Kühlflüssigkeit besonders im WIG-Bereich eine deutliche Qualitätssteigerung.
+p: Kühlflüssigkeit mit einem PH-Wert von unter 6 gilt als sauer und aggressiv und zerstört somit vor allem Bauteile in der Pumpe und im Brenner. Eine direkte Folge hiervon sind notwendige Reparaturen, daher empfehlen wir dringend nur die Verwendung unserer Kühlflüssigkeit ME 30-100.2-ECO.
+h4: Was hat die Wasserpumpe mit der Kühlflüssigkeit zu tun?
+p: Die Lebensdauer einer Wasserpumpe hängt in hohem Maße davon ab, welche Kühlflüssigkeit verwendet wird. Die Verwendung einer falschen Kühlflüssigkeit führt in sehr kurzer Zeit zu Schädigungen von Dichtung und Welle. Eine undichte Wasserpumpe führt zu Ausfällen der Schweiß- oder Schneidanlage mit teuren Standzeiten und hohen Reparaturkosten. Bei der Entwicklung und Produktion der Merkle-Kühlflüssigkeit haben wir die Korrosionseigenschaften der Materialien berücksichtigt, die in einer Wasserpumpe verbaut sind. Um aufwendige Reparaturen zu vermeiden, sollten Sie daher ausschließlich die Merkle-Kühlflüssigkeit verwenden.
+h4: Wie verwende ich die Kühlflüssigkeit ME 30-100.2-ECO das erste Mal?
+li: Das alte Kühlmittel aus dem Tank komplett ablassen
+li: Sicherstellen, dass auch die Brenn
+
+===== zusatzwerkstoffe.html ==========
+TITLE: Zusatzwerkstoffe | München | Wilhelm Merkle Schweißtechnik GmbH
+DESC: Neben der Qualität Ihres Schweißgerätes sind beim hochwertigen Schweißen vor allem die Eigenschaften der verwendeten Zusatzwerkstoffe entscheidend.
+CANON: https://www.merkle-muenchen.de/zusatzwerkstoffe/
+h1: Zusatzwerkstoffe
+h5: Bei uns finden Sie eine große Auswahl an Schweißzusatzwerkstoffen
+h4: Hochwertige Schweißzusatzwerkstoffe für jedes Schweißverfahren
+p: Als Pionier für innovative Schweißzusätze bietet Böhler Welding weltweit ein einzigartiges Produktportfolio für das Verbindungsschweißen. Die über 2.000 Produkte werden kontinuierlich an die aktuellen Industriespezifikationen und Kundenanforderungen angepasst, sind von renommierten Institutionen zertifiziert und somit für die anspruchsvollsten Schweißanwendungen zugelassen. „Lasting Connections“ ist die Markenphilosophie, sowohl beim Schweißen wie auf menschlicher Ebene – als zuverlässiger Partner für den Kunden.Neben der Qualität Ihres Schweißgerätes sind beim hochwertigen Schweißen vor allem die Eigenschaften der verwendeten Schweißzusatzwerkstoffe entscheidend. Schon die Schweißlage bestimmt mit, welche Zusatzwerkstoffe idealerweise verwendet werden sollten. Natürlich spielen auch die Anforderungen an Schweißgut und Schweißnaht eine wichtige Rolle bei der Wahl des richtigen Schweißzusatzwerkstoffes. Man unterscheidet in drei Kategorien.
+h4: Stahl
+h4: Edelstahl
+h4: Aluminium
+h4: Die richtige Elektrode wählen für Materialien, die verzinkt werden müssen
+p: In vielen Bereichen werden heute geschweißte Stahlbauwerke feuerverzinkt, um einen dauerhaften und langlebigen Korrosionsschutz zu erreichen. Das Feuerverzinken von Schweißkonstruktionen bereitet im Allgemeinen keine Schwierigkeiten, wenn die verfahrensspezifschen Besonderheiten des Feuerverzinkens (Schmelztauchverfahren, Arbeitstemperatur etwa 450 °C) und die sich daraus ergebenden Anforderungen an die Schweißkonstruktion berücksichtigt werden.
+p: Weiterlesen
+p: In der Praxis kommt es verhältnismäßig häufg vor, dass die Schweißnähte aus konstruktiven oder optischen Gründen „blecheben“ sein müssen. Trotz sorgfältigen Bearbeitens kann es dann mitunter geschehen, dass sich die Nähte nach dem Feuerverzinken deutlich abheben. Wenn sich lediglich der Zinküberzug im Bereich der Schweißnaht grau verfärbt, und sich daher nur optisch von der sonst silbrigen feuerverzinkten Stahlkonstruktion unterscheidet, sind im allgemeinen keine Probleme zu erwarten. Stehen die Nähte nach dem Verzinken freilich erhaben hervor, vermutet irrtümlich nicht allein 

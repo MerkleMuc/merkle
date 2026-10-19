@@ -1,0 +1,11 @@
+alt;neu;status;grund
+/service-2/;/service/;301;Doppelung aufgelöst, /service/ ist kanonisch
+/404-2/;/404.html;301;WordPress-404-Seite auf statische 404 umgelegt
+/de/;/;301;Sprachpräfix der WPGlobus-Installation
+/de/schweissgeraete/;/schweissgeraete/;301;Sprachpräfix
+/de/schweissgeraete/plasma-schneidanlagen/;/schweissgeraete/plasma-schneidanlagen/;301;Canonical zeigte fälschlich auf /de/
+/fr/;/;301;Nicht gepflegte Sprachversion
+/fr/zusatzwerkstoffe/edelstahl/;/zusatzwerkstoffe/edelstahl/;301;Canonical zeigte fälschlich auf /fr/
+/es/;/;301;Nicht gepflegte Sprachversion
+/ru/;/;301;Nicht gepflegte Sprachversion
+/en/;/;301;Nicht gepflegte Sprachversion, Ausnahme: /water/ bleibt

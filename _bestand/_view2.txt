@@ -1,0 +1,241 @@
+===== schweissgeraete__elektroden-schweissanlagen.html ==========
+TITLE: Elektrodenschweißgerät München | Merkle Schweißtechnik GmbH
+DESC: Elektrodenschweißgerät München ganz nach dem Motto klein und leicht aber leistungsstark! MobiArc und LiteArc bei uns auf Lager!
+CANON: https://www.merkle-muenchen.de/schweissgeraete/elektroden-schweissanlagen/
+h1: Elektrodenschweißgerät
+h5: Klein und leicht aber leistungsstark!
+h4: MobiARC
+p: Volle Leistung bis 160 A Schweißstrom!
+h4: LiteArc 180
+p: Kompakt, handlich, leistungsstark!
+h4: Die Vorteile unserer Elektroden-Schweißgeräte
+h4: Digitalanzeige für Schweißstrom
+p: Stufenlose Verstellung des Schweißstroms bis 170 A (Elektrode), bzw. 180 A (TIG) mit digitaler Anzeige.
+h4: LiftTIG Zündung
+p: TIG/(WIG)-Schweißen bis 180 A mit LiftTIG-Zündung.
+h4: Stabil, robust und schlagfest
+p: Das neue Metall-/ Kunststoffgehäuse.
+h4: Optimales Handling
+p: Maximale Mobilität durch verstell­baren Trage- und Schultergurt. Klein, leicht, handlich, tragbar, nur 5,0 kg.
+h4: Profi-Anschlüsse
+p: Große Profianschlüsse für Einsatz des Merkle Standard-Zubehörs.
+h4: Weitreichender Einsatz
+p: Extra langes Anschlusskabel: 5 m lang.
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Broschüren zum Download
+a: MobiARC 160/164 mobil
+a: MobiARC 284cel
+a: LiteARC 180
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop
+
+===== schweissgeraete__mig-mag.html ==========
+TITLE: MIG/MAG Schweißgeräte München | Merkle Schweißtechnik GmbH
+DESC: Eine Übersicht der in unserem Laden vorhandenen MIG/MAG Schweißgeräte München. Unsere MIG/MAG Schweißgeräte überzeugen durch Kompaktheit und Robustheit.
+CANON: https://www.merkle-muenchen.de/schweissgeraete/mig-mag/
+h1: MIG/MAG Schweißgeräte
+h5: Kompakt und robust
+h4: Unsere MIG/MAG Schweißgeräte-Serien
+h4: RedMIG
+p: Die wirtschaftliche Linie!
+h4: CompactMIG
+p: Die professionelle MIG/MAG Universalklasse!
+h4: OptiMIG
+p: Die MIG/MAG-Industrieanlagen!
+h4: MobiMIG
+p: Die neuen, tragbaren Multitalente!
+h4: SpeedMIG
+p: Die Revolution des MIG/MAG-Schweißens!
+h4: Die Vorteile unserer MIG/MAG Schweißanlagen
+h4: 4-Rollen-Präzisions-Flanschgetriebe DV-26
+p: Reproduzierbarer und präzise einstellbarer Anpressdruck. Serienmäßig bei RedMIG 2800/3000 K.
+h4: Austauschbare Steuerelektronik
+p: Ein einfacher, schneller Austausch der gesamten Steuerelektronik ist jederzeit möglich.
+h4: Staubfilter
+p: Mit wenigen Handgriffen ist der Filtervorsatz montiert und die Filtermatte ausgetauscht.
+h4: Kompaktanlagen
+p: Die Kompaktanlagen (Version KW) sind übersichtlich und Platz sparend im Aufbau.
+h4: Anlagen mit getrenntem Drahtvorschubgerät
+p: Das Verbindungskabel ist in der Anlage und am Dahtvorschubgerät klemm- und steckbar montiert. Längen bis 20 m verfügbar.
+h4: BiPowerPLUS
+p: Mit 400 V-Drehstrom schweißen und beim Schweißjob das Gerät einfach an 230 V-Wechselstrom anschließen.
+h4: Stufenlose Energieregelung
+p: Das Merkle-TEDAC System bietet stufenlose Energiefernregelung und Anzeige direkt am Schweißbrenner.
+h4: Übersichtliche Anzeige
+p: Strom, Spannung, Drahtvorschubgeschwindigkeit sowie das a-Maß werden dargestellt. Viele erprobte Schweißprogramme sind integriert.
+h4: Einfach montiert, vielseitig im Einsatz
+p: Waagerechte Montage des Drahtvorschubgeräts. Alternativ mit wenigen Handgriffen in senkrechter Position montiert.
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Broschüren zum Download
+a: RedMIG-Broschüre
+a: CompactMIG-Broschüre
+a: OptiMIG-Broschüre
+a: MobiMIG-Broschüre
+a: SpeedMIG-Broschüre
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop
+
+===== schweissgeraete__plasma-schneidanlagen.html ==========
+TITLE: Plasma-Schneidgerät - Wilhelm Merkle Schweißtechnik GmbH: merkle-muenchen.de
+DESC: Plasma-Schneidgerät München finden vielfältige Einsatzmöglichkeiten in den Bereichen Stahlbau, Montage, Reparatur, Kfz- Sektor, etc.
+CANON: https://www.merkle-muenchen.de/de/schweissgeraete/plasma-schneidanlagen/
+h1: Plasma-Schneidgerät
+h5: Die wirtschaftliche Alternative
+h4: C82
+p: Handlich und tragbar
+h4: Funktionalität und Bedienkomfort
+p: Mit integrierter Wasserumlauf-Kühleinrichtung
+h4: Die Vorteile unserer Plasma-Schneidanlagen
+h4: Betriebskosten
+p: Durch den geringen Verbrauch ist das Plasma-Schneiden mit Druckluft ein sehr wirtschaftliches und kostengünstiges Verfahren.
+p: Brenneranschluss im Seitenraum der Anlage: übersichtlich, leicht zugänglich, mit Sicherheitsabschaltung.
+h4: Weitere Informationen
+p: Das Plasma-Schneiden mit Druckluft als Plasma gas ist eine wirtschaftliche Alternative zum Autogen-Schneiden. Mit Plasma-Schneidanlagen kann man sämtliche elektrisch leitfähigen sowie lackierten und galvanisierten Metalle, wie z.B. Baustähle, hochlegierte Chrom-Nickel-Stähle, sämtliche gehärteten und ungehärteten Werkzeugstähle, Aluminium, Aluminium-Legierungen, Messing, Kupfer, Grauguss oder Titan schneiden. Plasma-Schneid anlagen finden vielfältige Einsatzmöglichkeiten in den Bereichen Stahlbau, Montage, Reparatur, Kfz- Sektor, etc.. Der Erfolg des Plasma-Schneidens basiert auf der Eigenschaft des Plasmastrahls (Lichtbogen), im Werkstück einen extrem intensiven und eng begrenzten Wärmefluss zu erzeugen. Die Temperatur des Lichtbogens beträgt dabei ca. 13.000 °C. Das Einbringen der Wärme in das Werkstück erfolgt somit sehr schnell, so dass die seitliche Wärmeableitung im Verhältnis dazu gering bleibt. Durch diese Wärmekonzentration, die einer Energiestromdichte von ca. 106 W/cm2 entspricht, entsteht eine schmale und saubere Schnittfuge. Der Wärme verzug der Werkstücke ist sehr gering. Plasma-Schnitte, die mit hoher Geschwindigkeit ausgeführt werden und schmale Schnittfugen aufweisen, zeichnen sich aus durch: • Geringen Materialverbrauch. • Geringe Energiekosten. • Wenig Anfall von Abfallprodukten. • Niedrige Lohnkosten. • Geringen Verzug.
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Broschüren zum Download
+a: Plasma Schneidanlagen
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop
+
+===== schweissgeraete__pulse-arc.html ==========
+TITLE: Pulse-Arc Schweißgerät München | Merkle Schweißtechnik GmbH
+DESC: Erleben Sie HighTech, Qualität und Design, gepaart mit überzeugenden wirtschaftlichen Vorteilen. Pulse-Arc Schweißgerät München
+CANON: https://www.merkle-muenchen.de/schweissgeraete/pulse-arc/
+h1: Pulse-Arc Schweißanlagen
+h5: Qualität und Design, gepaart mit überzeugenden wirtschaftlichen Vorteilen
+h4: Unserer Pulse-Arc Schweißanlagen-Serien
+h4: HighPULSE
+p: Die Revolution des Pulse-Arc-Schweißens!
+h4: Schweißanlagen für den Schiffsbau
+p: Spezial-Schweißanlagen entwickelt für den Schiffbau von Merkle
+h4: Schweßanlagen für die Arbeit an Produktionslinien
+p: Kompakte Bausweise einer HighPULSE mit Gaskühlung
+h4: Die Vorteile unserer Pulse-Arc Schweißanlagen
+h4: Bedienkomfort
+p: Einfache, selbst erklärende Bedienelemente mit extra großen Funktionsknöpfen ermöglichen eine leichte Bedienung.
+h4: Handfernregler MFR 20 und Fernsteller MRC 50
+p: Bedienen Sie die Schweißmaschine dort wo Sie arbeiten.
+h4: Doppel-Drahtvorschub DV-31 TWIN
+p: Das lästige Wechseln der Drahtrolle und ggf. der Brennerschlauchpakete entfällt mit dem Doppel-Drahtvorschubgerät DV-31 TWIN.
+h4: Kompakt und tragbar
+p: HighPULSE Leistung für unterwegs.
+h4: Tragbar mit Wasserkühlung
+p: Optional kann ein Wasserkühlgerät angeschlossen werden.
+h4: Für den flexiblen Einsatz
+p: Ein Transportwagen mit oder ohne Schublade inkl. Gasflaschen-Halterung.
+h4: Fahrbar und wassergekühlt
+p: Perfekt für hohe Leistung bei langer Einschaltdauer.
+h4: Getriebe direkt hinter Brenneranschluss
+p: Kompakter und gut zugänglicher Drahtvorschub.
+h4: Robuste Transportgriffe
+p: Leichteres Handling und höhere Transportsicherheit.
+h4: TEDAC DIGITAL®
+p: Die Energieregelung erfolgt direkt am Schweißbrenner, die Anzeige ist ganz neu in konkreten Daten über ein gut lesbares alphanumerisches Digitaldisplay sichtbar.
+h4: Schutzabdeckung für das Bedienfeld
+h4: Einstellung Gasdurchfluss
+h4: Zwei Steckdosen für Elektrowerkzeuge
+h4: Multifunktions-Display
+p: Erheblich erleichterte Bedienung mit Hilfe des Multifunktions-Displays
+h4: Drahtvorschub mit Beleuchtung am Getriebe
+h4: Schnellverbindung
+p: für Gas und Wasser
+h4: NFC User Karte
+p: User Karte zum Freischalten der Anlage und Supervisor Karte für erweiterte Einstellungen.
+h4: Energiespar-Funktion
+p: Durch eine automatische Abschaltung (zeitgesteuert, programmierbare Abschaltzeit)
+h4: Fernregler
+p: inklusive Schutzbügeln, zwei Magneten und Kabel mit Stecker und Dose
+h4: Zwischenantrieb DV-26 PP
+p: Sorgt für zusätzlichen Aktionsradius.
+h4: Kompakte Bauweise einer HighPULSE mit Gaskühlung
+p: Brenneranschluss und Bedienfeld sind an der Unterseite montiert. Strom- und Gaszufuhr von oben.
+h4: Einfacher und gut zugänglicher Drahtspulenwechsel
+p: Mit wenigen Handgriffen ist die Drahtspule über eine weit öffnende Türe auszuwechseln.
+h4: Weitere Informationen
+p: Erleben Sie HighTech, Qualität und Design, gepaart mit überzeugenden wirtschaftlichen Vorteilen.
+p: Nie war P
+
+===== schweissgeraete__wig.html ==========
+TITLE: WIG Schweißgeräte München | Merkle Schweißtechnik GmbH
+DESC: WIG Schweißgeräte München bei uns auf Lager! Mobile und leichte TIG (WIG)-DC Kraftpakete. Unsere WIG-Schweißgeräte-Serien.
+CANON: https://www.merkle-muenchen.de/schweissgeraete/wig/
+h1: WIG Schweißgeräte
+h5: Mobile und leichte TIG (WIG)-DC Kraftpakete
+h4: Unsere WIG-Schweißgeräte-Serien
+h4: LiteTIG/MobiTIG
+p: Die kompakte ProfiPower mit Digitalanzeige!
+h4: MobiTig 180 AC/DC
+p: Das kleine Kraftpaket!
+h4: LogiTIG
+p: Tragbare TIG AC-Schweißgeräte
+h4: HighTIG
+p: TIG (WIG) Schweißen auf Höchstniveau
+h4: Insquare
+p: Die leistungsstarke Industrielinie!
+h4: Die Vorteile unserer WIG-Schweißgeräte
+h4: Kompaktformat
+p: Kompaktes, schlankes Design mit robusten seitlichen Öffnungsschnallen.
+h4: Digitaldisplay
+p: Prozess-Anzeige, HF-Zündung, TIG-Pulsen, Elektroden-Schweißen.
+h4: Profi-Anschlüsse
+p: Große 50 mm² Profianschlüsse für das Merkle Schweißzubehör.
+h4: Optimales Handling
+p: Maximale Mobilität durch verstell­baren Trage- und Schultergurt. Klein, leicht, handlich, tragbar, nur 5,0 kg.
+h4: BiPowerPLUS
+p: Mit 400 V-Drehstrom schweißen und beim Schweißjobdas Gerät einfach an 230 V-Wechselstrom anschließen.
+h4: TCG-Anschluss
+p: Kleine Baugröße. Geringes Gewicht. Brennerwechsel ohne Werkzeug. Minus-Buchse für TIG-Brenner & Elektrodenkabel. Gasdichtigkeit durch 2 Dichtringe.
+h4: Verkaufsteam
+td: +49 89 8977170
+td: verkauf@merkle-muenchen.de
+li: 24h Notdienst
+li: Lieferservice
+li: Finanzierung
+h4: Broschüren zum Download
+a: LiteTIG/MobiTIG-Broschüre
+a: MobiTIG 180 AC/DC-Broschüre
+a: LogiTIG-Broschüre
+a: Insquare-Broschüre
+h4: Katalog als PDF
+a: Katalog öffnen
+h4: Kontaktformular
+h4: Merkle-Shop
+a: Zum Merkle Online-Shop
+h4: Weitere Informationen
+p: Tragbare TIG (WIG) Schweißgeräte – TIG Gleichstrom (DC)!
+p: Die Schweißgeräte LiteTIG 190 DC, MobiTIG 194 DC mobil und MobiTIG 304 DC sind für die DC-(Gleichstrom) TIG-Schutzgasschweißung und die Elektroden-Schweißung ausgelegt.
+p: Alle Geräte zeichnen sich durch eine Vielzahl von Leistungsmerkmalen aus.
+li: Inverterstromquellen mit stufenloser Regelung.
+li: Geringes Gewicht: leicht und handlich.
+li: 2-Takt/4-Takt-Betrieb.
+li: Hochfrequenz- (HF) und LiftTIG-Zündung.
+li: Fuß-/Handfernregler-Anschluss.
+li: Digitalanzeige für alle Parameter, mit Voranzeige und Holdfunktion für Schweißstrom.
+li: Jobspeicher (LiteTIG/MobiTIG).
+li: 2 Schweißströme getrennt einstellbar.
+li: TIG-Pulsen serienmäßig.
+li: Start/-Endstrom sowie Absenkzeit einstellbar.

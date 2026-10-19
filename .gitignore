@@ -1,0 +1,15 @@
+# Abhängigkeiten — werden aus package-lock.json wiederhergestellt
+node_modules/
+
+# Prüfergebnisse: entstehen bei jedem Lauf neu und sind in Summe ~200 MB
+docs/screenshots/
+docs/qa-out.txt
+docs/validate-out.txt
+docs/lh-out.txt
+docs/qa-report.json
+docs/lighthouse.json
+
+# Betriebssystem und Editor
+Thumbs.db
+.DS_Store
+*.log

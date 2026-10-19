@@ -1,0 +1,4554 @@
+{
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc00623-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01021-hdr-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01022-hdr-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc01059-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09786-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-1-dsc09946-1920.jpg"
+ },
+ "20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241021-merkle-munchen-filiale-und-mitarbeiter-team-2-dsc09952-bearbeitet-2-1920.jpg"
+ },
+ "20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241022-merkle-landshut-filiale-und-mitarbeiter-team-1-dsc02020-1920.jpg"
+ },
+ "20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2.jpg": {
+  "w": 1920,
+  "h": 1280,
+  "avif": [
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/20241022-merkle-rosenheim-filiale-und-mitarbeiter-team-vor-container-2-1920.jpg"
+ },
+ "acetylen.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/acetylen-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/acetylen-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/acetylen-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/acetylen-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/acetylen-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/acetylen-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/acetylen-591.png"
+ },
+ "arcox.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/arcox-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/arcox-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/arcox-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/arcox-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/arcox-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/arcox-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/arcox-591.png"
+ },
+ "argon.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/argon-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/argon-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/argon-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/argon-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/argon-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/argon-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/argon-591.png"
+ },
+ "ballongas.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/ballongas-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/ballongas-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/ballongas-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/ballongas-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/ballongas-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/ballongas-591.jpg",
+    "w": 591
+   }
+  ],
+  "fallback": "d/ballongas-591.jpg"
+ },
+ "barcoide.jpg": {
+  "w": 300,
+  "h": 300,
+  "avif": [
+   {
+    "name": "d/barcoide-300.avif",
+    "w": 300
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/barcoide-300.webp",
+    "w": 300
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/barcoide-300.jpg",
+    "w": 300
+   }
+  ],
+  "fallback": "d/barcoide-300.jpg"
+ },
+ "bct-google-recaptcha-main.png": {
+  "w": 641,
+  "h": 361,
+  "avif": [
+   {
+    "name": "d/bct-google-recaptcha-main-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/bct-google-recaptcha-main-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/bct-google-recaptcha-main-641.avif",
+    "w": 641
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/bct-google-recaptcha-main-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/bct-google-recaptcha-main-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/bct-google-recaptcha-main-641.webp",
+    "w": 641
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/bct-google-recaptcha-main-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/bct-google-recaptcha-main-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/bct-google-recaptcha-main-641.png",
+    "w": 641
+   }
+  ],
+  "fallback": "d/bct-google-recaptcha-main-641.png"
+ },
+ "biergas.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/biergas-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/biergas-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/biergas-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/biergas-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/biergas-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/biergas-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/biergas-591.png"
+ },
+ "bio-logo-weiss.png": {
+  "w": 1920,
+  "h": 1300,
+  "avif": [
+   {
+    "name": "d/bio-logo-weiss-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/bio-logo-weiss-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/bio-logo-weiss-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/bio-logo-weiss-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/bio-logo-weiss-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/bio-logo-weiss-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/bio-logo-weiss-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/bio-logo-weiss-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/bio-logo-weiss-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/bio-logo-weiss-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/bio-logo-weiss-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/bio-logo-weiss-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/bio-logo-weiss-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/bio-logo-weiss-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/bio-logo-weiss-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/bio-logo-weiss-1280.png",
+    "w": 1280
+   },
+   {
+    "name": "d/bio-logo-weiss-1600.png",
+    "w": 1600
+   },
+   {
+    "name": "d/bio-logo-weiss-1920.png",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/bio-logo-weiss-1920.png"
+ },
+ "boehler-2018.png": {
+  "w": 965,
+  "h": 369,
+  "avif": [
+   {
+    "name": "d/boehler-2018-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/boehler-2018-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/boehler-2018-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/boehler-2018-965.avif",
+    "w": 965
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/boehler-2018-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/boehler-2018-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/boehler-2018-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/boehler-2018-965.webp",
+    "w": 965
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/boehler-2018-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/boehler-2018-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/boehler-2018-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/boehler-2018-965.png",
+    "w": 965
+   }
+  ],
+  "fallback": "d/boehler-2018-965.png"
+ },
+ "brenner-defekt.jpg": {
+  "w": 591,
+  "h": 462,
+  "avif": [
+   {
+    "name": "d/brenner-defekt-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/brenner-defekt-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/brenner-defekt-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/brenner-defekt-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/brenner-defekt-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/brenner-defekt-591.jpg",
+    "w": 591
+   }
+  ],
+  "fallback": "d/brenner-defekt-591.jpg"
+ },
+ "buchhaltung-1200x500-1.png": {
+  "w": 1200,
+  "h": 500,
+  "avif": [
+   {
+    "name": "d/buchhaltung-1200x500-1-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-1200.avif",
+    "w": 1200
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/buchhaltung-1200x500-1-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-1200.webp",
+    "w": 1200
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/buchhaltung-1200x500-1-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/buchhaltung-1200x500-1-1200.png",
+    "w": 1200
+   }
+  ],
+  "fallback": "d/buchhaltung-1200x500-1-1200.png"
+ },
+ "druckluft.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/druckluft-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/druckluft-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/druckluft-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/druckluft-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/druckluft-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/druckluft-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/druckluft-591.png"
+ },
+ "durchflusswaechter.jpg": {
+  "w": 778,
+  "h": 487,
+  "avif": [
+   {
+    "name": "d/durchflusswaechter-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/durchflusswaechter-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/durchflusswaechter-778.avif",
+    "w": 778
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/durchflusswaechter-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/durchflusswaechter-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/durchflusswaechter-778.webp",
+    "w": 778
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/durchflusswaechter-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/durchflusswaechter-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/durchflusswaechter-778.jpg",
+    "w": 778
+   }
+  ],
+  "fallback": "d/durchflusswaechter-778.jpg"
+ },
+ "fassdraht.png": {
+  "w": 182,
+  "h": 241,
+  "avif": [
+   {
+    "name": "d/fassdraht-182.avif",
+    "w": 182
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/fassdraht-182.webp",
+    "w": 182
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/fassdraht-182.png",
+    "w": 182
+   }
+  ],
+  "fallback": "d/fassdraht-182.png"
+ },
+ "fontargen-2018.png": {
+  "w": 965,
+  "h": 369,
+  "avif": [
+   {
+    "name": "d/fontargen-2018-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/fontargen-2018-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/fontargen-2018-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/fontargen-2018-965.avif",
+    "w": 965
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/fontargen-2018-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/fontargen-2018-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/fontargen-2018-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/fontargen-2018-965.webp",
+    "w": 965
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/fontargen-2018-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/fontargen-2018-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/fontargen-2018-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/fontargen-2018-965.png",
+    "w": 965
+   }
+  ],
+  "fallback": "d/fontargen-2018-965.png"
+ },
+ "formiergas.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/formiergas-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/formiergas-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/formiergas-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/formiergas-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/formiergas-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/formiergas-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/formiergas-591.png"
+ },
+ "fotolia_138703523_nikkytok.jpg": {
+  "w": 1200,
+  "h": 500,
+  "avif": [
+   {
+    "name": "d/fotolia_138703523_nikkytok-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-1200.avif",
+    "w": 1200
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/fotolia_138703523_nikkytok-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-1200.webp",
+    "w": 1200
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/fotolia_138703523_nikkytok-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/fotolia_138703523_nikkytok-1200.jpg",
+    "w": 1200
+   }
+  ],
+  "fallback": "d/fotolia_138703523_nikkytok-1200.jpg"
+ },
+ "fotolia_142949391_kerkezz.jpg": {
+  "w": 1200,
+  "h": 300,
+  "avif": [
+   {
+    "name": "d/fotolia_142949391_kerkezz-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-1200.avif",
+    "w": 1200
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/fotolia_142949391_kerkezz-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-1200.webp",
+    "w": 1200
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/fotolia_142949391_kerkezz-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/fotolia_142949391_kerkezz-1200.jpg",
+    "w": 1200
+   }
+  ],
+  "fallback": "d/fotolia_142949391_kerkezz-1200.jpg"
+ },
+ "helium.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/helium-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/helium-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/helium-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/helium-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/helium-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/helium-591.jpg",
+    "w": 591
+   }
+  ],
+  "fallback": "d/helium-591.jpg"
+ },
+ "kohlensaeure.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/kohlensaeure-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kohlensaeure-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kohlensaeure-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kohlensaeure-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kohlensaeure-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kohlensaeure-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/kohlensaeure-591.png"
+ },
+ "kuehlfluessigkeit-10-kg.png": {
+  "w": 300,
+  "h": 300,
+  "avif": [
+   {
+    "name": "d/kuehlfluessigkeit-10-kg-300.avif",
+    "w": 300
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kuehlfluessigkeit-10-kg-300.webp",
+    "w": 300
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kuehlfluessigkeit-10-kg-300.jpg",
+    "w": 300
+   }
+  ],
+  "fallback": "d/kuehlfluessigkeit-10-kg-300.jpg"
+ },
+ "kuehlfluessigkeit-200-kg.png": {
+  "w": 300,
+  "h": 400,
+  "avif": [
+   {
+    "name": "d/kuehlfluessigkeit-200-kg-300.avif",
+    "w": 300
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kuehlfluessigkeit-200-kg-300.webp",
+    "w": 300
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kuehlfluessigkeit-200-kg-300.jpg",
+    "w": 300
+   }
+  ],
+  "fallback": "d/kuehlfluessigkeit-200-kg-300.jpg"
+ },
+ "kuehlfluessigkeit-25-kg.png": {
+  "w": 300,
+  "h": 300,
+  "avif": [
+   {
+    "name": "d/kuehlfluessigkeit-25-kg-300.avif",
+    "w": 300
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kuehlfluessigkeit-25-kg-300.webp",
+    "w": 300
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kuehlfluessigkeit-25-kg-300.jpg",
+    "w": 300
+   }
+  ],
+  "fallback": "d/kuehlfluessigkeit-25-kg-300.jpg"
+ },
+ "kuehlfluessigkeit-4-kg.png": {
+  "w": 284,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/kuehlfluessigkeit-4-kg-284.avif",
+    "w": 284
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kuehlfluessigkeit-4-kg-284.webp",
+    "w": 284
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kuehlfluessigkeit-4-kg-284.jpg",
+    "w": 284
+   }
+  ],
+  "fallback": "d/kuehlfluessigkeit-4-kg-284.jpg"
+ },
+ "laden-1200-x700.png": {
+  "w": 1200,
+  "h": 700,
+  "avif": [
+   {
+    "name": "d/laden-1200-x700-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/laden-1200-x700-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/laden-1200-x700-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/laden-1200-x700-1200.avif",
+    "w": 1200
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/laden-1200-x700-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/laden-1200-x700-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/laden-1200-x700-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/laden-1200-x700-1200.webp",
+    "w": 1200
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/laden-1200-x700-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/laden-1200-x700-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/laden-1200-x700-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/laden-1200-x700-1200.png",
+    "w": 1200
+   }
+  ],
+  "fallback": "d/laden-1200-x700-1200.png"
+ },
+ "lightarc180.jpg": {
+  "w": 178,
+  "h": 157,
+  "avif": [
+   {
+    "name": "d/lightarc180-178.avif",
+    "w": 178
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/lightarc180-178.webp",
+    "w": 178
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/lightarc180-178.jpg",
+    "w": 178
+   }
+  ],
+  "fallback": "d/lightarc180-178.jpg"
+ },
+ "litearc180-detailbilder.jpg": {
+  "w": 298,
+  "h": 187,
+  "avif": [
+   {
+    "name": "d/litearc180-detailbilder-298.avif",
+    "w": 298
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/litearc180-detailbilder-298.webp",
+    "w": 298
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/litearc180-detailbilder-298.jpg",
+    "w": 298
+   }
+  ],
+  "fallback": "d/litearc180-detailbilder-298.jpg"
+ },
+ "litearc180-detailbilder2.jpg": {
+  "w": 298,
+  "h": 187,
+  "avif": [
+   {
+    "name": "d/litearc180-detailbilder2-298.avif",
+    "w": 298
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/litearc180-detailbilder2-298.webp",
+    "w": 298
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/litearc180-detailbilder2-298.jpg",
+    "w": 298
+   }
+  ],
+  "fallback": "d/litearc180-detailbilder2-298.jpg"
+ },
+ "litearc180-detailbilder3.jpg": {
+  "w": 298,
+  "h": 187,
+  "avif": [
+   {
+    "name": "d/litearc180-detailbilder3-298.avif",
+    "w": 298
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/litearc180-detailbilder3-298.webp",
+    "w": 298
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/litearc180-detailbilder3-298.jpg",
+    "w": 298
+   }
+  ],
+  "fallback": "d/litearc180-detailbilder3-298.jpg"
+ },
+ "litearc180-detailbilder4_01.jpg": {
+  "w": 298,
+  "h": 187,
+  "avif": [
+   {
+    "name": "d/litearc180-detailbilder4_01-298.avif",
+    "w": 298
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/litearc180-detailbilder4_01-298.webp",
+    "w": 298
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/litearc180-detailbilder4_01-298.jpg",
+    "w": 298
+   }
+  ],
+  "fallback": "d/litearc180-detailbilder4_01-298.jpg"
+ },
+ "litearc180-detailbilder5_01.jpg": {
+  "w": 298,
+  "h": 187,
+  "avif": [
+   {
+    "name": "d/litearc180-detailbilder5_01-298.avif",
+    "w": 298
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/litearc180-detailbilder5_01-298.webp",
+    "w": 298
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/litearc180-detailbilder5_01-298.jpg",
+    "w": 298
+   }
+  ],
+  "fallback": "d/litearc180-detailbilder5_01-298.jpg"
+ },
+ "litearc180-detailbilder6_01.jpg": {
+  "w": 298,
+  "h": 187,
+  "avif": [
+   {
+    "name": "d/litearc180-detailbilder6_01-298.avif",
+    "w": 298
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/litearc180-detailbilder6_01-298.webp",
+    "w": 298
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/litearc180-detailbilder6_01-298.jpg",
+    "w": 298
+   }
+  ],
+  "fallback": "d/litearc180-detailbilder6_01-298.jpg"
+ },
+ "mekle-schweissgeraete.jpg": {
+  "w": 500,
+  "h": 259,
+  "avif": [
+   {
+    "name": "d/mekle-schweissgeraete-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/mekle-schweissgeraete-500.avif",
+    "w": 500
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/mekle-schweissgeraete-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/mekle-schweissgeraete-500.webp",
+    "w": 500
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/mekle-schweissgeraete-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/mekle-schweissgeraete-500.jpg",
+    "w": 500
+   }
+  ],
+  "fallback": "d/mekle-schweissgeraete-500.jpg"
+ },
+ "merkle-gase.jpg": {
+  "w": 500,
+  "h": 259,
+  "avif": [
+   {
+    "name": "d/merkle-gase-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-gase-500.avif",
+    "w": 500
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/merkle-gase-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-gase-500.webp",
+    "w": 500
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/merkle-gase-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-gase-500.jpg",
+    "w": 500
+   }
+  ],
+  "fallback": "d/merkle-gase-500.jpg"
+ },
+ "merkle-gaslieferant-waehrend-der-arbeit1.png": {
+  "w": 1536,
+  "h": 1024,
+  "avif": [
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-1536.avif",
+    "w": 1536
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-1536.webp",
+    "w": 1536
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/merkle-gaslieferant-waehrend-der-arbeit1-1536.jpg",
+    "w": 1536
+   }
+  ],
+  "fallback": "d/merkle-gaslieferant-waehrend-der-arbeit1-1536.jpg"
+ },
+ "merkle-gehoerschutz.png": {
+  "w": 141,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/merkle-gehoerschutz-141.avif",
+    "w": 141
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/merkle-gehoerschutz-141.webp",
+    "w": 141
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/merkle-gehoerschutz-141.png",
+    "w": 141
+   }
+  ],
+  "fallback": "d/merkle-gehoerschutz-141.png"
+ },
+ "merkle-reinigungsmittel.png": {
+  "w": 196,
+  "h": 135,
+  "avif": [
+   {
+    "name": "d/merkle-reinigungsmittel-196.avif",
+    "w": 196
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/merkle-reinigungsmittel-196.webp",
+    "w": 196
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/merkle-reinigungsmittel-196.png",
+    "w": 196
+   }
+  ],
+  "fallback": "d/merkle-reinigungsmittel-196.png"
+ },
+ "merkle-schweisszubehoer.jpg": {
+  "w": 500,
+  "h": 259,
+  "avif": [
+   {
+    "name": "d/merkle-schweisszubehoer-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-schweisszubehoer-500.avif",
+    "w": 500
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/merkle-schweisszubehoer-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-schweisszubehoer-500.webp",
+    "w": 500
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/merkle-schweisszubehoer-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-schweisszubehoer-500.jpg",
+    "w": 500
+   }
+  ],
+  "fallback": "d/merkle-schweisszubehoer-500.jpg"
+ },
+ "merkle.jpg": {
+  "w": 442,
+  "h": 120,
+  "avif": [
+   {
+    "name": "d/merkle-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-442.avif",
+    "w": 442
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/merkle-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-442.webp",
+    "w": 442
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/merkle-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/merkle-442.jpg",
+    "w": 442
+   }
+  ],
+  "fallback": "d/merkle-442.jpg"
+ },
+ "mobiarc.jpg": {
+  "w": 178,
+  "h": 157,
+  "avif": [
+   {
+    "name": "d/mobiarc-178.avif",
+    "w": 178
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/mobiarc-178.webp",
+    "w": 178
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/mobiarc-178.jpg",
+    "w": 178
+   }
+  ],
+  "fallback": "d/mobiarc-178.jpg"
+ },
+ "plasmaschneider-aircut.jpg": {
+  "w": 178,
+  "h": 157,
+  "avif": [
+   {
+    "name": "d/plasmaschneider-aircut-178.avif",
+    "w": 178
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/plasmaschneider-aircut-178.webp",
+    "w": 178
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/plasmaschneider-aircut-178.jpg",
+    "w": 178
+   }
+  ],
+  "fallback": "d/plasmaschneider-aircut-178.jpg"
+ },
+ "plasmaschneider-c82.jpg": {
+  "w": 178,
+  "h": 157,
+  "avif": [
+   {
+    "name": "d/plasmaschneider-c82-178.avif",
+    "w": 178
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/plasmaschneider-c82-178.webp",
+    "w": 178
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/plasmaschneider-c82-178.jpg",
+    "w": 178
+   }
+  ],
+  "fallback": "d/plasmaschneider-c82-178.jpg"
+ },
+ "propan-bild-web_mue.jpg": {
+  "w": 1920,
+  "h": 1427,
+  "avif": [
+   {
+    "name": "d/propan-bild-web_mue-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/propan-bild-web_mue-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/propan-bild-web_mue-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/propan-bild-web_mue-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/propan-bild-web_mue-1600.avif",
+    "w": 1600
+   },
+   {
+    "name": "d/propan-bild-web_mue-1920.avif",
+    "w": 1920
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/propan-bild-web_mue-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/propan-bild-web_mue-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/propan-bild-web_mue-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/propan-bild-web_mue-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/propan-bild-web_mue-1600.webp",
+    "w": 1600
+   },
+   {
+    "name": "d/propan-bild-web_mue-1920.webp",
+    "w": 1920
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/propan-bild-web_mue-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/propan-bild-web_mue-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/propan-bild-web_mue-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/propan-bild-web_mue-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/propan-bild-web_mue-1600.jpg",
+    "w": 1600
+   },
+   {
+    "name": "d/propan-bild-web_mue-1920.jpg",
+    "w": 1920
+   }
+  ],
+  "fallback": "d/propan-bild-web_mue-1920.jpg"
+ },
+ "propan.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/propan-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/propan-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/propan-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/propan-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/propan-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/propan-591.jpg",
+    "w": 591
+   }
+  ],
+  "fallback": "d/propan-591.jpg"
+ },
+ "rolle-alu.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/rolle-alu-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-alu-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/rolle-alu-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-alu-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/rolle-alu-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-alu-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/rolle-alu-591.png"
+ },
+ "rolle-edelstahl.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/rolle-edelstahl-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-edelstahl-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/rolle-edelstahl-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-edelstahl-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/rolle-edelstahl-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-edelstahl-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/rolle-edelstahl-591.png"
+ },
+ "rolle-stahl.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/rolle-stahl-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-stahl-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/rolle-stahl-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-stahl-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/rolle-stahl-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/rolle-stahl-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/rolle-stahl-591.png"
+ },
+ "sauerstoff.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/sauerstoff-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/sauerstoff-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/sauerstoff-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/sauerstoff-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/sauerstoff-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/sauerstoff-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/sauerstoff-591.png"
+ },
+ "schweisselektrode.png": {
+  "w": 193,
+  "h": 121,
+  "avif": [
+   {
+    "name": "d/schweisselektrode-193.avif",
+    "w": 193
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweisselektrode-193.webp",
+    "w": 193
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweisselektrode-193.png",
+    "w": 193
+   }
+  ],
+  "fallback": "d/schweisselektrode-193.png"
+ },
+ "schweissgeraete-e-0.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-e-0-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-e-0-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-e-0-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-e-0-230.jpg"
+ },
+ "schweissgeraete-mig-0.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-0-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-0-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-0-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-0-230.jpg"
+ },
+ "schweissgeraete-mig-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-1-230.jpg"
+ },
+ "schweissgeraete-mig-2.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-2-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-2-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-2-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-2-230.jpg"
+ },
+ "schweissgeraete-mig-3.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-3-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-3-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-3-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-3-230.jpg"
+ },
+ "schweissgeraete-mig-4.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-4-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-4-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-4-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-4-230.jpg"
+ },
+ "schweissgeraete-mig-5.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-5-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-5-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-5-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-5-230.jpg"
+ },
+ "schweissgeraete-mig-6.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-6-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-6-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-6-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-6-230.jpg"
+ },
+ "schweissgeraete-mig-7.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-7-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-7-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-7-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-7-230.jpg"
+ },
+ "schweissgeraete-mig-8.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-8-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-8-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-8-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-8-230.jpg"
+ },
+ "schweissgeraete-mig-9.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-mig-9-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-mig-9-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-mig-9-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-mig-9-230.jpg"
+ },
+ "schweissgeraete-plasmaanlagen-0-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-0-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-0-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-0-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-plasmaanlagen-0-1-230.jpg"
+ },
+ "schweissgeraete-plasmaanlagen-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-plasmaanlagen-1-230.jpg"
+ },
+ "schweissgeraete-plasmaanlagen-2.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-2-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-2-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-plasmaanlagen-2-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-plasmaanlagen-2-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-0.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-0-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-0-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-0-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-0-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-1-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-11.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-11-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-11-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-11-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-11-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-12.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-12-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-12-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-12-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-12-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-13.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-13-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-13-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-13-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-13-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-14.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-14-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-14-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-14-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-14-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-15.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-15-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-15-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-15-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-15-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-16.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-16-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-16-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-16-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-16-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-17.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-17-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-17-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-17-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-17-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-18.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-18-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-18-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-18-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-18-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-19.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-19-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-19-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-19-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-19-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-2.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-2-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-2-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-2-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-2-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-20.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-20-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-20-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-20-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-20-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-21.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-21-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-21-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-21-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-21-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-22.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-22-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-22-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-22-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-22-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-3.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-3-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-3-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-3-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-3-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-4.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-4-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-4-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-4-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-4-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-5.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-5-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-5-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-5-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-5-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-6.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-6-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-6-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-6-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-6-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-7.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-7-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-7-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-7-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-7-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-8.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-8-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-8-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-8-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-8-230.jpg"
+ },
+ "schweissgeraete-pulse-arc-9.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-9-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-9-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-pulse-arc-9-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-pulse-arc-9-230.jpg"
+ },
+ "schweissgeraete-serie-mig-mag-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-mig-mag-1-230.jpg"
+ },
+ "schweissgeraete-serie-mig-mag-2.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-2-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-2-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-2-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-mig-mag-2-230.jpg"
+ },
+ "schweissgeraete-serie-mig-mag-3.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-3-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-3-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-3-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-mig-mag-3-230.jpg"
+ },
+ "schweissgeraete-serie-mig-mag-4.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-4-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-4-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-4-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-mig-mag-4-230.jpg"
+ },
+ "schweissgeraete-serie-mig-mag-5.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-5-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-5-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-mig-mag-5-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-mig-mag-5-230.jpg"
+ },
+ "schweissgeraete-serie-wig-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-wig-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-wig-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-wig-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-wig-1-230.jpg"
+ },
+ "schweissgeraete-serie-wig-2.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-wig-2-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-wig-2-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-wig-2-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-wig-2-230.jpg"
+ },
+ "schweissgeraete-serie-wig-3.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-wig-3-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-wig-3-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-wig-3-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-wig-3-230.jpg"
+ },
+ "schweissgeraete-serie-wig-4.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-wig-4-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-wig-4-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-wig-4-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-wig-4-230.jpg"
+ },
+ "schweissgeraete-serie-wig-5.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serie-wig-5-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serie-wig-5-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serie-wig-5-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serie-wig-5-230.jpg"
+ },
+ "schweissgeraete-serien-pulse-arc-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serien-pulse-arc-1-230.jpg"
+ },
+ "schweissgeraete-serien-pulse-arc-2.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-2-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-2-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-2-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serien-pulse-arc-2-230.jpg"
+ },
+ "schweissgeraete-serien-pulse-arc-3.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-3-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-3-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-serien-pulse-arc-3-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-serien-pulse-arc-3-230.jpg"
+ },
+ "schweissgeraete-wig-0.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-wig-0-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-wig-0-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-wig-0-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-wig-0-230.jpg"
+ },
+ "schweissgeraete-wig-1.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-wig-1-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-wig-1-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-wig-1-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-wig-1-230.jpg"
+ },
+ "schweissgeraete-wig-4.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-wig-4-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-wig-4-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-wig-4-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-wig-4-230.jpg"
+ },
+ "schweissgeraete-wig-5.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-wig-5-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-wig-5-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-wig-5-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-wig-5-230.jpg"
+ },
+ "schweissgeraete-wig-6.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-wig-6-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-wig-6-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-wig-6-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-wig-6-230.jpg"
+ },
+ "schweissgeraete-wig-7.jpg": {
+  "w": 230,
+  "h": 145,
+  "avif": [
+   {
+    "name": "d/schweissgeraete-wig-7-230.avif",
+    "w": 230
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissgeraete-wig-7-230.webp",
+    "w": 230
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissgeraete-wig-7-230.jpg",
+    "w": 230
+   }
+  ],
+  "fallback": "d/schweissgeraete-wig-7-230.jpg"
+ },
+ "schweisskurse-1200x500-1.png": {
+  "w": 1200,
+  "h": 500,
+  "avif": [
+   {
+    "name": "d/schweisskurse-1200x500-1-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-1200.avif",
+    "w": 1200
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweisskurse-1200x500-1-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-1200.webp",
+    "w": 1200
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweisskurse-1200x500-1-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/schweisskurse-1200x500-1-1200.png",
+    "w": 1200
+   }
+  ],
+  "fallback": "d/schweisskurse-1200x500-1-1200.png"
+ },
+ "schweissstab.png": {
+  "w": 189,
+  "h": 116,
+  "avif": [
+   {
+    "name": "d/schweissstab-189.avif",
+    "w": 189
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweissstab-189.webp",
+    "w": 189
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweissstab-189.png",
+    "w": 189
+   }
+  ],
+  "fallback": "d/schweissstab-189.png"
+ },
+ "schweisszubehoer-1.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/schweisszubehoer-1-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-1-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweisszubehoer-1-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-1-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweisszubehoer-1-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-1-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/schweisszubehoer-1-591.png"
+ },
+ "schweisszubehoer-2.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/schweisszubehoer-2-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-2-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweisszubehoer-2-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-2-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweisszubehoer-2-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-2-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/schweisszubehoer-2-591.png"
+ },
+ "schweisszubehoer-4.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/schweisszubehoer-4-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-4-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweisszubehoer-4-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-4-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweisszubehoer-4-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-4-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/schweisszubehoer-4-591.png"
+ },
+ "schweisszubehoer-5.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/schweisszubehoer-5-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-5-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweisszubehoer-5-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-5-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweisszubehoer-5-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-5-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/schweisszubehoer-5-591.png"
+ },
+ "schweisszubehoer-6.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/schweisszubehoer-6-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-6-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/schweisszubehoer-6-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-6-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/schweisszubehoer-6-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/schweisszubehoer-6-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/schweisszubehoer-6-591.png"
+ },
+ "stromwasserkabel-defekt.jpg": {
+  "w": 576,
+  "h": 643,
+  "avif": [
+   {
+    "name": "d/stromwasserkabel-defekt-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/stromwasserkabel-defekt-576.avif",
+    "w": 576
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/stromwasserkabel-defekt-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/stromwasserkabel-defekt-576.webp",
+    "w": 576
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/stromwasserkabel-defekt-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/stromwasserkabel-defekt-576.jpg",
+    "w": 576
+   }
+  ],
+  "fallback": "d/stromwasserkabel-defekt-576.jpg"
+ },
+ "techn.-stickstoff.png": {
+  "w": 591,
+  "h": 372,
+  "avif": [
+   {
+    "name": "d/techn--stickstoff-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/techn--stickstoff-591.avif",
+    "w": 591
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/techn--stickstoff-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/techn--stickstoff-591.webp",
+    "w": 591
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/techn--stickstoff-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/techn--stickstoff-591.png",
+    "w": 591
+   }
+  ],
+  "fallback": "d/techn--stickstoff-591.png"
+ },
+ "ueber-uns-1.png": {
+  "w": 1200,
+  "h": 300,
+  "avif": [
+   {
+    "name": "d/ueber-uns-1-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/ueber-uns-1-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/ueber-uns-1-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/ueber-uns-1-1200.avif",
+    "w": 1200
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/ueber-uns-1-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/ueber-uns-1-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/ueber-uns-1-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/ueber-uns-1-1200.webp",
+    "w": 1200
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/ueber-uns-1-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/ueber-uns-1-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/ueber-uns-1-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/ueber-uns-1-1200.png",
+    "w": 1200
+   }
+  ],
+  "fallback": "d/ueber-uns-1-1200.png"
+ },
+ "utp-2018.png": {
+  "w": 965,
+  "h": 369,
+  "avif": [
+   {
+    "name": "d/utp-2018-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/utp-2018-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/utp-2018-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/utp-2018-965.avif",
+    "w": 965
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/utp-2018-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/utp-2018-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/utp-2018-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/utp-2018-965.webp",
+    "w": 965
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/utp-2018-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/utp-2018-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/utp-2018-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/utp-2018-965.png",
+    "w": 965
+   }
+  ],
+  "fallback": "d/utp-2018-965.png"
+ },
+ "zusatzstoffe-teaser-1.jpg": {
+  "w": 1000,
+  "h": 518,
+  "avif": [
+   {
+    "name": "d/zusatzstoffe-teaser-1-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-1000.avif",
+    "w": 1000
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/zusatzstoffe-teaser-1-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-1000.webp",
+    "w": 1000
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/zusatzstoffe-teaser-1-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/zusatzstoffe-teaser-1-1000.jpg",
+    "w": 1000
+   }
+  ],
+  "fallback": "d/zusatzstoffe-teaser-1-1000.jpg"
+ }
+}
