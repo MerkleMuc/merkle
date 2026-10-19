@@ -183,6 +183,9 @@ function ueberUns() {
 
     ui.caesura({
       img: 'ueber-uns-1.png',
+      /* Derselbe Film wie auf der Startseite, hier ohne Fenster: er läuft durch. */
+      video: 'https://verwaltung.merkle-allinclusive.de/wp-content/uploads/2026/02/YTDown.com_YouTube_Media_onZ8zQtn8hU_001_1080p.mp4',
+      videoLoop: 0,
       alt: 'Luftaufnahme des Merkle-Firmengeländes in München-Freiham mit Betriebsgebäude, Parkplatz und Gasflaschenlager'
     }),
 
@@ -212,7 +215,7 @@ function ueberUns() {
     <div class="mk-grid" style="margin-bottom:48px">
       <div class="mk-col-8">
         <p class="mk-kicker">Firmengeschichte</p>
-        <h2>Fünf Jahreszahlen, an denen sich alles<br>entschieden hat.</h2>
+        <h2>Acht Jahreszahlen, an denen sich alles<br>entschieden hat.</h2>
       </div>
     </div>
     <div class="mk-timeline">
@@ -221,7 +224,10 @@ function ueberUns() {
         ['1980', 'Der erste große Meilenstein: unser erster Laden in der Peslmüllerstraße.'],
         ['1994', 'Der Platz wurde zu klein: Umzug in ein größeres Gebäude in die Bodenseestraße.'],
         ['2008', 'Nun bauen wir selbst: Einzug in das eigene Gebäude in der Anton-Böck-Straße.'],
-        ['2013', 'Siegfried Awissus wird auf dem CSU-Ball in Bayern zum Unternehmer des Jahres gekürt.']
+        ['2013', 'Siegfried Awissus wird auf dem CSU-Ball in Bayern zum Unternehmer des Jahres gekürt.'],
+        ['2018', 'Das Onlinegeschäft startet, die erste Bestellung geht ein — der Grundstein für Millionenumsätze über digitale Absatzmärkte.'],
+        ['2024', 'Die EU-Ökodesign-Verordnung lässt viele Hersteller von Schweißanlagen kapitulieren. Merkle nicht: Seitdem produziert das Werk als einziger deutscher Hersteller noch Trafo-Anlagen, die alle strengen Vorgaben erfüllen. Mit der Merkle RedMIG eco 2800 K wird die Erfolgsserie fortgeführt.'],
+        ['2026', 'Künstliche Intelligenz verändert die Welt — und München, Landshut und Rosenheim haben daran Teil: mit fähigem Personal und Zukunftsvisionären in der Führung wird der Fachhandel in eine neue Ära geführt.']
       ].map(([y, t]) => `<div class="mk-timeline__item">
         <p class="mk-timeline__year">${y}</p>
         <p class="mk-timeline__text">${t}</p>

@@ -510,37 +510,48 @@
      auch nur dieses Stück und nicht die ganze Datei. Schlägt etwas fehl,
      verschwindet das Element und das Standbild steht weiter. */
   (function buehnenfilm() {
-    var video = document.querySelector('[data-herovideo]');
-    if (!video) return;
+    var filme = document.querySelectorAll('[data-herovideo]');
+    if (!filme.length) return;
 
-    function verwerfen() {
+    function verwerfen(video) {
       if (video.parentNode) video.parentNode.removeChild(video);
     }
+    function alleVerwerfen() {
+      for (var i = 0; i < filme.length; i++) verwerfen(filme[i]);
+    }
 
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { verwerfen(); return; }
-    if (!window.matchMedia('(min-width: 1024px)').matches) { verwerfen(); return; }
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { alleVerwerfen(); return; }
+    if (!window.matchMedia('(min-width: 1024px)').matches) { alleVerwerfen(); return; }
 
     var netz = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
     if (netz) {
-      if (netz.saveData) { verwerfen(); return; }
+      if (netz.saveData) { alleVerwerfen(); return; }
       var art = netz.effectiveType || '';
-      if (art === 'slow-2g' || art === '2g' || art === '3g') { verwerfen(); return; }
+      if (art === 'slow-2g' || art === '2g' || art === '3g') { alleVerwerfen(); return; }
     }
 
-    var fenster = parseFloat(video.getAttribute('data-loop')) || 12;
+    function einrichten(video) {
+      /* 0 heißt: ganz durchlaufen lassen. Sonst wird nur das Fenster am
+         Anfang gespielt, damit der Browser über Bereichsanfragen nicht die
+         ganze Datei zieht. */
+      var fenster = parseFloat(video.getAttribute('data-loop'));
+      if (isNaN(fenster)) fenster = 12;
 
-    video.addEventListener('error', verwerfen);
-    video.addEventListener('timeupdate', function () {
-      if (video.currentTime > fenster) video.currentTime = 0;
-    });
-    video.addEventListener('canplay', function () {
-      video.classList.add('is-ready');
-    });
+      video.addEventListener('error', function () { verwerfen(video); });
+      video.addEventListener('canplay', function () { video.classList.add('is-ready'); });
+      if (fenster > 0) {
+        video.addEventListener('timeupdate', function () {
+          if (video.currentTime > fenster) video.currentTime = 0;
+        });
+      }
 
-    function starten() {
       video.src = video.getAttribute('data-src');
       var p = video.play();
-      if (p && p.catch) p.catch(verwerfen);
+      if (p && p.catch) p.catch(function () { verwerfen(video); });
+    }
+
+    function starten() {
+      for (var i = 0; i < filme.length; i++) einrichten(filme[i]);
     }
 
     /* Erst wenn die Seite steht, damit der Film dem Standbild nicht die

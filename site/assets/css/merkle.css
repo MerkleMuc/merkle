@@ -2885,3 +2885,91 @@ html:not(.mk-js) .mk-bottle__pic{opacity:1}
 @media (min-width:1024px){.mk-logos__item{flex-basis:calc(20% - 34px)}}
 /* Logofeld ausdrücklich auf Weiß. */
 .mk-logos{background:#fff}
+
+/* ==========================================================================
+   58. Logofeld: weiße Kacheln, Höhe je Marke
+   ========================================================================== */
+.mk-logos__item{background:#fff}
+/* Grundhöhe 52 px; einzelne Marken weichen über --logo-h davon ab. Die
+   Breite richtet sich immer selbst danach. */
+.mk-logos__item img{max-height:var(--logo-h,52px);width:auto;height:auto}
+/* Alle Zellen bleiben gleich breit, sonst zerfaellt das Raster. Breite
+   Wortmarken haengen damit weiter an der Spaltenbreite. */
+.mk-logos__item--boxed img,.mk-logos__item--hoch img{max-height:var(--logo-h,52px)}
+
+/* ==========================================================================
+   59. Karte: helle Sprechzeilen, Fahrzeug als Linienzeichnung
+   ========================================================================== */
+/* Die dunkle Platte wich einem hellen Verlauf. Schrift und Icons stehen
+   deshalb jetzt dunkel beziehungsweise in den Hausfarben. */
+/* Die Fuellung muss aus dem Stylesheet kommen: ein fill-Attribut im
+   Markup steht in der Rangfolge unter jeder CSS-Regel. */
+.mk-ev__tipbg{
+  fill:url(#mk-tipgrad);
+  opacity:1;
+  stroke:rgba(17,97,115,.18);stroke-width:0.1;
+}
+.mk-ev__tiptext{fill:var(--mk-ink);font-weight:450}
+.mk-ev__tipicon{fill:var(--mk-teal-deep)}
+.mk-ev[data-kind="bewertung"] .mk-ev__tipicon{fill:#C8901A}
+.mk-ev[data-kind="shop"] .mk-ev__tipicon,
+.mk-ev[data-kind="mail"] .mk-ev__tipicon{fill:var(--mk-teal-mid)}
+.mk-ev__vanline{
+  fill:none;stroke:var(--mk-teal-deep);
+  stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round;
+}
+
+/* ==========================================================================
+   60. Bewertung: der Wert in Gold
+   ========================================================================== */
+/* Verlauf über die Ziffern. Der Vorlesetext steht unverändert daneben,
+   die Zahl bleibt also auch ohne Farbe zugänglich. */
+.mk-rating__value{
+  background:linear-gradient(135deg,#8A6508 0%,#C8901A 45%,#E8B84B 100%);
+  -webkit-background-clip:text;background-clip:text;
+  color:#8A6508;-webkit-text-fill-color:transparent;
+  font-weight:600;
+}
+
+/* ==========================================================================
+   61. Fußzeile: Auszeichnungen und Logo ohne weiße Platte
+   ========================================================================== */
+.mk-foot__badges{
+  margin-top:clamp(28px,3vw,44px);padding-top:clamp(20px,2.4vw,30px);
+  border-top:1px solid var(--mk-line-dark);
+}
+.mk-foot__badgetitle{
+  font-size:.6875rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--mk-on-dark-3);margin-bottom:14px;
+}
+.mk-foot__badges ul{display:flex;flex-wrap:wrap;gap:10px}
+.mk-badge{
+  display:flex;align-items:center;justify-content:center;
+  min-width:104px;height:44px;padding:0 14px;
+  border:1px dashed var(--mk-line-dark);
+  background:rgba(255,255,255,.03);
+}
+.mk-badge span{
+  font-size:.625rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--mk-on-dark-3);
+}
+/* Die Marke steht ohne weiße Platte — wie oben in der Kopfzeile wird die
+   Datei umgekehrt gezeichnet. Eine echte Negativfassung löst das endgültig,
+   siehe docs/TODO.md Punkt 31. */
+.mk-foot__brand img{
+  background:none;padding:0;
+  filter:saturate(0) invert(1) brightness(1.5) contrast(1.15);
+  mix-blend-mode:screen;
+}
+
+/* ==========================================================================
+   62. Film hinter der Bildzäsur
+   ========================================================================== */
+.mk-caesura{position:relative;overflow:hidden}
+.mk-caesura__video{
+  position:absolute;inset:0;z-index:1;
+  width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity 900ms var(--mk-ease-out);
+  pointer-events:none;
+}
+.mk-caesura__video.is-ready{opacity:1}

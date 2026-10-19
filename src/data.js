@@ -31,6 +31,7 @@ const TEL = {
   reparatur:   { text: '+49 89 897717-20', href: 'tel:+498989771720' },
   gebraucht:   { text: '+49 89 897717-12', href: 'tel:+498989771712' },
   kurse:       { text: '+49 89 897717-28', href: 'tel:+498989771728' },
+  buchhaltung: { text: '+49 89 897717-21', href: 'tel:+498989771721' },
   webshop:     { text: '+49 89 897717-12', href: 'tel:+498989771712' },
   webshop2:    { text: '+49 89 897717-31', href: 'tel:+498989771731' },
   zentrale2:   { text: '+49 89 897717-27', href: 'tel:+498989771727' },
@@ -118,12 +119,12 @@ const PEOPLE = [
     alt: 'Verkäufer im Merkle-Ladengeschäft berät einen Kunden über zwei Schweißhelme auf dem Verkaufstresen'
   },
   {
-    bereich: 'Werkstatt',
-    text: 'Reparatur, UVV-Prüfung nach EN/IEC 60&nbsp;974-4 und Gebrauchtanlagen. Für die Dauer der Reparatur stellen wir Ihnen auf Wunsch ein Mietgerät zur Verfügung.',
-    tel: TEL.zentrale,
-    mail: 'werkstatt@merkle-muenchen.de',
-    img: 'schweisskurse-1200x500-1.png',
-    alt: 'Werkstattmitarbeiter in Schweißerjacke mit Schweißbrenner und Schutzhelm in der Merkle-Werkstatt'
+    bereich: 'Gase',
+    text: 'Zwölf Gase am Lager — Argon, Mischgas, Kohlensäure, Acetylen, Sauerstoff, Propan und mehr. Bestellen, abholen oder liefern lassen; Eigentumsflaschen tauschen wir leer gegen voll, ohne TÜV-Sorgen und ohne Bindung.',
+    tel: TEL.gase,
+    mail: 'info@merkle-muenchen.de',
+    img: '20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09808.jpg',
+    alt: 'Überdachtes Gasflaschenlager von Merkle München mit Flaschen in Gitterboxen und Hinweisschild zum Tauschflaschensystem'
   },
   {
     bereich: 'Schweißkurse',
@@ -136,7 +137,7 @@ const PEOPLE = [
   {
     bereich: 'Buchhaltung',
     text: 'Fragen zu Ihrer Rechnung oder zu Finanzierungsmöglichkeiten? Unsere Buchhaltung hilft weiter — Anlagen finanzieren Sie bei uns direkt, ohne Bankeinschaltung.',
-    tel: TEL.zentrale,
+    tel: TEL.buchhaltung,
     mail: 'buchhaltung@merkle-muenchen.de',
     img: 'buchhaltung-1200x500-1.png',
     alt: 'Zwei Mitarbeitende der Merkle-Buchhaltung im Bürogang'
@@ -498,19 +499,20 @@ const BERATER_TEAM = [
 const KUNDEN = [
   { img: 'kunde-maurer.png',                    name: 'Maurer' },
   { img: 'kunde-siemens.png',                   name: 'Siemens' },
-  { img: 'kunde-swm.png',                       name: 'Stadtwerke München' },
-  { img: 'kunde-bundeswehr.png',                name: 'Bundeswehr', hoch: true },
-  { img: 'kunde-tum.png',                       name: 'Technische Universität München' },
+  { img: 'kunde-swm.png',                       name: 'Stadtwerke München', h: 32 },
+  { img: 'kunde-bundeswehr.png',                name: 'Bundeswehr', h: 62, breit: true },
+  { img: 'kunde-tum.png',                       name: 'Technische Universität München', h: 32 },
   { img: 'kunde-mtu.png',                       name: 'MTU Aero Engines' },
-  { img: 'kunde-landeshauptstadt-muenchen.png', name: 'Landeshauptstadt München' },
-  { img: 'kunde-baywa.png',                     name: 'BayWa', boxed: true },
+  { img: 'kunde-landeshauptstadt-muenchen.png', name: 'Landeshauptstadt München', h: 52, breit: true },
+  { img: 'kunde-baywa.png',                     name: 'BayWa', h: 64, breit: true },
   { img: 'kunde-eaton.png',                     name: 'Eaton' },
   { img: 'kunde-convotherm.png',                name: 'Convotherm' },
   { img: 'kunde-lausser.png',                   name: 'Lausser Anlagenbau Stuttgart' },
-  { img: 'kunde-hochland.png',                  name: 'Hochland', boxed: true },
+  { img: 'kunde-hochland.png',                  name: 'Hochland', h: 64, breit: true },
   { img: 'kunde-schandl.png',                   name: 'Schandl' },
   { img: 'kunde-sd-hirsch.png',                 name: 'SD Hirsch automotive' }
 ];
+
 
 
 

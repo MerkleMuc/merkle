@@ -176,3 +176,20 @@ Stand: 19.10.2026
 | 52 | **Vierzehn Kundenlogos** (löst 51 ab) | Reihenfolge nach Vorgabe: Maurer, Siemens, SWM, Bundeswehr, TUM, MTU, Landeshauptstadt München, BayWa, Eaton, dann Convotherm, Lausser, Hochland, Schandl, SD Hirsch. Das Feld bricht um und zentriert die letzte Reihe. Bundeswehr steht hochformatig und deshalb etwas kleiner, BayWa und Hochland liegen auf deckender Fläche. → Freigaben der Markeninhaber liegen uns weiterhin nicht vor. |
 | 53 | **Mehr Ruhe auf der Bühne** | Die Bühne ist um 180 px gewachsen: rund 260 px zwischen Kopfzeile und Kicker, rund 100 px zwischen den Schaltflächen und dem Kennzahlenband. Am Handy nur die Hälfte, sonst rutscht die Überschrift aus dem Bild. |
 | 54 | **Film hinter der Bühne — liegt, lädt aber nicht** | Markup, CSS und Steuerung stehen (`[data-herovideo]`, `site/assets/js/merkle.js`). Der Film startet stumm, läuft in Schleife und spielt nur die ersten 12 Sekunden, damit der Browser über Bereichsanfragen nicht die ganze Datei zieht. Er kommt nur bei mindestens 1024 px, ohne Sparmodus, ohne langsame Leitung und ohne reduzierte Bewegung; schlägt etwas fehl, entfernt sich das Element und das Standbild bleibt. **Zwei Hindernisse:** das Zertifikat von `verwaltung.merkle-allinclusive.de` ist am 30.04.2026 abgelaufen, jeder Browser blockt die Datei (`ERR_CERT_DATE_INVALID`); und die Datei ist 112 MB groß, als Hintergrundfilm unbrauchbar. → Zertifikat erneuern und den Film auf rund 1280 px, 10–15 Sekunden und wenige MB bringen, dann greift alles von selbst. |
+
+---
+
+## 13. Stand nach der Ausbaustufe 10
+
+Stand: 19.10.2026
+
+| # | Punkt | Detail |
+|---|---|---|
+| 55 | **Logohöhen je Marke** | Grundhöhe 52 px, die Breite richtet sich selbst danach. SWM und TUM stehen bei 32 px, Bundeswehr bei 62, BayWa und Hochland bei 64. **Landeshauptstadt München bleibt bei 31 px** — die Wortmarke ist so breit, dass die Spalte die Höhe begrenzt, bevor die Vorgabe greift. Höher ginge nur mit einer doppelt breiten Zelle, die das Raster aufbricht. Alle Kacheln stehen auf Weiß. |
+| 56 | **Karte: helle Sprechzeilen** | Statt der dunklen Platte ein Verlauf von Türkiswasser nach Weiß mit Haarlinie, dunkler Schrift und Icons in den Hausfarben. Die Breite rechnet jetzt ohne Kappe (3,6 + 0,68 je Zeichen), der längste Text steht mit 35 px Luft im Kasten. |
+| 57 | **Fahrzeug als Linienzeichnung** | Das selbstgebaute Fahrzeug ist durch das Linien-Icon aus der Icon-Sammlung ersetzt, im selben Strichstil wie der Rest. |
+| 58 | **Startseite: Gase statt Werkstatt** | Die dritte Karte unter den vier Durchwahlen führt jetzt das Gasgeschäft mit Durchwahl −17 und info@merkle-muenchen.de. Buchhaltung steht wieder auf −21. |
+| 59 | **Bewertung in Gold** | Der Wert steht in einem Goldverlauf (#8A6508 → #E8B84B) über `background-clip`. Der Vorlesetext daneben bleibt unverändert, die Zahl ist also auch ohne Farbe zugänglich. |
+| 60 | **Fußzeile: Auszeichnungen** | Schmale Leiste über den Rechtstexten mit fünf gestrichelten Platzhaltern „Logo folgt". → Sobald die echten Label-Logos vorliegen, treten sie an ihre Stelle. |
+| 61 | **Footer-Logo ohne weiße Platte** | Dieselbe Umkehrung wie in der Kopfzeile. Die Einschränkung aus Punkt 31 gilt weiter: eine echte Negativfassung als SVG löst das endgültig. |
+| 62 | **Über uns: Film und drei Jahreszahlen** | Die Luftaufnahme bekommt denselben Film wie die Startseite, hier durchlaufend statt im Zwölf-Sekunden-Fenster. 2018, 2024 und 2026 sind in der Zeitleiste ergänzt, die Überschrift nennt jetzt acht Jahreszahlen. Der Film lädt weiterhin nicht, solange das Zertifikat der Quelle abgelaufen ist (Punkt 54). |

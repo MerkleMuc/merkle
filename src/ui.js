@@ -319,6 +319,13 @@ function footer(lang) {
     <div class="mk-foot__locs">${locs}
     </div>
 
+    <div class="mk-foot__badges">
+      <p class="mk-foot__badgetitle">${en ? 'Labels and awards' : 'Labels und Auszeichnungen'}</p>
+      <ul>
+        ${[1, 2, 3, 4, 5].map(n => `<li class="mk-badge mk-badge--leer"><span>${en ? 'Logo pending' : 'Logo folgt'}</span></li>`).join('\n        ')}
+      </ul>
+    </div>
+
     <div class="mk-foot__legal">
       <ul>
         ${LEGAL_LINKS.map(l => `<li><a href="${attr(l.href)}">${esc(l.label)}</a></li>`).join('\n        ')}
@@ -414,8 +421,15 @@ function figures(o) {
 
 /* 6.4 Bildzäsur */
 function caesura(o) {
+  /* Wie auf der Bühne: das Standbild trägt, der Film legt sich nur darüber,
+     wenn Gerät und Leitung das hergeben. */
+  const film = o.video
+    ? `<video class="mk-caesura__video" data-herovideo data-src="${attr(o.video)}" data-loop="${o.videoLoop === 0 ? 0 : (o.videoLoop || 12)}"
+      muted loop playsinline preload="none" tabindex="-1" aria-hidden="true"></video>`
+    : '';
   return `<section class="mk-caesura" aria-hidden="${o.decorative === false ? 'false' : 'true'}">
   ${picture({ file: o.img, alt: o.alt, sizes: '100vw' })}
+  ${film}
 </section>`;
 }
 
@@ -671,7 +685,7 @@ function bayernMap() {
     const faehrt = (e.kind === 'liefer' || e.kind === 'anfahrt') && ziel;
 
     const M = 1.5;
-    const w = Math.min(32, 3.4 + e.text.length * 0.6);
+    const w = 3.6 + e.text.length * 0.68;
     const links = p.x > geo.CX + 16;
     const bx = links ? p.x - w * M - 2.1 : p.x + 2.1;
 
@@ -685,16 +699,17 @@ function bayernMap() {
           </g>
         </g>
         <g transform="translate(${bx} ${p.y - 5.2 * M}) scale(${M})"><g class="mk-ev__tip">
-          <rect class="mk-ev__tipbg" x="0" y="0" width="${w}" height="2.9" rx="0.3"/>
+          <rect class="mk-ev__tipbg" x="0" y="0" width="${w}" height="2.9" rx="0.3" fill="url(#mk-tipgrad)"/>
           <g class="mk-ev__tipicon" transform="translate(0.75 0.72) scale(0.2)">${KIND_ICON[e.kind] || ''}</g>
           <text class="mk-ev__tiptext" x="2.7" y="2.05">${esc(e.text)}</text>
         </g></g>
-        ${faehrt ? `<g class="mk-ev__van" data-van="${i}"><g transform="scale(${M})">
-          <rect class="mk-ev__vanbody" x="-1.05" y="-0.68" width="1.5" height="0.95" rx="0.15"/>
-          <path class="mk-ev__vanbody" d="M0.45-0.36h0.5l0.45 0.39v0.24H0.45z"/>
-          <rect class="mk-ev__vanaccent" x="-1.05" y="-0.68" width="1.5" height="0.28" rx="0.15"/>
-          <circle class="mk-ev__vanwheel" cx="-0.6" cy="0.4" r="0.25"/>
-          <circle class="mk-ev__vanwheel" cx="0.85" cy="0.4" r="0.25"/>
+        ${faehrt ? `<g class="mk-ev__van" data-van="${i}"><g transform="scale(${M}) translate(-0.9 -0.75)">
+          <!-- Linienzeichnung im Stil der übrigen Icons, 40er-Raster auf 1,8 Einheiten -->
+          <g transform="scale(0.045)" class="mk-ev__vanline">
+            <path d="M3 10h20v16H3zM23 15h6l5 5v6h-11z"/>
+            <circle cx="11" cy="30" r="3"/>
+            <circle cx="28" cy="30" r="3"/>
+          </g>
         </g></g>` : ''}
       </g>`;
   }).join('\n      ');
@@ -726,6 +741,12 @@ function bayernMap() {
             <stop offset="34%" stop-color="#1C7488"/>
             <stop offset="70%" stop-color="#31BDD0"/>
             <stop offset="100%" stop-color="#2BE0F0"/>
+          </linearGradient>
+          <!-- Heller Grund der Sprechzeilen -->
+          <linearGradient id="mk-tipgrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#E4F6F8"/>
+            <stop offset="55%" stop-color="#F6FCFD"/>
+            <stop offset="100%" stop-color="#FFFFFF"/>
           </linearGradient>
           <radialGradient id="mk-bykern" cx="54%" cy="50%" r="34%">
             <stop offset="0%" stop-color="#ffffff" stop-opacity=".62"/>
@@ -762,7 +783,7 @@ function bayernMap() {
    derselben Box, alle entsättigt. Beim Überfahren kommt die Farbe zurück. */
 function logos(o) {
   o = o || {};
-  const items = (o.items || KUNDEN).map(k => `<li class="mk-logos__item${k.boxed ? ' mk-logos__item--boxed' : ''}${k.hoch ? ' mk-logos__item--hoch' : ''}">
+  const items = (o.items || KUNDEN).map(k => `<li class="mk-logos__item${k.breit ? ' mk-logos__item--breit' : ''}"${k.h ? ` style="--logo-h:${k.h}px"` : ''}>
         ${plainImg(k.img, (o.altPrefix || 'Logo ') + k.name, { sizes: '160px' })}
       </li>`).join('\n      ');
 
