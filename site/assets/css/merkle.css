@@ -2816,3 +2816,33 @@ html:not(.mk-js) .mk-bottle__pic{opacity:1}
 .mk-logos__item{height:58px}
 .mk-logos__item img{max-height:52px}
 .mk-logos__item--boxed img{max-height:44px}
+
+/* ==========================================================================
+   56. Gelbe Schaltfläche: gleiche Maße wie die Bewertung darunter
+   ========================================================================== */
+/* Beide Elemente der Leiste werden auf dieselbe Breite gezogen — die
+   Leiste selbst bleibt so breit wie ihr breitestes Kind. Die Höhe stimmt
+   über dieselbe Polsterung und dieselbe Kreisgröße überein. */
+.mk-rating{align-items:stretch}
+.mk-rating__save{
+  justify-content:space-between;
+  padding:9px 9px 9px 18px;
+}
+.mk-rating__savecheck{width:30px;height:30px;flex-basis:30px}
+.mk-rating__savecheck .mk-icon{width:15px;height:15px}
+.mk-rating__link{align-self:flex-start}
+@media (max-width:767px){
+  /* Mobil bleibt die Bewertung ein Punkt — die Schaltfläche daneben auch. */
+  .mk-rating{align-items:flex-start}
+  .mk-rating__save{padding:5px;gap:0;justify-content:center}
+  .mk-rating__savecheck{width:24px;height:24px;flex-basis:24px}
+}
+
+/* Miniatur mit Portrait statt Signet */
+.mk-mini__avatar{overflow:hidden;background:none}
+.mk-mini__avatar img{width:100%;height:100%;object-fit:cover;display:block;border-radius:var(--mk-r-pill)}
+.mk-mini__avatar picture{display:block;width:100%;height:100%}
+/* Höhe an die Bewertung angleichen: dieselbe Gesamthöhe wie die Pille. */
+.mk-rating__save{padding:5px 5px 5px 16px}
+.mk-rating__savecheck{width:21px;height:21px;flex-basis:21px}
+.mk-rating__savecheck .mk-icon{width:12px;height:12px}

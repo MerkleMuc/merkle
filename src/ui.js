@@ -666,31 +666,32 @@ function bayernMap() {
     const b = ein ? (ziel || p) : p;
     const faehrt = (e.kind === 'liefer' || e.kind === 'anfahrt') && ziel;
 
+    const M = 1.5;
     const w = Math.min(32, 3.4 + e.text.length * 0.6);
     const links = p.x > geo.CX + 16;
-    const bx = links ? p.x - w - 1.4 : p.x + 1.4;
+    const bx = links ? p.x - w * M - 2.1 : p.x + 2.1;
 
     return `<g class="mk-ev" data-ev="${i}" data-kind="${attr(e.kind)}">
         ${faehrt ? `<path class="mk-ev__route" d="M${a.x} ${a.y} Q ${(a.x + b.x) / 2 + (b.y - a.y) / 4.5} ${(a.y + b.y) / 2 - (b.x - a.x) / 4.5} ${b.x} ${b.y}" data-route="${i}"/>` : ''}
-        <circle class="mk-ev__pulse" cx="${p.x}" cy="${p.y}" r="0.8"/>
-        <g transform="translate(${p.x} ${p.y})">
+        <circle class="mk-ev__pulse" cx="${p.x}" cy="${p.y}" r="1.2"/>
+        <g transform="translate(${p.x} ${p.y}) scale(${M})">
           <g class="mk-ev__pin">
             <path class="mk-ev__pinbody" d="M0 0c0 0-1.05-1.1-1.05-1.85A1.05 1.05 0 0 1 0-2.9a1.05 1.05 0 0 1 1.05 1.05C1.05-1.1 0 0 0 0Z"/>
             <circle class="mk-ev__pinmark" cx="0" cy="-1.85" r="0.34"/>
           </g>
         </g>
-        <g transform="translate(${bx} ${p.y - 5.2})"><g class="mk-ev__tip">
+        <g transform="translate(${bx} ${p.y - 5.2 * M}) scale(${M})"><g class="mk-ev__tip">
           <rect class="mk-ev__tipbg" x="0" y="0" width="${w}" height="2.9" rx="0.3"/>
           <g class="mk-ev__tipicon" transform="translate(0.75 0.72) scale(0.2)">${KIND_ICON[e.kind] || ''}</g>
           <text class="mk-ev__tiptext" x="2.7" y="2.05">${esc(e.text)}</text>
         </g></g>
-        ${faehrt ? `<g class="mk-ev__van" data-van="${i}">
+        ${faehrt ? `<g class="mk-ev__van" data-van="${i}"><g transform="scale(${M})">
           <rect class="mk-ev__vanbody" x="-1.05" y="-0.68" width="1.5" height="0.95" rx="0.15"/>
           <path class="mk-ev__vanbody" d="M0.45-0.36h0.5l0.45 0.39v0.24H0.45z"/>
           <rect class="mk-ev__vanaccent" x="-1.05" y="-0.68" width="1.5" height="0.28" rx="0.15"/>
           <circle class="mk-ev__vanwheel" cx="-0.6" cy="0.4" r="0.25"/>
           <circle class="mk-ev__vanwheel" cx="0.85" cy="0.4" r="0.25"/>
-        </g>` : ''}
+        </g></g>` : ''}
       </g>`;
   }).join('\n      ');
 
@@ -701,10 +702,10 @@ function bayernMap() {
           <!-- Punktraster als Maske: ein Rechteck je Fläche, nicht tausend Kreise.
                Die Farbe kommt vom Rechteck darunter, nicht vom Punkt. -->
           <pattern id="mk-m1" width="1.62" height="1.62" patternUnits="userSpaceOnUse">
-            <circle cx="0.81" cy="0.81" r="0.22" fill="#fff"/>
+            <circle cx="0.81" cy="0.81" r="0.11" fill="#fff"/>
           </pattern>
           <pattern id="mk-m2" width="1.42" height="1.42" patternUnits="userSpaceOnUse">
-            <circle cx="0.71" cy="0.71" r="0.36" fill="#fff"/>
+            <circle cx="0.71" cy="0.71" r="0.18" fill="#fff"/>
           </pattern>
           <mask id="mk-mk-feld" maskUnits="userSpaceOnUse" x="10" y="8" width="180" height="172">
             <rect x="10" y="8" width="180" height="172" fill="url(#mk-m1)"/>
@@ -1280,8 +1281,8 @@ function dock(en) {
 function ratingBar(en) {
   const t = EN_TEXT;
   return `<aside class="mk-float mk-rating" aria-label="${en ? 'Google rating' : 'Google-Bewertung'}" data-ratingbar>
-  <a class="mk-rating__save" href="https://google.com/preferences/source?q=merkle-shop.de" target="_blank" rel="noopener" aria-label="${en ? 'Save us directly in Google' : 'Speichere uns direkt in Google'}">
-    <span class="mk-rating__savetext">${en ? 'Save us directly in Google' : 'Speichere uns direkt in Google'}</span>
+  <a class="mk-rating__save" href="https://google.com/preferences/source?q=merkle-shop.de" target="_blank" rel="noopener" aria-label="${en ? 'Save website in Google' : 'Webseite in Google speichern'}">
+    <span class="mk-rating__savetext">${en ? 'Save website' : 'Webseite speichern'}</span>
     <span class="mk-rating__savecheck" aria-hidden="true">${icon('check')}</span>
   </a>
   <a class="mk-rating__pill" href="${attr(GOOGLE.url)}" target="_blank" rel="noopener">
@@ -1355,7 +1356,7 @@ function beraterCard(en) {
 <button class="mk-float mk-mini" type="button" data-berater-mini hidden aria-label="${en ? 'Open contact card' : 'Kontaktkarte öffnen'}">
   <span class="mk-mini__dot" aria-hidden="true"></span>
   <span class="mk-mini__text">${en ? 'Online' : 'Online'} <b data-mini-hours></b></span>
-  <span class="mk-mini__avatar" aria-hidden="true">${icon('user')}</span>
+  <span class="mk-mini__avatar" aria-hidden="true">${plainImg(BERATER_TEAM[0].leute[0].foto, '', { sizes: '28px' })}</span>
 </button>
 </aside>`;
 }

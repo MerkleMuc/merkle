@@ -151,3 +151,16 @@ Stand: 19.10.2026
 | 45 | **Karte bewegt sich schwächer** | Die Zeigerbewegung ist auf etwa ein Drittel zurückgenommen: höchstens 1,5 Grad seitlich, 1 Grad in der Neigung, 4,5 px Versatz. |
 | 46 | **Schaltfläche „Speichere uns direkt in Google"** | Steht über der Bewertungsleiste, in denselben Maßen, Ziel `https://google.com/preferences/source?q=merkle-shop.de` in einem neuen Tab. Mobil schrumpft sie wie die Bewertung auf einen runden Punkt. → Das Ziel ist eine Google-Einstellungsseite; ob sie in jedem Konto so greift, ist nicht geprüft. |
 | 47 | **Kundenlogos** | Neun Logos im freien Weiß unter dem Kennzahlenband, Überschrift „Langjährige Kundenbeziehungen". Kein Karussell, feste Reihen, alle entsättigt und auf gleiche Höhe gebracht; beim Überfahren kommt die Farbe zurück. BayWa und Hochland liegen auf deckender Fläche und stehen deshalb etwas kleiner. → Die Logos stammen aus den gelieferten Dateien; eine Freigabe der jeweiligen Markeninhaber liegt uns nicht vor. |
+
+---
+
+## 11. Stand nach der Ausbaustufe 8
+
+Stand: 19.10.2026
+
+| # | Punkt | Detail |
+|---|---|---|
+| 48 | **Kontaktkarte startet eingeklappt** | Im Standard erscheint nur die Miniatur — mit dem Portrait der ersten Ansprechperson der Zentrale, den Öffnungszeiten des Tages und dem grünen Punkt. Erst ein Klick öffnet die volle Karte, das Kreuz klappt sie wieder ein. Die Karte erscheint weiterhin nur innerhalb der Öffnungszeiten des Ladens in München. |
+| 49 | **Gelbe Schaltfläche angeglichen** | Beschriftung jetzt „Webseite speichern". Sie liegt in Breite und Höhe exakt auf der Bewertungspille darunter (178 × 33 zu 178 × 31 px bei 1440 px) und schwebt darüber. |
+| 50 | **Karte: feineres Raster, größere Ereignisse** | Die Punkte sind halbiert (0,11 und 0,18 statt 0,22 und 0,36), die Abstände blieben unverändert — das Muster tritt zurück. Nadeln, Sprechzeilen und Fahrzeuge sind um die Hälfte größer. |
+| 51 | **Fünf Kundenlogos fehlen noch** | SWM, Bundeswehr, TUM, Schandl und SD Hirsch sind in der gewünschten Reihenfolge vorgesehen, die Dateien haben uns aber nicht erreicht. Die Lücken stehen als Kommentar in `src/data.js` an der richtigen Stelle. |

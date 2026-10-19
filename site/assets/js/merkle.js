@@ -641,8 +641,9 @@
       if (gezeigt) return;
       gezeigt = true;
       window.removeEventListener('scroll', beiScroll);
-      if (closed()) { showMini(); return; }
-      openCard();
+      /* Im Standard erscheint nur die Miniatur; die volle Karte kommt erst
+         auf Klick. */
+      showMini();
     }
     function beiScroll() { if (window.scrollY > 260) window.setTimeout(auftauchen, 1200); }
     window.addEventListener('scroll', beiScroll, { passive: true });
