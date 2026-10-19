@@ -38,7 +38,7 @@ function contactEn(o) {
         <dl>
           <dt>Reception</dt><dd><a href="${TEL.zentrale.href}">${esc(TEL.zentrale.text)}</a></dd>
           <dt>Sales</dt><dd><a href="${TEL.verkauf.href}">${esc(TEL.verkauf.text)}</a></dd>
-          <dt>Workshop</dt><dd><a href="${TEL.werkstatt.href}">${esc(TEL.werkstatt.text)}</a></dd>
+          <dt>Repairs</dt><dd><a href="${TEL.reparatur.href}">${esc(TEL.reparatur.text)}</a></dd>
           <dt>Gases</dt><dd><a href="${TEL.gase.href}">${esc(TEL.gase.text)}</a></dd>
           <dt>E-mail</dt><dd><a href="mailto:info@merkle-muenchen.de">info@merkle-muenchen.de</a></dd>
           <dt>Address</dt><dd>Anton-Böck-Straße 31<br>81249 München, Germany</dd>
@@ -206,7 +206,7 @@ function serviceEn() {
           alt: 'Workshop employee with a welding torch in the Merkle workshop',
           title: 'Workshop and repair',
           body: '<p>We repair faulty machines of all makes and carry out the prescribed tests to EN/IEC 60&nbsp;974-4 — in our workshop in Munich-Freiham or at your site. While your machine is with us we can provide a rental machine.</p>',
-          link: { label: 'Workshop: ' + TEL.werkstatt.text, href: TEL.werkstatt.href }
+          link: { label: 'Repairs: ' + TEL.reparatur.text, href: TEL.reparatur.href }
         },
         {
           img: '20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09881-hdr.jpg',

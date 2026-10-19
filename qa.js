@@ -148,8 +148,10 @@ const HIDDEN_FN = (onlyAbove) => {
           /* Radius-Skala: kantig. Erlaubt ist 0 — rund ist nur, was man
              anklickt, und das sind Pill-Werte ab 100 px. */
           const ALLOWED = [0];
-          /* Einzige begründete Ausnahme: die Sprechblase der Beraterkarte. */
-          const AUSNAHME = '.mk-berater__bubble';
+          /* Einzige begründete Ausnahme: die Kontaktkarte rechts unten. Sie ist
+             auf Wunsch des Betreibers durchgehend abgerundet, weil sie als
+             Bedienelement und nicht als Fläche der Seite gelesen wird. */
+          const AUSNAHME = '.mk-berater';
           const radii = [];
           document.querySelectorAll('*').forEach(el => {
             if (el.closest(AUSNAHME)) return false;

@@ -135,3 +135,19 @@ Stand: 19.10.2026
 | 38 | **Durchwahlen** | Neu aufgenommen: Reparaturen −20, Schweißkurse −28, Webshop −12 und −31. Die älteren `tel:`-Einträge in `src/data.js` tragen eine Ziffer zu viel (`tel:+4989897717016` statt `tel:+498989771716`); die neuen Einträge sind korrekt. → Die alten sollten bei Gelegenheit nachgezogen werden. |
 | 39 | **Nachbarländer auf der Karte** | Österreich, Schweiz, Tschechien, Polen, Frankreich, Belgien, Niederlande, Luxemburg, Dänemark, Italien, Slowenien und die Slowakei sind als Haarlinie angedeutet. Die Umrisse in `src/geo.js` (`NACHBARN`) sind grob abgefahren und bewusst stützpunktarm — eine amtliche Grenzdarstellung sind sie nicht. Für Deutschland gelten weiterhin die amtlichen Umrisse. |
 | 40 | **Gasflaschen-Slider verschoben** | Das Band steht jetzt unter der Tabelle „Diese Flaschen tauschen wir leer gegen voll“ (`#flaschengroessen`) statt vor dem Tauschsystem. |
+
+---
+
+## 10. Stand nach der Ausbaustufe 7
+
+Stand: 19.10.2026
+
+| # | Punkt | Detail |
+|---|---|---|
+| 41 | **Portraits zugeordnet** (löst 36 ab) | Vom Betreiber bestätigt: Zentrale Siegfried Awissus und Jan Krafft, Vertrieb Thomas Wagner, Gase Bef Dagim, Reparatur Benjamin Awissus, Schweißkurse Vanessa Mendes, Webshop Manuel Maier und Eric Dietrich. |
+| 42 | **Kontaktkarte: Schließer und Blätterpfeile** | Das Kreuz verkleinert die Karte wieder auf die Miniatur. Themen mit mehreren Ansprechpersonen (Zentrale, Webshop) tragen ein Pfeilpaar mit Zähler; Name, Rolle und Durchwahl wechseln mit, die E-Mail bleibt info@. |
+| 43 | **Durchwahlen bereinigt** | Werkstatt −18, Einkauf −19, Buchhaltung −21 und Mahnwesen −22 sind von der Seite genommen. −20 heißt jetzt Reparatur statt Schweißtechnik, Schweißkurse laufen über −28 statt −11. Die Abschnitte Werkstatt und Buchhaltung verweisen jetzt auf die Zentrale −0, damit dort ein erreichbarer Anschluss steht. Sämtliche `tel:`-Ziele sind auf die korrekte Form gebracht (Punkt 38 erledigt). |
+| 44 | **Nachbarländer aus echten Geodaten** (löst 39 ab) | Grundlage ist jetzt Natural Earth 110 m (gemeinfrei), eingedampft auf die zwölf Nachbarn im sichtbaren Ausschnitt: `_bestand/nachbarlaender.geo.json`, rund 8 KB, wird nur beim Bauen gelesen. Die handgesetzten Umrisse sind entfallen. |
+| 45 | **Karte bewegt sich schwächer** | Die Zeigerbewegung ist auf etwa ein Drittel zurückgenommen: höchstens 1,5 Grad seitlich, 1 Grad in der Neigung, 4,5 px Versatz. |
+| 46 | **Schaltfläche „Speichere uns direkt in Google"** | Steht über der Bewertungsleiste, in denselben Maßen, Ziel `https://google.com/preferences/source?q=merkle-shop.de` in einem neuen Tab. Mobil schrumpft sie wie die Bewertung auf einen runden Punkt. → Das Ziel ist eine Google-Einstellungsseite; ob sie in jedem Konto so greift, ist nicht geprüft. |
+| 47 | **Kundenlogos** | Neun Logos im freien Weiß unter dem Kennzahlenband, Überschrift „Langjährige Kundenbeziehungen". Kein Karussell, feste Reihen, alle entsättigt und auf gleiche Höhe gebracht; beim Überfahren kommt die Farbe zurück. BayWa und Hochland liegen auf deckender Fläche und stehen deshalb etwas kleiner. → Die Logos stammen aus den gelieferten Dateien; eine Freigabe der jeweiligen Markeninhaber liegt uns nicht vor. |

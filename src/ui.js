@@ -4,7 +4,7 @@
 
 const {
   SITE, EXTERN, TEL, STANDORTE, PEOPLE, VERFAHREN, FIGURES, NAV, FOOTER_COLS, LEGAL_LINKS,
-  GOOGLE, REVIEWS, WHATSAPP, BERATER, BERATER_TEAM, MAP_EVENTS, NAV_EN, FOOTER_COLS_EN, EN_TEXT
+  GOOGLE, REVIEWS, WHATSAPP, BERATER, BERATER_TEAM, KUNDEN, MAP_EVENTS, NAV_EN, FOOTER_COLS_EN, EN_TEXT
 } = require('./data');
 const { icon, iconBox, stars } = require('./icons');
 
@@ -752,6 +752,25 @@ function bayernMap() {
 /* Breites Band zum Durchswipen: mindestens sechs Flaschen nebeneinander,
    die mittlere steht größer und trägt Bezeichnung und Text. Welche das ist,
    rechnet die JS beim Scrollen aus; ohne JS bleibt es eine Liste. */
+/* -------------------------------------------------- Kundenlogos -------- */
+/* Ein ruhiges Feld statt eines Karussells: feste Reihen, jedes Logo in
+   derselben Box, alle entsättigt. Beim Überfahren kommt die Farbe zurück. */
+function logos(o) {
+  o = o || {};
+  const items = (o.items || KUNDEN).map(k => `<li class="mk-logos__item${k.boxed ? ' mk-logos__item--boxed' : ''}">
+        ${plainImg(k.img, (o.altPrefix || 'Logo ') + k.name, { sizes: '160px' })}
+      </li>`).join('\n      ');
+
+  return `<section class="mk-logos${o.wash ? ' mk-wash' : ''}"${o.id ? ` id="${o.id}"` : ''}>
+  <div class="mk-container">
+    <p class="mk-logos__kicker">${esc(o.kicker || 'Langjährige Kundenbeziehungen')}</p>
+    <ul class="mk-logos__list">
+      ${items}
+    </ul>
+  </div>
+</section>`;
+}
+
 function bottles(o) {
   const items = (o.items || []).map((b, i) => `<li class="mk-bottle" data-bottle="${i}">
         <span class="mk-bottle__pic">${plainImg(b.img, b.alt || (b.title + ' Gasflasche'), { sizes: '(max-width:767px) 40vw, 200px' })}</span>
@@ -865,7 +884,7 @@ function contactband(o) {
         <dl>
           <dt>Zentrale</dt><dd><a href="${TEL.zentrale.href}">${esc(TEL.zentrale.text)}</a></dd>
           <dt>Verkauf</dt><dd><a href="${TEL.verkauf.href}">${esc(TEL.verkauf.text)}</a></dd>
-          <dt>Werkstatt</dt><dd><a href="${TEL.werkstatt.href}">${esc(TEL.werkstatt.text)}</a></dd>
+          <dt>Reparatur</dt><dd><a href="${TEL.reparatur.href}">${esc(TEL.reparatur.text)}</a></dd>
           <dt>Gase</dt><dd><a href="${TEL.gase.href}">${esc(TEL.gase.text)}</a></dd>
           <dt>E-Mail</dt><dd><a href="mailto:info@merkle-muenchen.de">info@merkle-muenchen.de</a></dd>
           <dt>Adresse</dt><dd>Anton-Böck-Straße 31<br>81249 München</dd>
@@ -1261,6 +1280,10 @@ function dock(en) {
 function ratingBar(en) {
   const t = EN_TEXT;
   return `<aside class="mk-float mk-rating" aria-label="${en ? 'Google rating' : 'Google-Bewertung'}" data-ratingbar>
+  <a class="mk-rating__save" href="https://google.com/preferences/source?q=merkle-shop.de" target="_blank" rel="noopener" aria-label="${en ? 'Save us directly in Google' : 'Speichere uns direkt in Google'}">
+    <span class="mk-rating__savetext">${en ? 'Save us directly in Google' : 'Speichere uns direkt in Google'}</span>
+    <span class="mk-rating__savecheck" aria-hidden="true">${icon('check')}</span>
+  </a>
   <a class="mk-rating__pill" href="${attr(GOOGLE.url)}" target="_blank" rel="noopener">
     <span class="mk-rating__g" aria-hidden="true">${icon('googleG')}</span>
     <span class="mk-rating__stars" aria-hidden="true">${stars(5)}</span>
@@ -1280,39 +1303,53 @@ function beraterCard(en) {
   const muc = STANDORTE[0];
   const slots = muc.hours.map(h => ({ d: h.days, o: h.open, c: h.close, o2: h.open2 || null, c2: h.close2 || null }));
 
-  /* Ein Schalter je Thema, darunter genau eine Ansprechperson. Ohne
-     JavaScript bleibt die erste sichtbar — die Karte funktioniert dann
-     als schlichter Kontakthinweis. */
-  const tabs = BERATER_TEAM.map((p, i) => `<button class="mk-berater__tab${i ? '' : ' is-active'}" type="button"
-      data-berater-tab="${attr(p.key)}" aria-pressed="${i ? 'false' : 'true'}">${esc(en ? p.tabEn : p.tab)}</button>`).join('\n    ');
+  /* Ein Schalter je Thema, darunter die zugehörigen Ansprechpersonen. Sind
+     es mehrere, blättert ein Pfeilpaar durch sie — Name, Rolle und Durchwahl
+     wechseln mit. Die E-Mail bleibt immer info@. Ohne JavaScript bleibt die
+     erste Person des ersten Themas sichtbar. */
+  const tabs = BERATER_TEAM.map((g, i) => `<button class="mk-berater__tab${i ? '' : ' is-active'}" type="button"
+      data-berater-tab="${attr(g.key)}" aria-pressed="${i ? 'false' : 'true'}">${esc(en ? g.tabEn : g.tab)}</button>`).join('\n    ');
 
-  const leute = BERATER_TEAM.map((p, i) => `<div class="mk-berater__person" data-berater-person="${attr(p.key)}"${i ? ' hidden' : ''}>
-      <div class="mk-berater__row">
-        <span class="mk-berater__avatar">
-          ${plainImg(p.foto, (en ? 'Portrait of ' : 'Portrait von ') + p.name, { sizes: '56px' })}
-          <span class="mk-berater__dot"></span>
-        </span>
-        <span>
-          <span class="mk-berater__name">${esc(p.name)}</span>
-          <span class="mk-berater__role">${esc(en ? p.rolleEn : p.rolle)}</span>
-        </span>
-      </div>
-      <div class="mk-berater__actions">
+  const gruppen = BERATER_TEAM.map((g, i) => {
+    const rolle = esc(en ? g.rolleEn : g.rolle);
+    const leute = g.leute.map((p, j) => `<div class="mk-berater__one" data-berater-one="${j}"${j ? ' hidden' : ''}>
+        <div class="mk-berater__row">
+          <span class="mk-berater__avatar">
+            ${plainImg(p.foto, (en ? 'Portrait of ' : 'Portrait von ') + p.name, { sizes: '56px' })}
+            <span class="mk-berater__dot"></span>
+          </span>
+          <span>
+            <span class="mk-berater__name">${esc(p.name)}</span>
+            <span class="mk-berater__role">${rolle}</span>
+          </span>
+        </div>
         <a class="mk-berater__call" href="${attr(p.tel.href)}">${icon('phone')}${esc(p.tel.text)}</a>
+      </div>`).join('\n      ');
+
+    const pager = g.leute.length > 1 ? `<div class="mk-berater__pager">
+        <button class="mk-berater__arrow" type="button" data-berater-arrow="-1" aria-label="${en ? 'Previous contact' : 'Vorherige Ansprechperson'}">${icon('chevronLeft')}</button>
+        <span class="mk-berater__count" data-berater-count>1/${g.leute.length}</span>
+        <button class="mk-berater__arrow" type="button" data-berater-arrow="1" aria-label="${en ? 'Next contact' : 'Nächste Ansprechperson'}">${icon('chevronRight')}</button>
+      </div>` : '';
+
+    return `<div class="mk-berater__person" data-berater-person="${attr(g.key)}"${i ? ' hidden' : ''}>
+      ${leute}
+      <div class="mk-berater__side">
+        ${pager}
         <a class="mk-berater__wa" href="${attr(WHATSAPP)}" target="_blank" rel="noopener" aria-label="${en ? 'Message on WhatsApp' : 'WhatsApp schreiben'}">${icon('whatsapp')}</a>
         <a class="mk-berater__mail" href="mailto:info@merkle-muenchen.de" aria-label="${en ? 'Write an e-mail' : 'E-Mail schreiben'}">${icon('mail')}</a>
       </div>
-      ${p.zweit ? `<p class="mk-berater__zweit">${en ? 'or' : 'oder'} ${esc(p.zweit.name)}
-        <a href="${attr(p.zweit.tel.href)}">${esc(p.zweit.tel.text)}</a></p>` : ''}
-    </div>`).join('\n    ');
+    </div>`;
+  }).join('\n    ');
 
   return `<aside class="mk-contactfloat" aria-label="${en ? 'Personal contact' : 'Persönlicher Kontakt'}">
 <div class="mk-float mk-berater" data-berater data-hours="${attr(JSON.stringify(slots))}" hidden>
+  <button class="mk-berater__close" type="button" data-berater-close aria-label="${en ? t.closeHint : 'Hinweis verkleinern'}">${icon('close')}</button>
   <p class="mk-berater__title">${icon('check')}${en ? 'We are available for you' : 'Wir sind für dich verfügbar'}</p>
   <div class="mk-berater__tabs" role="group" aria-label="${en ? 'Choose a topic' : 'Thema wählen'}">
     ${tabs}
   </div>
-  ${leute}
+  ${gruppen}
 </div>
 
 <button class="mk-float mk-mini" type="button" data-berater-mini hidden aria-label="${en ? 'Open contact card' : 'Kontaktkarte öffnen'}">
@@ -1380,7 +1417,7 @@ module.exports = {
   header, footer, hero, pageHero, breadcrumbs,
   figures, caesura, statement, register, services, cards,
   locations, people, news, shopband, contactband, siblings,
-  leadStatement, featureGrid, seriesList, bottles, disclosures, alternating,
+  leadStatement, featureGrid, seriesList, bottles, logos, disclosures, alternating,
   table, faq, downloads, prose, embed, proof, ICONS,
   slider, flow, reviews, reviewCard, floatBars, dock, ratingBar, beraterCard,
   bayernMap, locationThumb, finder, langSwitch, EN_PAGES, icon, iconBox, stars

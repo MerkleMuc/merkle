@@ -1955,6 +1955,417 @@
   ],
   "fallback": "d/kuehlfluessigkeit-4-kg-284.jpg"
  },
+ "kunde-baywa.png": {
+  "w": 420,
+  "h": 420,
+  "avif": [
+   {
+    "name": "d/kunde-baywa-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-baywa-420.avif",
+    "w": 420
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-baywa-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-baywa-420.webp",
+    "w": 420
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-baywa-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-baywa-420.png",
+    "w": 420
+   }
+  ],
+  "fallback": "d/kunde-baywa-420.png"
+ },
+ "kunde-convotherm.png": {
+  "w": 1550,
+  "h": 380,
+  "avif": [
+   {
+    "name": "d/kunde-convotherm-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-convotherm-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-convotherm-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-convotherm-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-convotherm-1550.avif",
+    "w": 1550
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-convotherm-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-convotherm-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-convotherm-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-convotherm-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-convotherm-1550.webp",
+    "w": 1550
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-convotherm-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-convotherm-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-convotherm-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-convotherm-1280.png",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-convotherm-1550.png",
+    "w": 1550
+   }
+  ],
+  "fallback": "d/kunde-convotherm-1550.png"
+ },
+ "kunde-eaton.png": {
+  "w": 181,
+  "h": 57,
+  "avif": [
+   {
+    "name": "d/kunde-eaton-181.avif",
+    "w": 181
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-eaton-181.webp",
+    "w": 181
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-eaton-181.png",
+    "w": 181
+   }
+  ],
+  "fallback": "d/kunde-eaton-181.png"
+ },
+ "kunde-hochland.png": {
+  "w": 842,
+  "h": 871,
+  "avif": [
+   {
+    "name": "d/kunde-hochland-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-hochland-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-hochland-842.avif",
+    "w": 842
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-hochland-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-hochland-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-hochland-842.webp",
+    "w": 842
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-hochland-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-hochland-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-hochland-842.png",
+    "w": 842
+   }
+  ],
+  "fallback": "d/kunde-hochland-842.png"
+ },
+ "kunde-landeshauptstadt-muenchen.png": {
+  "w": 564,
+  "h": 107,
+  "avif": [
+   {
+    "name": "d/kunde-landeshauptstadt-muenchen-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-landeshauptstadt-muenchen-564.avif",
+    "w": 564
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-landeshauptstadt-muenchen-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-landeshauptstadt-muenchen-564.webp",
+    "w": 564
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-landeshauptstadt-muenchen-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-landeshauptstadt-muenchen-564.png",
+    "w": 564
+   }
+  ],
+  "fallback": "d/kunde-landeshauptstadt-muenchen-564.png"
+ },
+ "kunde-lausser.png": {
+  "w": 1048,
+  "h": 375,
+  "avif": [
+   {
+    "name": "d/kunde-lausser-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-lausser-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-lausser-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-lausser-1048.avif",
+    "w": 1048
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-lausser-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-lausser-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-lausser-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-lausser-1048.webp",
+    "w": 1048
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-lausser-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-lausser-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-lausser-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-lausser-1048.png",
+    "w": 1048
+   }
+  ],
+  "fallback": "d/kunde-lausser-1048.png"
+ },
+ "kunde-maurer.png": {
+  "w": 592,
+  "h": 146,
+  "avif": [
+   {
+    "name": "d/kunde-maurer-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-maurer-592.avif",
+    "w": 592
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-maurer-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-maurer-592.webp",
+    "w": 592
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-maurer-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-maurer-592.png",
+    "w": 592
+   }
+  ],
+  "fallback": "d/kunde-maurer-592.png"
+ },
+ "kunde-mtu.png": {
+  "w": 1549,
+  "h": 717,
+  "avif": [
+   {
+    "name": "d/kunde-mtu-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-mtu-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-mtu-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-mtu-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-mtu-1549.avif",
+    "w": 1549
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-mtu-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-mtu-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-mtu-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-mtu-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-mtu-1549.webp",
+    "w": 1549
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-mtu-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-mtu-640.png",
+    "w": 640
+   },
+   {
+    "name": "d/kunde-mtu-960.png",
+    "w": 960
+   },
+   {
+    "name": "d/kunde-mtu-1280.png",
+    "w": 1280
+   },
+   {
+    "name": "d/kunde-mtu-1549.png",
+    "w": 1549
+   }
+  ],
+  "fallback": "d/kunde-mtu-1549.png"
+ },
+ "kunde-siemens.png": {
+  "w": 453,
+  "h": 75,
+  "avif": [
+   {
+    "name": "d/kunde-siemens-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-siemens-453.avif",
+    "w": 453
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/kunde-siemens-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-siemens-453.webp",
+    "w": 453
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/kunde-siemens-320.png",
+    "w": 320
+   },
+   {
+    "name": "d/kunde-siemens-453.png",
+    "w": 453
+   }
+  ],
+  "fallback": "d/kunde-siemens-453.png"
+ },
  "laden-1200-x700.png": {
   "w": 1200,
   "h": 700,
@@ -2570,6 +2981,100 @@
    }
   ],
   "fallback": "d/portrait-benjamin-awissus-550.jpg"
+ },
+ "portrait-eric-dietrich.jpg": {
+  "w": 550,
+  "h": 550,
+  "avif": [
+   {
+    "name": "d/portrait-eric-dietrich-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-eric-dietrich-550.avif",
+    "w": 550
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-eric-dietrich-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-eric-dietrich-550.webp",
+    "w": 550
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-eric-dietrich-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-eric-dietrich-550.jpg",
+    "w": 550
+   }
+  ],
+  "fallback": "d/portrait-eric-dietrich-550.jpg"
+ },
+ "portrait-jan-krafft.jpg": {
+  "w": 1014,
+  "h": 1014,
+  "avif": [
+   {
+    "name": "d/portrait-jan-krafft-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-jan-krafft-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/portrait-jan-krafft-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/portrait-jan-krafft-1014.avif",
+    "w": 1014
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-jan-krafft-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-jan-krafft-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/portrait-jan-krafft-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/portrait-jan-krafft-1014.webp",
+    "w": 1014
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-jan-krafft-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-jan-krafft-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/portrait-jan-krafft-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/portrait-jan-krafft-1014.jpg",
+    "w": 1014
+   }
+  ],
+  "fallback": "d/portrait-jan-krafft-1014.jpg"
  },
  "portrait-manuel-maier.jpg": {
   "w": 550,

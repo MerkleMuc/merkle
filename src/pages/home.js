@@ -19,6 +19,9 @@ module.exports = function home() {
     /* 2 — Kennzahlenband (weiß) */
     ui.figures(),
 
+    /* 2b — Kundenlogos im freien Weiß unter dem Kennzahlenband */
+    ui.logos(),
+
     /* 3 — Bildzäsur */
     ui.caesura({
       img: '20241021-merkle-munchen-filiale-und-mitarbeiter-dsc09971.jpg',

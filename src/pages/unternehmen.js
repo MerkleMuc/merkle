@@ -44,7 +44,7 @@ function service() {
           title: 'Werkstatt und Reparatur',
           body: `<p>Wir reparieren defekte Anlagen aller Fabrikate und führen die gesetzlich vorgeschriebenen Prüfungen nach EN/IEC 60&nbsp;974-4 durch — entweder in unserer Werkstatt oder in Ihrem Betrieb.</p>
           <p>Für die Dauer der Reparatur stellen wir Ihnen auf Wunsch ein Mietgerät zur Verfügung, damit die Arbeit weitergeht.</p>`,
-          link: { label: 'Werkstatt anrufen: ' + TEL.werkstatt.text, href: TEL.werkstatt.href }
+          link: { label: 'Zentrale anrufen: ' + TEL.zentrale.text, href: TEL.zentrale.href }
         },
         {
           id: 'miete',
@@ -76,7 +76,7 @@ function service() {
           alt: 'Merkle-Lieferfahrzeug mit Gasflaschen bei der Auslieferung',
           title: 'Lieferservice und Finanzierung',
           body: `<p>Bei Bedarf liefern wir die bestellte Ware direkt zu Ihnen. Und alle unsere Anlagen können Sie bei uns einfach und unkompliziert ohne Bankeinschaltung direkt finanzieren.</p>`,
-          link: { label: 'Buchhaltung anrufen: ' + TEL.buchhaltung.text, href: TEL.buchhaltung.href }
+          link: { label: 'Zentrale anrufen: ' + TEL.zentrale.text, href: TEL.zentrale.href }
         }
       ]
     }),
@@ -280,15 +280,14 @@ function standortMuenchen() {
   const faqItems = [
     { q: 'Wo finde ich Merkle in München?', a: '<p>In der Anton-Böck-Straße 31, 81249 München-Freiham. Kostenlose Parkplätze liegen direkt vor der Tür.</p>' },
     { q: 'Wie sind die Öffnungszeiten in München?', a: '<p>Montag bis Freitag durchgehend von 6:30 bis 18:00 Uhr, samstags von 8:00 bis 12:00 Uhr.</p>' },
-    { q: 'Welche Abteilung erreiche ich unter welcher Nummer?', a: '<p>Zentrale −0, Verkauf −16, Gase −17, Werkstatt −18, Einkauf −19, Schweißtechnik −20, Buchhaltung −21, Mahnwesen −22, gebrauchte Schweißgeräte −12, Schweißkurse −11. Die Vorwahl lautet jeweils +49 89 897717.</p>' },
+    { q: 'Welche Abteilung erreiche ich unter welcher Nummer?', a: '<p>Zentrale −0, Verkauf −16, Gase −17, Reparatur −20, gebrauchte Schweißgeräte −12, Schweißkurse −28. Die Vorwahl lautet jeweils +49 89 897717.</p>' },
     { q: 'Bekomme ich in München auch Gas?', a: '<p>Ja. Zwölf Gase stehen zur Verfügung, dazu das Merkle-Tauschflaschensystem. Sie können selbst abholen oder sich beliefern lassen.</p>' }
   ];
 
   const depts = [
     ['Zentrale', TEL.zentrale], ['Verkauf', TEL.verkauf], ['Gase', TEL.gase],
-    ['Werkstatt', TEL.werkstatt], ['Gebrauchte Schweißgeräte', TEL.gebraucht],
-    ['Einkauf', TEL.einkauf], ['Schweißtechnik', TEL.schweisstech],
-    ['Buchhaltung', TEL.buchhaltung], ['Mahnwesen', TEL.mahnwesen], ['Schweißkurse', TEL.kurse]
+    ['Reparatur', TEL.reparatur], ['Gebrauchte Schweißgeräte', TEL.gebraucht],
+    ['Schweißkurse', TEL.kurse]
   ];
 
   const body = [
@@ -450,9 +449,8 @@ function kontakt() {
 
   const depts = [
     ['Zentrale', TEL.zentrale], ['Verkauf', TEL.verkauf], ['Gase', TEL.gase],
-    ['Werkstatt', TEL.werkstatt], ['Gebrauchte Schweißgeräte', TEL.gebraucht],
-    ['Einkauf', TEL.einkauf], ['Schweißtechnik', TEL.schweisstech],
-    ['Buchhaltung', TEL.buchhaltung], ['Mahnwesen', TEL.mahnwesen], ['Schweißkurse', TEL.kurse]
+    ['Reparatur', TEL.reparatur], ['Gebrauchte Schweißgeräte', TEL.gebraucht],
+    ['Schweißkurse', TEL.kurse]
   ];
 
   const body = [

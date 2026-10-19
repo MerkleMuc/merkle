@@ -26,19 +26,14 @@ const EXTERN = {
 /* Telefonnummern nach DIN 5008 */
 const TEL = {
   zentrale:    { text: '+49 89 897717-0',  href: 'tel:+498989771700' },
-  verkauf:     { text: '+49 89 897717-16', href: 'tel:+4989897717016' },
-  werkstatt:   { text: '+49 89 897717-18', href: 'tel:+4989897717018' },
-  schweisstech:{ text: '+49 89 897717-20', href: 'tel:+4989897717020' },
-  gase:        { text: '+49 89 897717-17', href: 'tel:+4989897717017' },
-  gebraucht:   { text: '+49 89 897717-12', href: 'tel:+4989897717012' },
-  einkauf:     { text: '+49 89 897717-19', href: 'tel:+4989897717019' },
-  buchhaltung: { text: '+49 89 897717-21', href: 'tel:+4989897717021' },
-  mahnwesen:   { text: '+49 89 897717-22', href: 'tel:+4989897717022' },
-  kurse:       { text: '+49 89 897717-11', href: 'tel:+4989897717011' },
+  verkauf:     { text: '+49 89 897717-16', href: 'tel:+498989771716' },
+  gase:        { text: '+49 89 897717-17', href: 'tel:+498989771717' },
   reparatur:   { text: '+49 89 897717-20', href: 'tel:+498989771720' },
-  schweisskurse: { text: '+49 89 897717-28', href: 'tel:+498989771728' },
+  gebraucht:   { text: '+49 89 897717-12', href: 'tel:+498989771712' },
+  kurse:       { text: '+49 89 897717-28', href: 'tel:+498989771728' },
   webshop:     { text: '+49 89 897717-12', href: 'tel:+498989771712' },
   webshop2:    { text: '+49 89 897717-31', href: 'tel:+498989771731' },
+  zentrale2:   { text: '+49 89 897717-27', href: 'tel:+498989771727' },
   landshut:    { text: '+49 871 93317-0',  href: 'tel:+4987193317000' },
   rosenheim:   { text: '+49 8031 2854-0',  href: 'tel:+49803128540' }
 };
@@ -125,7 +120,7 @@ const PEOPLE = [
   {
     bereich: 'Werkstatt',
     text: 'Reparatur, UVV-Prüfung nach EN/IEC 60&nbsp;974-4 und Gebrauchtanlagen. Für die Dauer der Reparatur stellen wir Ihnen auf Wunsch ein Mietgerät zur Verfügung.',
-    tel: TEL.werkstatt,
+    tel: TEL.zentrale,
     mail: 'werkstatt@merkle-muenchen.de',
     img: 'schweisskurse-1200x500-1.png',
     alt: 'Werkstattmitarbeiter in Schweißerjacke mit Schweißbrenner und Schutzhelm in der Merkle-Werkstatt'
@@ -141,7 +136,7 @@ const PEOPLE = [
   {
     bereich: 'Buchhaltung',
     text: 'Fragen zu Ihrer Rechnung oder zu Finanzierungsmöglichkeiten? Unsere Buchhaltung hilft weiter — Anlagen finanzieren Sie bei uns direkt, ohne Bankeinschaltung.',
-    tel: TEL.buchhaltung,
+    tel: TEL.zentrale,
     mail: 'buchhaltung@merkle-muenchen.de',
     img: 'buchhaltung-1200x500-1.png',
     alt: 'Zwei Mitarbeitende der Merkle-Buchhaltung im Bürogang'
@@ -475,14 +470,47 @@ const BERATER = {
 /* Themenschalter der Kontaktkarte: je Thema eine Ansprechperson.
    Reihenfolge entspricht der Reihenfolge der Schalter. */
 const BERATER_TEAM = [
-  { key: 'zentrale',  tab: 'Zentrale',     tabEn: 'Reception',   name: 'Siegfried Awissus', rolle: 'Zentrale',        rolleEn: 'Reception',       foto: 'portrait-siegfried-awissus.jpg', tel: TEL.zentrale },
-  { key: 'vertrieb',  tab: 'Vertrieb',     tabEn: 'Sales',       name: 'Thomas Wagner',     rolle: 'Vertrieb',        rolleEn: 'Sales',           foto: 'portrait-thomas-wagner.jpg',     tel: TEL.verkauf },
-  { key: 'gase',      tab: 'Gase',         tabEn: 'Gas',         name: 'Bef Dagim',         rolle: 'Gase bestellen',  rolleEn: 'Ordering gas',    foto: 'portrait-bef-dagim.jpg',         tel: TEL.gase },
-  { key: 'reparatur', tab: 'Reparatur',    tabEn: 'Repairs',     name: 'Benjamin Awissus',  rolle: 'Reparaturen',     rolleEn: 'Repairs',         foto: 'portrait-benjamin-awissus.jpg',  tel: TEL.reparatur },
-  { key: 'kurse',     tab: 'Schweißkurse', tabEn: 'Courses',     name: 'Vanessa Mendes',    rolle: 'Schweißkurse',    rolleEn: 'Welding courses', foto: 'portrait-vanessa-mendes.jpg',    tel: TEL.schweisskurse },
-  { key: 'webshop',   tab: 'Webshop',      tabEn: 'Web shop',    name: 'Manuel Maier',      rolle: 'Webshop',         rolleEn: 'Web shop',        foto: 'portrait-manuel-maier.jpg',      tel: TEL.webshop,
-    zweit: { name: 'Eric Dietrich', tel: TEL.webshop2 } }
+  { key: 'zentrale', tab: 'Zentrale', tabEn: 'Reception', rolle: 'Zentrale', rolleEn: 'Reception', leute: [
+    { name: 'Siegfried Awissus', foto: 'portrait-siegfried-awissus.jpg', tel: TEL.zentrale },
+    { name: 'Jan Krafft',        foto: 'portrait-jan-krafft.jpg',       tel: TEL.zentrale2 }
+  ] },
+  { key: 'vertrieb', tab: 'Vertrieb', tabEn: 'Sales', rolle: 'Vertrieb', rolleEn: 'Sales', leute: [
+    { name: 'Thomas Wagner', foto: 'portrait-thomas-wagner.jpg', tel: TEL.verkauf }
+  ] },
+  { key: 'gase', tab: 'Gase', tabEn: 'Gas', rolle: 'Gase bestellen', rolleEn: 'Ordering gas', leute: [
+    { name: 'Bef Dagim', foto: 'portrait-bef-dagim.jpg', tel: TEL.gase }
+  ] },
+  { key: 'reparatur', tab: 'Reparatur', tabEn: 'Repairs', rolle: 'Reparaturen', rolleEn: 'Repairs', leute: [
+    { name: 'Benjamin Awissus', foto: 'portrait-benjamin-awissus.jpg', tel: TEL.reparatur }
+  ] },
+  { key: 'kurse', tab: 'Schweißkurse', tabEn: 'Courses', rolle: 'Schweißkurse', rolleEn: 'Welding courses', leute: [
+    { name: 'Vanessa Mendes', foto: 'portrait-vanessa-mendes.jpg', tel: TEL.kurse }
+  ] },
+  { key: 'webshop', tab: 'Webshop', tabEn: 'Web shop', rolle: 'Webshop', rolleEn: 'Web shop', leute: [
+    { name: 'Manuel Maier',  foto: 'portrait-manuel-maier.jpg',  tel: TEL.webshop },
+    { name: 'Eric Dietrich', foto: 'portrait-eric-dietrich.jpg', tel: TEL.webshop2 }
+  ] }
 ];
+
+
+/* Kundenlogos. Ruhiges Feld, kein Karussell: alle gleich groß und
+   einfarbig, damit kein Logo das andere übertönt. */
+const KUNDEN = [
+  { img: 'kunde-maurer.png',                    name: 'Maurer' },
+  { img: 'kunde-siemens.png',                   name: 'Siemens' },
+  /* swm — Datei liegt noch nicht vor */
+  /* bundeswehr — Datei liegt noch nicht vor */
+  /* tum — Datei liegt noch nicht vor */
+  { img: 'kunde-mtu.png',                       name: 'MTU Aero Engines' },
+  { img: 'kunde-landeshauptstadt-muenchen.png', name: 'Landeshauptstadt München' },
+  { img: 'kunde-baywa.png',                     name: 'BayWa', boxed: true },
+  { img: 'kunde-eaton.png',                     name: 'Eaton' },
+  { img: 'kunde-convotherm.png',                name: 'Convotherm' },
+  { img: 'kunde-lausser.png',                   name: 'Lausser Anlagenbau Stuttgart' },
+  { img: 'kunde-hochland.png',                  name: 'Hochland', boxed: true }
+  /* schandl, sd-hirsch — Dateien liegen noch nicht vor */
+];
+
 
 /* --------------------------------------------------- Schweißgeräte-Finder */
 /* Die Empfehlung fasst zusammen, was auf den Verfahrensseiten steht.
@@ -797,7 +825,7 @@ const EN_TEXT = {
 
 module.exports = {
   SITE, EXTERN, TEL, STANDORTE, PEOPLE, VERFAHREN, FIGURES, NAV, FOOTER_COLS, LEGAL_LINKS,
-  GOOGLE, REVIEWS, WHATSAPP, BERATER, BERATER_TEAM,
+  GOOGLE, REVIEWS, WHATSAPP, BERATER, BERATER_TEAM, KUNDEN,
   FINDER_STEPS, FINDER_RESULTS, FINDER_DEVICES, MAP_EVENTS,
   NAV_EN, FOOTER_COLS_EN, EN_TEXT
 };

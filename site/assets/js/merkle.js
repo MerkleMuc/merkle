@@ -579,13 +579,25 @@
       });
     }
 
-    /* Themenschalter: ein Klick tauscht die Ansprechperson aus. Es ist
-       immer genau eine sichtbar, auch ohne JavaScript. */
+    /* Themenschalter: ein Klick tauscht das Thema. Gibt es dazu mehrere
+       Ansprechpersonen, blättert ein Pfeilpaar durch sie. Ohne JavaScript
+       bleibt die erste Person des ersten Themas sichtbar. */
     var tabs = card.querySelectorAll('[data-berater-tab]');
-    var leute = card.querySelectorAll('[data-berater-person]');
+    var gruppen = card.querySelectorAll('[data-berater-person]');
+
+    function zeige(gruppe, i) {
+      var einzel = gruppe.querySelectorAll('[data-berater-one]');
+      var n = einzel.length;
+      var pos = ((i % n) + n) % n;
+      for (var a = 0; a < n; a++) einzel[a].hidden = a !== pos;
+      gruppe.setAttribute('data-aktiv', pos);
+      var zaehler = gruppe.querySelector('[data-berater-count]');
+      if (zaehler) zaehler.textContent = (pos + 1) + '/' + n;
+    }
+
     function waehle(key) {
-      for (var i = 0; i < leute.length; i++) {
-        leute[i].hidden = leute[i].getAttribute('data-berater-person') !== key;
+      for (var i = 0; i < gruppen.length; i++) {
+        gruppen[i].hidden = gruppen[i].getAttribute('data-berater-person') !== key;
       }
       for (var j = 0; j < tabs.length; j++) {
         var an = tabs[j].getAttribute('data-berater-tab') === key;
@@ -593,11 +605,31 @@
         tabs[j].setAttribute('aria-pressed', an ? 'true' : 'false');
       }
     }
+
     for (var k = 0; k < tabs.length; k++) {
       tabs[k].addEventListener('click', function () {
         waehle(this.getAttribute('data-berater-tab'));
       });
     }
+
+    var pfeile = card.querySelectorAll('[data-berater-arrow]');
+    for (var m = 0; m < pfeile.length; m++) {
+      pfeile[m].addEventListener('click', function () {
+        var gruppe = this.closest('[data-berater-person]');
+        var jetzt = parseInt(gruppe.getAttribute('data-aktiv') || '0', 10);
+        zeige(gruppe, jetzt + parseInt(this.getAttribute('data-berater-arrow'), 10));
+      });
+    }
+
+    /* Der Schließer verkleinert die Karte auf die Miniaturansicht; sie
+       bleibt die ganze Sitzung über erreichbar. */
+    var zu = card.querySelector('[data-berater-close]');
+    if (zu) zu.addEventListener('click', function () {
+      card.hidden = true;
+      card.classList.remove('is-ready');
+      try { window.sessionStorage.setItem('mk-berater', 'klein'); } catch (e) {}
+      showMini();
+    });
     if (mini) mini.addEventListener('click', openCard);
 
     /* Wer die Karte schon weggeklickt hat, bekommt sofort nur die Miniatur. */
@@ -769,10 +801,10 @@
     var zx = 0, zy = 0, laeuft = false;
     function male() {
       laeuft = false;
-      inner.style.setProperty('--gry', (zx * 4.5).toFixed(2) + 'deg');
-      inner.style.setProperty('--grx', (-zy * 3).toFixed(2) + 'deg');
-      inner.style.setProperty('--gtx', (zx * 14).toFixed(1) + 'px');
-      inner.style.setProperty('--gty', (zy * 9).toFixed(1) + 'px');
+      inner.style.setProperty('--gry', (zx * 1.5).toFixed(2) + 'deg');
+      inner.style.setProperty('--grx', (-zy * 1).toFixed(2) + 'deg');
+      inner.style.setProperty('--gtx', (zx * 4.5).toFixed(1) + 'px');
+      inner.style.setProperty('--gty', (zy * 3).toFixed(1) + 'px');
     }
     function bewege(e) {
       var r = feld.getBoundingClientRect();
