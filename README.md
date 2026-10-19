@@ -405,6 +405,56 @@ jedem Build trotzdem sofort neu.
 
 Details und Rohdaten in `docs/ABNAHME.md`.
 
+## Repository und Vorschau
+
+### Was im Repository liegt
+
+| Ordner | Inhalt |
+|---|---|
+| `src/` | Quellcode: Seitenbausteine, Inhalte, Icons, Geodaten |
+| `site/` | **die gebaute Seite** — genau das, was auf den Server gehört |
+| `_bestand/` | Rohdaten der alten Seite: Originalbilder, abgezogene HTML-Seiten, Geodaten |
+| `docs/` | Abnahme und offene Punkte |
+| `tools/` | Hilfsskripte, derzeit nur das Umschreiben der Pfade für die Vorschau |
+
+Nicht im Repository: `node_modules/` (kommt aus `package-lock.json`),
+`docs/screenshots/` und die Prüfprotokolle (zusammen rund 200 MB, entstehen
+bei jedem Lauf neu) sowie `_site/`.
+
+### Arbeitsablauf
+
+```bash
+npm ci                 # Abhängigkeiten
+npm run build          # baut site/ neu
+npm start              # Vorschau auf http://localhost:4321
+npm run qa             # Prüflauf: axe, Links, verstecktes, Screenshots
+npm run validate       # HTML-Validierung
+```
+
+**Wichtig:** `site/` wird mitversioniert. Wer etwas in `src/` ändert, baut
+vor dem Commit einmal neu — sonst zeigt die Vorschau den alten Stand.
+
+### Vorschau auf GitHub Pages
+
+Die Seite rechnet überall mit dem Wurzelpfad (`/gas/`, `/assets/…`), wie
+später auf dem eigenen Server. GitHub Pages liefert ein Projekt-Repo aber
+unter `https://<konto>.github.io/<repo>/` aus. Deshalb schreibt der Lauf in
+`.github/workflows/pages.yml` vor der Veröffentlichung eine Kopie um:
+
+```bash
+node tools/pages-prefix.js site _site /merkle-relaunch
+```
+
+Das Skript setzt jedem Wurzelpfad das Präfix voran (`href`, `src`, `srcset`,
+`imagesrcset`, `action`, Pfade in CSS und in `suche.js`), legt `.nojekyll` an
+und setzt jede Seite der Kopie auf `noindex` — die Vorschau soll nicht neben
+der echten Seite in den Suchergebnissen stehen. Die Quelle bleibt unberührt.
+
+Für den eigenen Server später wird nichts umgeschrieben: dort wird `site/`
+unverändert in das Wurzelverzeichnis gelegt. Die Umleitungen der alten URLs
+stehen in `site/.htaccess` beziehungsweise `site/_redirects`.
+
+
 ## Bekannte Lücken
 
 Seit dem 19.10.2026 steht **kein `{{TODO}}`-Marker mehr im Build**: Der

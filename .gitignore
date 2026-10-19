@@ -13,3 +13,6 @@ docs/lighthouse.json
 Thumbs.db
 .DS_Store
 *.log
+
+# Kopie fuer die GitHub-Pages-Vorschau, entsteht bei jedem Lauf neu
+_site/

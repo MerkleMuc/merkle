@@ -1,0 +1,54 @@
+name: Vorschau auf GitHub Pages
+
+# Veröffentlicht den Inhalt von site/ als Vorschau. Gebaut wird weiterhin
+# lokal mit `npm run build` — die fertige Seite liegt im Repository. Hier
+# werden nur die Wurzelpfade auf den Unterpfad des Projekt-Repos umgeschrieben,
+# denn Pages liefert ein Projekt unter https://<konto>.github.io/<repo>/ aus.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'tools/pages-prefix.js'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Ein Lauf nach dem anderen; ein neuer Push bricht den vorherigen ab.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Wurzelpfade auf den Unterpfad des Repos umschreiben
+        run: node tools/pages-prefix.js site _site "/${{ github.event.repository.name }}"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  veroeffentlichen:
+    needs: bauen
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - id: pages
+        uses: actions/deploy-pages@v4
