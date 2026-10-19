@@ -2586,29 +2586,35 @@ main > .mk-hero:first-child,main > .mk-phero:first-child{padding-top:var(--mk-he
   display:flex;flex-direction:column;align-items:center;text-align:center;
   padding-inline:8px;
   transform:scale(.86);transform-origin:50% 100%;
-  opacity:.5;
-  transition:transform 420ms var(--mk-ease-out),opacity 420ms var(--mk-ease-out);
+  transition:transform 420ms var(--mk-ease-out);
 }
 @media (min-width:768px){.mk-bottle{flex:0 0 25vw}}
 @media (min-width:1024px){.mk-bottle{flex:0 0 16.6vw}}
 @media (min-width:1440px){.mk-bottle{flex:0 0 14.2vw}}
-.mk-bottle__pic{display:block;width:100%}
+.mk-bottle__pic{
+  display:block;width:100%;
+  opacity:.62;transition:opacity 420ms var(--mk-ease-out);
+}
 .mk-bottle__pic img{width:100%;height:150px;object-fit:contain;display:block;background:none}
 .mk-bottle__name{
   margin-top:14px;font-size:.8125rem;font-weight:500;letter-spacing:.01em;
-  color:var(--mk-ink);
+  color:var(--mk-ink-2);
 }
+/* Immer sichtbar: verborgener Inhalt ist in diesem Projekt ausgeschlossen.
+   Die mittige Flasche hebt sich über Größe und Farbe ab, nicht über das
+   Verschwinden der anderen. */
 .mk-bottle__text{
   margin-top:6px;font-size:.75rem;line-height:1.5;color:var(--mk-muted);
   max-width:24ch;
-  opacity:0;transition:opacity 420ms var(--mk-ease-out);
+  transition:color 420ms var(--mk-ease-out);
 }
-.mk-bottle.is-center{transform:scale(1.16);opacity:1}
+.mk-bottle.is-center{transform:scale(1.16)}
+.mk-bottle.is-center .mk-bottle__pic{opacity:1}
 .mk-bottle.is-center .mk-bottle__name{font-size:1rem;color:var(--mk-teal-deep)}
-.mk-bottle.is-center .mk-bottle__text{opacity:1}
+.mk-bottle.is-center .mk-bottle__text{color:var(--mk-ink-2)}
 /* Ohne JavaScript steht alles gleichberechtigt und vollständig da. */
-.mk-nojs .mk-bottle,html:not(.mk-js) .mk-bottle{transform:none;opacity:1}
-html:not(.mk-js) .mk-bottle__text{opacity:1}
+html:not(.mk-js) .mk-bottle{transform:none}
+html:not(.mk-js) .mk-bottle__pic{opacity:1}
 @media (prefers-reduced-motion:reduce){
   .mk-bottle{transition:none}
   .mk-bayern__inner{transform:none;transition:none}

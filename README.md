@@ -438,11 +438,11 @@ vor dem Commit einmal neu — sonst zeigt die Vorschau den alten Stand.
 
 Die Seite rechnet überall mit dem Wurzelpfad (`/gas/`, `/assets/…`), wie
 später auf dem eigenen Server. GitHub Pages liefert ein Projekt-Repo aber
-unter `https://<konto>.github.io/<repo>/` aus. Deshalb schreibt der Lauf in
+unter `https://<konto>.github.io/<repo>/` aus. Der Workflow setzt den Repo-Namen selbst ein. Deshalb schreibt der Lauf in
 `.github/workflows/pages.yml` vor der Veröffentlichung eine Kopie um:
 
 ```bash
-node tools/pages-prefix.js site _site /merkle-relaunch
+node tools/pages-prefix.js site _site /<name-des-repos>
 ```
 
 Das Skript setzt jedem Wurzelpfad das Präfix voran (`href`, `src`, `srcset`,
