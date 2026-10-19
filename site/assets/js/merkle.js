@@ -579,13 +579,25 @@
       });
     }
 
-    var btn = card.querySelector('[data-berater-close]');
-    if (btn) btn.addEventListener('click', function () {
-      card.hidden = true;
-      card.classList.remove('is-ready');
-      try { window.sessionStorage.setItem('mk-berater', 'klein'); } catch (e) {}
-      showMini();
-    });
+    /* Themenschalter: ein Klick tauscht die Ansprechperson aus. Es ist
+       immer genau eine sichtbar, auch ohne JavaScript. */
+    var tabs = card.querySelectorAll('[data-berater-tab]');
+    var leute = card.querySelectorAll('[data-berater-person]');
+    function waehle(key) {
+      for (var i = 0; i < leute.length; i++) {
+        leute[i].hidden = leute[i].getAttribute('data-berater-person') !== key;
+      }
+      for (var j = 0; j < tabs.length; j++) {
+        var an = tabs[j].getAttribute('data-berater-tab') === key;
+        tabs[j].classList.toggle('is-active', an);
+        tabs[j].setAttribute('aria-pressed', an ? 'true' : 'false');
+      }
+    }
+    for (var k = 0; k < tabs.length; k++) {
+      tabs[k].addEventListener('click', function () {
+        waehle(this.getAttribute('data-berater-tab'));
+      });
+    }
     if (mini) mini.addEventListener('click', openCard);
 
     /* Wer die Karte schon weggeklickt hat, bekommt sofort nur die Miniatur. */

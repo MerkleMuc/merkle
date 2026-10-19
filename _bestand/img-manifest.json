@@ -2501,6 +2501,252 @@
   ],
   "fallback": "d/plasmaschneider-c82-178.jpg"
  },
+ "portrait-bef-dagim.jpg": {
+  "w": 550,
+  "h": 550,
+  "avif": [
+   {
+    "name": "d/portrait-bef-dagim-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-bef-dagim-550.avif",
+    "w": 550
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-bef-dagim-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-bef-dagim-550.webp",
+    "w": 550
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-bef-dagim-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-bef-dagim-550.jpg",
+    "w": 550
+   }
+  ],
+  "fallback": "d/portrait-bef-dagim-550.jpg"
+ },
+ "portrait-benjamin-awissus.jpg": {
+  "w": 550,
+  "h": 550,
+  "avif": [
+   {
+    "name": "d/portrait-benjamin-awissus-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-benjamin-awissus-550.avif",
+    "w": 550
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-benjamin-awissus-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-benjamin-awissus-550.webp",
+    "w": 550
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-benjamin-awissus-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-benjamin-awissus-550.jpg",
+    "w": 550
+   }
+  ],
+  "fallback": "d/portrait-benjamin-awissus-550.jpg"
+ },
+ "portrait-manuel-maier.jpg": {
+  "w": 550,
+  "h": 550,
+  "avif": [
+   {
+    "name": "d/portrait-manuel-maier-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-manuel-maier-550.avif",
+    "w": 550
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-manuel-maier-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-manuel-maier-550.webp",
+    "w": 550
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-manuel-maier-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-manuel-maier-550.jpg",
+    "w": 550
+   }
+  ],
+  "fallback": "d/portrait-manuel-maier-550.jpg"
+ },
+ "portrait-siegfried-awissus.jpg": {
+  "w": 550,
+  "h": 550,
+  "avif": [
+   {
+    "name": "d/portrait-siegfried-awissus-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-siegfried-awissus-550.avif",
+    "w": 550
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-siegfried-awissus-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-siegfried-awissus-550.webp",
+    "w": 550
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-siegfried-awissus-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-siegfried-awissus-550.jpg",
+    "w": 550
+   }
+  ],
+  "fallback": "d/portrait-siegfried-awissus-550.jpg"
+ },
+ "portrait-thomas-wagner.jpg": {
+  "w": 550,
+  "h": 550,
+  "avif": [
+   {
+    "name": "d/portrait-thomas-wagner-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-thomas-wagner-550.avif",
+    "w": 550
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-thomas-wagner-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-thomas-wagner-550.webp",
+    "w": 550
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-thomas-wagner-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-thomas-wagner-550.jpg",
+    "w": 550
+   }
+  ],
+  "fallback": "d/portrait-thomas-wagner-550.jpg"
+ },
+ "portrait-vanessa-mendes.jpg": {
+  "w": 1324,
+  "h": 1324,
+  "avif": [
+   {
+    "name": "d/portrait-vanessa-mendes-320.avif",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-640.avif",
+    "w": 640
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-960.avif",
+    "w": 960
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-1280.avif",
+    "w": 1280
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-1324.avif",
+    "w": 1324
+   }
+  ],
+  "webp": [
+   {
+    "name": "d/portrait-vanessa-mendes-320.webp",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-640.webp",
+    "w": 640
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-960.webp",
+    "w": 960
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-1280.webp",
+    "w": 1280
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-1324.webp",
+    "w": 1324
+   }
+  ],
+  "fallbackSet": [
+   {
+    "name": "d/portrait-vanessa-mendes-320.jpg",
+    "w": 320
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-640.jpg",
+    "w": 640
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-960.jpg",
+    "w": 960
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-1280.jpg",
+    "w": 1280
+   },
+   {
+    "name": "d/portrait-vanessa-mendes-1324.jpg",
+    "w": 1324
+   }
+  ],
+  "fallback": "d/portrait-vanessa-mendes-1324.jpg"
+ },
  "propan-bild-web_mue.jpg": {
   "w": 1920,
   "h": 1427,

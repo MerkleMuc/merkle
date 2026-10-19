@@ -4,7 +4,7 @@
 
 const {
   SITE, EXTERN, TEL, STANDORTE, PEOPLE, VERFAHREN, FIGURES, NAV, FOOTER_COLS, LEGAL_LINKS,
-  GOOGLE, REVIEWS, WHATSAPP, BERATER, MAP_EVENTS, NAV_EN, FOOTER_COLS_EN, EN_TEXT
+  GOOGLE, REVIEWS, WHATSAPP, BERATER, BERATER_TEAM, MAP_EVENTS, NAV_EN, FOOTER_COLS_EN, EN_TEXT
 } = require('./data');
 const { icon, iconBox, stars } = require('./icons');
 
@@ -642,6 +642,7 @@ function bayernMap() {
 
   const rest = Object.keys(L).filter(n => n !== 'Bayern').map(n => L[n]).join('');
   const bayern = L['Bayern'];
+  const nachbarn = geo.nachbarn();
 
   /* Die drei eigenen Standorte. */
   const HOME = [
@@ -700,7 +701,7 @@ function bayernMap() {
           <!-- Punktraster als Maske: ein Rechteck je Fläche, nicht tausend Kreise.
                Die Farbe kommt vom Rechteck darunter, nicht vom Punkt. -->
           <pattern id="mk-m1" width="1.62" height="1.62" patternUnits="userSpaceOnUse">
-            <circle cx="0.81" cy="0.81" r="0.3" fill="#fff"/>
+            <circle cx="0.81" cy="0.81" r="0.22" fill="#fff"/>
           </pattern>
           <pattern id="mk-m2" width="1.42" height="1.42" patternUnits="userSpaceOnUse">
             <circle cx="0.71" cy="0.71" r="0.36" fill="#fff"/>
@@ -727,6 +728,8 @@ function bayernMap() {
             <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
           </radialGradient>
         </defs>
+        <!-- 0. angedeutete Staatsgrenzen ringsum -->
+        <path class="mk-globe__nbline" d="${nachbarn}"/>
         <!-- 1. flächendeckendes Raster, sehr leise -->
         <rect class="mk-globe__feld" x="10" y="8" width="180" height="172" mask="url(#mk-mk-feld)"/>
         <!-- 2. die übrigen Länder etwas kräftiger, dazu Haarlinien -->
@@ -1276,26 +1279,40 @@ function beraterCard(en) {
   const t = EN_TEXT;
   const muc = STANDORTE[0];
   const slots = muc.hours.map(h => ({ d: h.days, o: h.open, c: h.close, o2: h.open2 || null, c2: h.close2 || null }));
+
+  /* Ein Schalter je Thema, darunter genau eine Ansprechperson. Ohne
+     JavaScript bleibt die erste sichtbar — die Karte funktioniert dann
+     als schlichter Kontakthinweis. */
+  const tabs = BERATER_TEAM.map((p, i) => `<button class="mk-berater__tab${i ? '' : ' is-active'}" type="button"
+      data-berater-tab="${attr(p.key)}" aria-pressed="${i ? 'false' : 'true'}">${esc(en ? p.tabEn : p.tab)}</button>`).join('\n    ');
+
+  const leute = BERATER_TEAM.map((p, i) => `<div class="mk-berater__person" data-berater-person="${attr(p.key)}"${i ? ' hidden' : ''}>
+      <div class="mk-berater__row">
+        <span class="mk-berater__avatar">
+          ${plainImg(p.foto, (en ? 'Portrait of ' : 'Portrait von ') + p.name, { sizes: '56px' })}
+          <span class="mk-berater__dot"></span>
+        </span>
+        <span>
+          <span class="mk-berater__name">${esc(p.name)}</span>
+          <span class="mk-berater__role">${esc(en ? p.rolleEn : p.rolle)}</span>
+        </span>
+      </div>
+      <div class="mk-berater__actions">
+        <a class="mk-berater__call" href="${attr(p.tel.href)}">${icon('phone')}${esc(p.tel.text)}</a>
+        <a class="mk-berater__wa" href="${attr(WHATSAPP)}" target="_blank" rel="noopener" aria-label="${en ? 'Message on WhatsApp' : 'WhatsApp schreiben'}">${icon('whatsapp')}</a>
+        <a class="mk-berater__mail" href="mailto:info@merkle-muenchen.de" aria-label="${en ? 'Write an e-mail' : 'E-Mail schreiben'}">${icon('mail')}</a>
+      </div>
+      ${p.zweit ? `<p class="mk-berater__zweit">${en ? 'or' : 'oder'} ${esc(p.zweit.name)}
+        <a href="${attr(p.zweit.tel.href)}">${esc(p.zweit.tel.text)}</a></p>` : ''}
+    </div>`).join('\n    ');
+
   return `<aside class="mk-contactfloat" aria-label="${en ? 'Personal contact' : 'Persönlicher Kontakt'}">
 <div class="mk-float mk-berater" data-berater data-hours="${attr(JSON.stringify(slots))}" hidden>
-  <button class="mk-berater__close" type="button" data-berater-close aria-label="${en ? t.closeHint : 'Hinweis schließen'}">${icon('close')}</button>
-  <p class="mk-berater__bubble"><span class="mk-berater__bubbletext">${en ? 'I am available right now. Can I answer a question for you?' : esc(BERATER.spruch)}</span></p>
-  <div class="mk-berater__row">
-    <span class="mk-berater__avatar" aria-hidden="true">
-      ${icon('user')}
-      <span class="mk-berater__dot"></span>
-    </span>
-    <span>
-      <span class="mk-berater__name">${esc(BERATER.name)}</span>
-      <span class="mk-berater__role">${en ? 'Your contact' : esc(BERATER.rolle)}</span>
-      <span class="mk-berater__status">${icon('check')}${en ? t.available : 'Jetzt erreichbar'}</span>
-    </span>
+  <p class="mk-berater__title">${icon('check')}${en ? 'We are available for you' : 'Wir sind für dich verfügbar'}</p>
+  <div class="mk-berater__tabs" role="group" aria-label="${en ? 'Choose a topic' : 'Thema wählen'}">
+    ${tabs}
   </div>
-  <div class="mk-berater__actions">
-    <a class="mk-berater__call" href="${BERATER.tel.href}">${icon('phone')}${esc(BERATER.tel.text)}</a>
-    <a class="mk-berater__wa" href="${attr(WHATSAPP)}" target="_blank" rel="noopener" aria-label="${en ? 'Message on WhatsApp' : 'WhatsApp schreiben'}">${icon('whatsapp')}</a>
-    <a class="mk-berater__mail" href="mailto:info@merkle-muenchen.de" aria-label="${en ? 'Write an e-mail' : 'E-Mail schreiben'}">${icon('mail')}</a>
-  </div>
+  ${leute}
 </div>
 
 <button class="mk-float mk-mini" type="button" data-berater-mini hidden aria-label="${en ? 'Open contact card' : 'Kontaktkarte öffnen'}">

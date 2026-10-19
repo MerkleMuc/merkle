@@ -2619,3 +2619,84 @@ html:not(.mk-js) .mk-bottle__pic{opacity:1}
   .mk-bottle{transition:none}
   .mk-bayern__inner{transform:none;transition:none}
 }
+
+/* ==========================================================================
+   51. Karte: leiseres Raster, Grenzen der Nachbarn, Verlauf nach Westen
+   ========================================================================== */
+/* Die grauen Punkte treten zurück, bis im Wesentlichen nur noch die
+   Landesgrenzen zu sehen sind. Bayern bleibt davon unberührt. */
+.mk-globe__feld{opacity:.028}
+.mk-globe__restfill{opacity:.055}
+.mk-globe__line{stroke:#9AA7AF;stroke-opacity:.5;stroke-width:0.2}
+
+/* Nachbarstaaten nur angedeutet: eine Haarlinie, noch leiser als die
+   Grenzen der Bundesländer. */
+.mk-globe__nbline{
+  fill:none;stroke:#9AA7AF;stroke-opacity:.3;stroke-width:0.16;
+  stroke-linejoin:round;
+}
+
+/* Westen in Weiß auslaufen lassen: links steht die Überschrift mit den
+   drei Standortkarten, sie soll vor der Karte liegen. */
+.mk-bayern{
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.16) 30%,rgba(0,0,0,.72) 48%,#000 64%,#000 88%,transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.16) 30%,rgba(0,0,0,.72) 48%,#000 64%,#000 88%,transparent 100%);
+}
+
+/* ==========================================================================
+   52. Kontaktkarte: rundum rund, Themenschalter statt Sprechblase
+   ========================================================================== */
+/* Es ist ein Bedienelement, kein Zettel — also durchgehend runde Kanten. */
+.mk-berater{
+  border-radius:26px;
+  padding:16px 16px 14px;
+}
+.mk-berater__bubble{display:none}
+
+/* Überschrift: halb so groß wie der frühere Spruch in der Sprechblase. */
+.mk-berater__title{
+  display:flex;align-items:center;gap:7px;
+  margin:0 0 11px;
+  font-size:.75rem;line-height:1.3;font-weight:500;
+  color:var(--mk-ink-2);
+}
+.mk-berater__title .mk-icon{width:13px;height:13px;color:#15803D;flex:0 0 13px}
+
+/* Themenschalter: kleine Pillen, die aktive in den Hausfarben. */
+.mk-berater__tabs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:13px}
+.mk-berater__tab{
+  border:1px solid var(--mk-line-2);border-radius:var(--mk-r-pill);
+  background:var(--mk-s1);color:var(--mk-muted);
+  padding:4px 10px;font-size:.6875rem;line-height:1.4;font-family:inherit;
+  cursor:pointer;
+  transition:background var(--mk-fast) var(--mk-ease),
+             color var(--mk-fast) var(--mk-ease),
+             border-color var(--mk-fast) var(--mk-ease);
+}
+@media (hover:hover) and (pointer:fine){
+  .mk-berater__tab:hover{color:var(--mk-ink);border-color:var(--mk-line)}
+}
+.mk-berater__tab.is-active{
+  background:var(--mk-teal-deep);border-color:var(--mk-teal-deep);color:var(--mk-white);
+}
+
+/* Portraits statt Signet */
+.mk-berater__avatar{
+  position:relative;width:46px;height:46px;flex:0 0 46px;
+  background:none;border-radius:var(--mk-r-pill);
+}
+.mk-berater__avatar picture{display:block;width:100%;height:100%}
+.mk-berater__avatar img{
+  width:100%;height:100%;object-fit:cover;display:block;
+  border-radius:var(--mk-r-pill);
+}
+.mk-berater__dot{z-index:2}
+.mk-berater__zweit{
+  margin:9px 0 0;font-size:.6875rem;color:var(--mk-muted);
+}
+.mk-berater__zweit a{color:var(--mk-teal-deep);text-decoration:none}
+.mk-berater__zweit a:hover{text-decoration:underline}
+.mk-berater__actions{margin-top:12px}
+/* Feste Breite nur, solange die Karte frei rechts unten steht. Mobil
+   spannt sie wie bisher über die Breite. */
+@media (min-width:901px){.mk-berater{width:320px}}

@@ -511,13 +511,6 @@ function gas() {
       <p>Über ein bundesweit vorhandenes Netz liefern wir überall in Deutschland direkt zu Ihnen in die Werkstatt oder auf die Baustelle.</p>`
     }),
 
-    ui.bottles({
-      kicker: 'Unsere Gase',
-      h2: 'Zwölf Gase für Schweißen, Schneiden und mehr.',
-      railLabel: 'Zwölf Gasflaschen zum Durchblättern',
-      items: GASE
-    }),
-
     ui.prose({
       id: 'tauschsystem',
       kicker: 'Das Merkle-Tauschsystem',
@@ -569,6 +562,14 @@ function gas() {
         ['Campingaz', 'R&nbsp;904 · R&nbsp;907', 'für Camping- und Freizeitgeräte'],
         ['Kohlensäure (CO₂)', '0,425 · 0,5 · 1,5 · 2,0 · 6,0 · 10,0 · 20,0 · 30,0 · 37,0&nbsp;kg', 'für Schweißen und für Zapfanlagen']
       ]
+    }),
+
+    ui.bottles({
+      id: 'gase',
+      kicker: 'Unsere Gase',
+      h2: 'Zwölf Gase für Schweißen, Schneiden und mehr.',
+      railLabel: 'Zwölf Gasflaschen zum Durchblättern',
+      items: GASE
     }),
 
     ui.faq({ h2: 'Häufige Fragen zu Gas und Flaschen.', items: faqItems }),

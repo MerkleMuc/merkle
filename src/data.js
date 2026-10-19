@@ -35,6 +35,10 @@ const TEL = {
   buchhaltung: { text: '+49 89 897717-21', href: 'tel:+4989897717021' },
   mahnwesen:   { text: '+49 89 897717-22', href: 'tel:+4989897717022' },
   kurse:       { text: '+49 89 897717-11', href: 'tel:+4989897717011' },
+  reparatur:   { text: '+49 89 897717-20', href: 'tel:+498989771720' },
+  schweisskurse: { text: '+49 89 897717-28', href: 'tel:+498989771728' },
+  webshop:     { text: '+49 89 897717-12', href: 'tel:+498989771712' },
+  webshop2:    { text: '+49 89 897717-31', href: 'tel:+498989771731' },
   landshut:    { text: '+49 871 93317-0',  href: 'tel:+4987193317000' },
   rosenheim:   { text: '+49 8031 2854-0',  href: 'tel:+49803128540' }
 };
@@ -464,11 +468,21 @@ const BERATER = {
   rolle: 'Ihr Ansprechpartner',
   tel: TEL.zentrale,
   spruch: 'Ich bin gerade erreichbar, kann ich dir eine Frage beantworten?',
-  /* Portraitfoto liegt nicht vor, siehe docs/TODO.md. Bis dahin ein
-     neutrales Signet statt eines fremden Gesichts. */
-  foto: null,
+  foto: 'portrait-siegfried-awissus.jpg',
   standort: 'muenchen'
 };
+
+/* Themenschalter der Kontaktkarte: je Thema eine Ansprechperson.
+   Reihenfolge entspricht der Reihenfolge der Schalter. */
+const BERATER_TEAM = [
+  { key: 'zentrale',  tab: 'Zentrale',     tabEn: 'Reception',   name: 'Siegfried Awissus', rolle: 'Zentrale',        rolleEn: 'Reception',       foto: 'portrait-siegfried-awissus.jpg', tel: TEL.zentrale },
+  { key: 'vertrieb',  tab: 'Vertrieb',     tabEn: 'Sales',       name: 'Thomas Wagner',     rolle: 'Vertrieb',        rolleEn: 'Sales',           foto: 'portrait-thomas-wagner.jpg',     tel: TEL.verkauf },
+  { key: 'gase',      tab: 'Gase',         tabEn: 'Gas',         name: 'Bef Dagim',         rolle: 'Gase bestellen',  rolleEn: 'Ordering gas',    foto: 'portrait-bef-dagim.jpg',         tel: TEL.gase },
+  { key: 'reparatur', tab: 'Reparatur',    tabEn: 'Repairs',     name: 'Benjamin Awissus',  rolle: 'Reparaturen',     rolleEn: 'Repairs',         foto: 'portrait-benjamin-awissus.jpg',  tel: TEL.reparatur },
+  { key: 'kurse',     tab: 'Schweißkurse', tabEn: 'Courses',     name: 'Vanessa Mendes',    rolle: 'Schweißkurse',    rolleEn: 'Welding courses', foto: 'portrait-vanessa-mendes.jpg',    tel: TEL.schweisskurse },
+  { key: 'webshop',   tab: 'Webshop',      tabEn: 'Web shop',    name: 'Manuel Maier',      rolle: 'Webshop',         rolleEn: 'Web shop',        foto: 'portrait-manuel-maier.jpg',      tel: TEL.webshop,
+    zweit: { name: 'Eric Dietrich', tel: TEL.webshop2 } }
+];
 
 /* --------------------------------------------------- Schweißgeräte-Finder */
 /* Die Empfehlung fasst zusammen, was auf den Verfahrensseiten steht.
@@ -783,7 +797,7 @@ const EN_TEXT = {
 
 module.exports = {
   SITE, EXTERN, TEL, STANDORTE, PEOPLE, VERFAHREN, FIGURES, NAV, FOOTER_COLS, LEGAL_LINKS,
-  GOOGLE, REVIEWS, WHATSAPP, BERATER,
+  GOOGLE, REVIEWS, WHATSAPP, BERATER, BERATER_TEAM,
   FINDER_STEPS, FINDER_RESULTS, FINDER_DEVICES, MAP_EVENTS,
   NAV_EN, FOOTER_COLS_EN, EN_TEXT
 };

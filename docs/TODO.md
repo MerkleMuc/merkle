@@ -121,3 +121,17 @@ Stand: 19.10.2026
 | 33 | **Karte bewegt sich beim Überfahren** | Gezogen wird nicht mehr. Die Karte folgt dem Zeiger ein kleines Stück (maximal 4,5 Grad seitlich, 14 px Versatz) und geht beim Verlassen zurück. Nur auf Geräten mit echtem Zeiger, nur Transform, bei reduzierter Bewegung aus. |
 | 34 | **Bewertungsleiste bleibt stehen** | Der Schließer ist entfernt; die Leiste begleitet die ganze Sitzung. Unter 768 px schrumpft sie auf einen runden Punkt mit Google-G, Wert und einem Stern. |
 | 35 | **Icons nur noch im Untermenü** | Die Hauptnavigation trägt reine Wortmarken, Mega-Menü und mobile Navigation behalten ihre Vektor-Icons. |
+
+---
+
+## 9. Stand nach der Ausbaustufe 6
+
+Stand: 19.10.2026
+
+| # | Punkt | Detail |
+|---|---|---|
+| 36 | **Zuordnung der Portraits prüfen** | Die acht gelieferten Portraits wurden ohne Namensangabe übergeben. Zugeordnet wurde nach Augenschein: `portrait-siegfried-awissus.jpg` (Zentrale), `portrait-thomas-wagner.jpg` (Vertrieb), `portrait-bef-dagim.jpg` (Gase), `portrait-benjamin-awissus.jpg` (Reparaturen), `portrait-vanessa-mendes.jpg` (Schweißkurse), `portrait-manuel-maier.jpg` und `portrait-eric-dietrich.webp` (Webshop). → **Muss gegengelesen werden.** Ein achtes Bild blieb ungenutzt. |
+| 37 | **Kontaktkarte mit Themenschaltern** | Die Sprechblase ist entfallen. Statt dessen: eine halb so große Zeile „Wir sind für dich verfügbar“, darunter sechs Schalter (Zentrale, Vertrieb, Gase, Reparatur, Schweißkurse, Webshop), die die Ansprechperson samt Durchwahl austauschen. Ohne JavaScript bleibt die Zentrale sichtbar. Die Karte ist rundum abgerundet (26 px). |
+| 38 | **Durchwahlen** | Neu aufgenommen: Reparaturen −20, Schweißkurse −28, Webshop −12 und −31. Die älteren `tel:`-Einträge in `src/data.js` tragen eine Ziffer zu viel (`tel:+4989897717016` statt `tel:+498989771716`); die neuen Einträge sind korrekt. → Die alten sollten bei Gelegenheit nachgezogen werden. |
+| 39 | **Nachbarländer auf der Karte** | Österreich, Schweiz, Tschechien, Polen, Frankreich, Belgien, Niederlande, Luxemburg, Dänemark, Italien, Slowenien und die Slowakei sind als Haarlinie angedeutet. Die Umrisse in `src/geo.js` (`NACHBARN`) sind grob abgefahren und bewusst stützpunktarm — eine amtliche Grenzdarstellung sind sie nicht. Für Deutschland gelten weiterhin die amtlichen Umrisse. |
+| 40 | **Gasflaschen-Slider verschoben** | Das Band steht jetzt unter der Tabelle „Diese Flaschen tauschen wir leer gegen voll“ (`#flaschengroessen`) statt vor dem Tauschsystem. |
