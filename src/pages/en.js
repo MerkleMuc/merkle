@@ -109,8 +109,7 @@ function homeEn() {
     }),
 
     ui.reviews({
-      kicker: 'What customers write',
-      h2: 'Reviews on Google.',
+      lang: 'en',
       wash: true,
       limit: 10
     }),
@@ -358,7 +357,7 @@ function aboutEn() {
   </div>
 </section>`,
 
-    ui.reviews({ kicker: 'What customers write', h2: 'Reviews on Google.', limit: 8 }),
+    ui.reviews({ lang: 'en', limit: 8 }),
 
     `<section class="mk-section mk-wash"><div class="mk-container"><div class="mk-grid"><div class="mk-col-8">
       ${germanNote('The full company history, the teams and our job openings are on the German pages: <a href="/ueber-uns/">about us</a> and <a href="/jobs/">jobs</a>.')}

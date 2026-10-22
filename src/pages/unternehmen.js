@@ -642,9 +642,7 @@ function bewertung() {
     }),
 
     ui.reviews({
-      wash: true,
-      kicker: 'Was andere schreiben',
-      h2: 'Bewertungen bei Google.'
+      wash: true
     }),
 
     ui.prose({

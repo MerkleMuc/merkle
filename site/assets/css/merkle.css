@@ -2989,3 +2989,38 @@ html:not(.mk-js) .mk-bottle__pic{opacity:1}
 .mk-berater.is-offline .mk-berater__dot::after,
 .mk-mini.is-offline .mk-mini__dot::after{display:none}
 .mk-berater.is-offline .mk-berater__title .mk-icon{color:var(--mk-muted)}
+
+/* ==========================================================================
+   64. Bewertungen: Kopf mit großer Wertung und zwei Schaltflächen
+   ========================================================================== */
+/* Nach dem Vorbild der neuen Merkle-Seiten: große, leichte Ziffer, daneben
+   Sterne und Quelle, darunter zwei helle Pillen. Die Karten im Slider
+   bleiben unverändert. */
+.mk-reviewtop{margin-bottom:clamp(32px,4vw,52px)}
+.mk-reviewscore{
+  display:flex;align-items:center;gap:clamp(16px,2vw,24px);
+  margin-top:clamp(22px,2.6vw,32px);
+}
+.mk-reviewscore__value{
+  font-size:clamp(3.5rem,6vw,4.75rem);line-height:1;
+  font-weight:250;letter-spacing:-.04em;color:var(--mk-ink);
+  font-variant-numeric:tabular-nums;
+}
+.mk-reviewscore__side{display:flex;flex-direction:column;gap:8px}
+.mk-reviewscore__stars{display:inline-flex;gap:3px;color:var(--mk-teal-deep)}
+.mk-reviewscore__stars svg{width:15px;height:15px}
+.mk-reviewscore__meta{font-size:var(--mk-small);color:var(--mk-muted);line-height:1.45}
+.mk-reviewbtns{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(24px,2.8vw,32px)}
+.mk-reviewbtn{
+  display:inline-flex;align-items:center;gap:12px;
+  padding:13px 24px;border-radius:var(--mk-r-pill);
+  background:var(--mk-s0);border:1px solid var(--mk-line-2);
+  color:var(--mk-ink);font-weight:500;font-size:.9375rem;text-decoration:none;
+  transition:border-color var(--mk-fast) var(--mk-ease),box-shadow var(--mk-fast) var(--mk-ease),transform var(--mk-fast) var(--mk-ease);
+}
+@media (hover:hover) and (pointer:fine){
+  .mk-reviewbtn:hover{color:var(--mk-ink);border-color:rgba(20,30,35,.2);box-shadow:var(--mk-sh1);transform:translateY(-1px)}
+}
+.mk-reviewbtn__g svg{width:17px;height:17px;display:block}
+.mk-reviewbtn__star{display:inline-flex;color:var(--mk-ink)}
+.mk-reviewbtn__star svg{width:14px;height:14px}

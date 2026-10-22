@@ -116,8 +116,6 @@ module.exports = function home() {
     /* 9b — Google-Bewertungen als Slider (weiß, direkt nach den Menschen) */
     ui.reviews({
       id: 'bewertungen',
-      kicker: 'Was Kundinnen und Kunden schreiben',
-      h2: 'Bewertungen bei Google.',
       limit: 12
     }),
 

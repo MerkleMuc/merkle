@@ -1265,21 +1265,33 @@ function reviewCard(r) {
 
 function reviews(o) {
   o = o || {};
+  const en = o.lang === 'en';
   const items = (o.items || REVIEWS).slice(0, o.limit || REVIEWS.length);
+  /* Bewerten geht direkt in das Google-Formular des Standorts München. */
+  const bewerten = 'https://search.google.com/local/writereview?placeid=' + STANDORTE[0].placeId;
   return `<section class="mk-section${o.wash ? ' mk-wash' : ''}"${o.id ? ` id="${o.id}"` : ''}>
   <div class="mk-container">
-    <div class="mk-grid">
-      <div class="mk-col-8">
-        <p class="mk-kicker">${esc(o.kicker || 'Was Kundinnen und Kunden schreiben')}</p>
-        <h2>${o.h2 || 'Bewertungen bei Google.'}</h2>
-        <div class="mk-reviewhead">
-          <span class="mk-reviewhead__score">${esc(GOOGLE.rating)}</span>
-          <span class="mk-rating__stars" role="img" aria-label="${esc(GOOGLE.rating)} von 5 Sternen">${stars(5)}</span>
-          <span class="mk-reviewhead__meta">${GOOGLE.count} Bewertungen · <a href="${attr(GOOGLE.url)}" target="_blank" rel="noopener">alle bei Google ansehen</a></span>
-        </div>
+    <div class="mk-reviewtop">
+      <p class="mk-kicker">${esc(o.kicker || (en ? 'Reviews' : 'Bewertungen'))}</p>
+      <h2>${o.h2 || (en ? 'What customers <span class="mk-em">say</span>' : 'Was Kunden <span class="mk-em">sagen</span>')}</h2>
+      <div class="mk-reviewscore">
+        <span class="mk-reviewscore__value" aria-hidden="true">${esc(GOOGLE.rating)}</span>
+        <span class="mk-reviewscore__side">
+          <span class="mk-reviewscore__stars" aria-hidden="true">${stars(5)}</span>
+          <span class="mk-reviewscore__meta">${GOOGLE.count} ${en ? 'Google reviews for' : 'Google-Bewertungen für'} Merkle Schweißtechnik München</span>
+          <span class="mk-sr">${esc(GOOGLE.rating)} ${en ? 'out of 5 stars' : 'von 5 Sternen'}</span>
+        </span>
+      </div>
+      <div class="mk-reviewbtns">
+        <a class="mk-reviewbtn" href="${attr(GOOGLE.url)}" target="_blank" rel="noopener">
+          <span class="mk-reviewbtn__g" aria-hidden="true">${icon('googleG')}</span>${en ? 'All reviews' : 'Alle Bewertungen'}
+        </a>
+        <a class="mk-reviewbtn" href="${attr(bewerten)}" target="_blank" rel="noopener">
+          <span class="mk-reviewbtn__star" aria-hidden="true">${stars(1)}</span>${en ? 'Write a review' : 'Bewertung abgeben'}
+        </a>
       </div>
     </div>
-    ${slider({ label: 'Google-Bewertungen', hint: 'Seitlich scrollen für weitere Bewertungen', items: items.map(reviewCard).join('\n        ') })}
+    ${slider({ label: en ? 'Google reviews' : 'Google-Bewertungen', hint: en ? 'Scroll sideways for more reviews' : 'Seitlich scrollen für weitere Bewertungen', items: items.map(reviewCard).join('\n        ') })}
   </div>
 </section>`;
 }
