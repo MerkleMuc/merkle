@@ -2973,3 +2973,19 @@ html:not(.mk-js) .mk-bottle__pic{opacity:1}
   pointer-events:none;
 }
 .mk-caesura__video.is-ready{opacity:1}
+/* Breite, flache Wortmarken duerfen ein Stueck in die Luecke ragen — sonst
+   begrenzt die Spalte ihre Hoehe, bevor --logo-h greift. Der Abstand zum
+   Nachbarn bleibt dabei erhalten. */
+.mk-logos__item--breit img{max-width:100%}
+@media (min-width:1024px){.mk-logos__item--breit img{max-width:124%}}
+
+/* ==========================================================================
+   63. Kontaktkarte nach Ladenschluss
+   ========================================================================== */
+/* Die Karte bleibt sichtbar. Der grüne Punkt wird grau, das Häkchen leiser —
+   WhatsApp und E-Mail funktionieren weiter. */
+.mk-berater.is-offline .mk-berater__dot,
+.mk-mini.is-offline .mk-mini__dot{background:#9AA3AA}
+.mk-berater.is-offline .mk-berater__dot::after,
+.mk-mini.is-offline .mk-mini__dot::after{display:none}
+.mk-berater.is-offline .mk-berater__title .mk-icon{color:var(--mk-muted)}

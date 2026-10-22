@@ -597,7 +597,40 @@
       catch (e) { return false; }
     }
 
-    if (!isOpen()) return;
+    /* Die Karte bleibt immer da. Außerhalb der Öffnungszeiten wechselt sie
+       in einen Offline-Zustand und nennt die nächste Öffnung — WhatsApp und
+       E-Mail funktionieren ja trotzdem. */
+    var offen = isOpen();
+    var TAGNAME = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+
+    function naechsteOeffnung() {
+      var jetzt = new Date();
+      var heute = jetzt.getDay();
+      var m = jetzt.getHours() * 60 + jetzt.getMinutes();
+      for (var plus = 0; plus < 8; plus++) {
+        var tag = (heute + plus) % 7;
+        for (var i = 0; i < slots.length; i++) {
+          var s = slots[i];
+          var trifft = false;
+          for (var d = 0; d < s.d.length; d++) if (DAYS[s.d[d]] === tag) trifft = true;
+          if (!trifft) continue;
+          var auf = [s.o, s.o2].filter(Boolean);
+          for (var k = 0; k < auf.length; k++) {
+            if (plus === 0 && minutes(auf[k]) <= m) continue;
+            var zeit = String(auf[k]).replace(/^0/, '');
+            var wann = plus === 0 ? 'heute' : (plus === 1 ? 'morgen' : TAGNAME[tag]);
+            return wann + ' ' + zeit + ' Uhr';
+          }
+        }
+      }
+      return '';
+    }
+
+    if (!offen) {
+      card.classList.add('is-offline');
+      var status = card.querySelector('[data-berater-status]');
+      if (status) status.textContent = status.getAttribute('data-offline-text') + ' ' + naechsteOeffnung();
+    }
 
     var mini = document.querySelector('[data-berater-mini]');
 
@@ -622,7 +655,12 @@
     function showMini() {
       if (!mini) return;
       var slot = mini.querySelector('[data-mini-hours]');
-      if (slot) slot.textContent = todayText();
+      if (slot) slot.textContent = offen ? todayText() : naechsteOeffnung();
+      if (!offen) {
+        mini.classList.add('is-offline');
+        var st = mini.querySelector('[data-mini-status]');
+        if (st) st.textContent = st.getAttribute('data-offline-text');
+      }
       mini.hidden = false;
       window.requestAnimationFrame(function () {
         window.requestAnimationFrame(function () { mini.classList.add('is-ready'); });

@@ -784,7 +784,7 @@ function bayernMap() {
 function logos(o) {
   o = o || {};
   const items = (o.items || KUNDEN).map(k => `<li class="mk-logos__item${k.breit ? ' mk-logos__item--breit' : ''}"${k.h ? ` style="--logo-h:${k.h}px"` : ''}>
-        ${plainImg(k.img, (o.altPrefix || 'Logo ') + k.name, { sizes: '160px' })}
+        ${plainImg(k.img, (o.altPrefix || 'Logo ') + k.name, { sizes: '(min-width:1024px) 260px, (min-width:640px) 22vw, 30vw' })}
       </li>`).join('\n      ');
 
   return `<section class="mk-logos${o.wash ? ' mk-wash' : ''}"${o.id ? ` id="${o.id}"` : ''}>
@@ -1371,7 +1371,7 @@ function beraterCard(en) {
   return `<aside class="mk-contactfloat" aria-label="${en ? 'Personal contact' : 'Persönlicher Kontakt'}">
 <div class="mk-float mk-berater" data-berater data-hours="${attr(JSON.stringify(slots))}" hidden>
   <button class="mk-berater__close" type="button" data-berater-close aria-label="${en ? t.closeHint : 'Hinweis verkleinern'}">${icon('close')}</button>
-  <p class="mk-berater__title">${icon('check')}${en ? 'We are available for you' : 'Wir sind für dich verfügbar'}</p>
+  <p class="mk-berater__title">${icon('check')}<span data-berater-status data-offline-text="${en ? 'Back on' : 'Wieder erreichbar'}">${en ? 'We are available for you' : 'Wir sind für dich verfügbar'}</span></p>
   <div class="mk-berater__tabs" role="group" aria-label="${en ? 'Choose a topic' : 'Thema wählen'}">
     ${tabs}
   </div>
@@ -1380,7 +1380,7 @@ function beraterCard(en) {
 
 <button class="mk-float mk-mini" type="button" data-berater-mini hidden aria-label="${en ? 'Open contact card' : 'Kontaktkarte öffnen'}">
   <span class="mk-mini__dot" aria-hidden="true"></span>
-  <span class="mk-mini__text">${en ? 'Online' : 'Online'} <b data-mini-hours></b></span>
+  <span class="mk-mini__text"><span data-mini-status data-offline-text="${en ? 'Back' : 'Wieder'}">Online</span> <b data-mini-hours></b></span>
   <span class="mk-mini__avatar" aria-hidden="true">${plainImg(BERATER_TEAM[0].leute[0].foto, '', { sizes: '28px' })}</span>
 </button>
 </aside>`;

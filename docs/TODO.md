@@ -185,7 +185,7 @@ Stand: 19.10.2026
 
 | # | Punkt | Detail |
 |---|---|---|
-| 55 | **Logohöhen je Marke** | Grundhöhe 52 px, die Breite richtet sich selbst danach. SWM und TUM stehen bei 32 px, Bundeswehr bei 62, BayWa und Hochland bei 64. **Landeshauptstadt München bleibt bei 31 px** — die Wortmarke ist so breit, dass die Spalte die Höhe begrenzt, bevor die Vorgabe greift. Höher ginge nur mit einer doppelt breiten Zelle, die das Raster aufbricht. Alle Kacheln stehen auf Weiß. |
+| 55 | **Logohöhen je Marke** | Grundhöhe 52 px, die Breite richtet sich selbst danach. SWM und TUM stehen bei 32 px, Bundeswehr bei 62, Landeshauptstadt München bei 50, BayWa und Hochland bei 64. Alle Kacheln stehen auf Weiß. Die Logos hingen zunächst nicht an der Spalte, sondern an ihrem `sizes`-Wert von 160 px — der ist jetzt an die tatsächliche Spaltenbreite angepasst. Breite, flache Wortmarken dürfen ab 1024 px zusätzlich 24 Prozent in die Lücke ragen, sonst begrenzt die Zelle ihre Höhe. |
 | 56 | **Karte: helle Sprechzeilen** | Statt der dunklen Platte ein Verlauf von Türkiswasser nach Weiß mit Haarlinie, dunkler Schrift und Icons in den Hausfarben. Die Breite rechnet jetzt ohne Kappe (3,6 + 0,68 je Zeichen), der längste Text steht mit 35 px Luft im Kasten. |
 | 57 | **Fahrzeug als Linienzeichnung** | Das selbstgebaute Fahrzeug ist durch das Linien-Icon aus der Icon-Sammlung ersetzt, im selben Strichstil wie der Rest. |
 | 58 | **Startseite: Gase statt Werkstatt** | Die dritte Karte unter den vier Durchwahlen führt jetzt das Gasgeschäft mit Durchwahl −17 und info@merkle-muenchen.de. Buchhaltung steht wieder auf −21. |
@@ -193,3 +193,4 @@ Stand: 19.10.2026
 | 60 | **Fußzeile: Auszeichnungen** | Schmale Leiste über den Rechtstexten mit fünf gestrichelten Platzhaltern „Logo folgt". → Sobald die echten Label-Logos vorliegen, treten sie an ihre Stelle. |
 | 61 | **Footer-Logo ohne weiße Platte** | Dieselbe Umkehrung wie in der Kopfzeile. Die Einschränkung aus Punkt 31 gilt weiter: eine echte Negativfassung als SVG löst das endgültig. |
 | 62 | **Über uns: Film und drei Jahreszahlen** | Die Luftaufnahme bekommt denselben Film wie die Startseite, hier durchlaufend statt im Zwölf-Sekunden-Fenster. 2018, 2024 und 2026 sind in der Zeitleiste ergänzt, die Überschrift nennt jetzt acht Jahreszahlen. Der Film lädt weiterhin nicht, solange das Zertifikat der Quelle abgelaufen ist (Punkt 54). |
+| 63 | **Kontaktkarte nach Ladenschluss** | Die Karte verschwand bisher außerhalb der Öffnungszeiten ganz. Jetzt bleibt sie immer da: nach Ladenschluss mit grauem Punkt und der nächsten Öffnung („Wieder morgen 6:30 Uhr", „Wieder Mo 6:30 Uhr"), WhatsApp und E-Mail bleiben nutzbar. |
