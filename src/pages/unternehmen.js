@@ -344,7 +344,7 @@ function standortMuenchen() {
 
     ui.table({
       kicker: 'Durchwahlen',
-      h2: 'Zehn Durchwahlen — damit Sie nicht weitervermittelt werden.',
+      h2: 'Direkte Durchwahlen — schneller Draht zu deinem Ansprechpartner.',
       head: ['Abteilung', 'Telefon'],
       rows: depts.map(([n, t]) => [n, `<a href="${t.href}">${t.text}</a>`])
     }),
@@ -470,7 +470,7 @@ function kontakt() {
 
     ui.table({
       kicker: 'München',
-      h2: 'Zehn Durchwahlen — damit Sie nicht weitervermittelt werden.',
+      h2: 'Direkte Durchwahlen — schneller Draht zu deinem Ansprechpartner.',
       head: ['Abteilung', 'Telefon'],
       rows: depts.map(([n, t]) => [n, `<a href="${t.href}">${t.text}</a>`])
     }),

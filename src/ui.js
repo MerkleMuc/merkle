@@ -1328,9 +1328,9 @@ function ratingBar(en) {
     <span class="mk-rating__value">${esc(GOOGLE.rating)}</span>
     <span class="mk-rating__star" aria-hidden="true">${stars(1)}</span>
     <span class="mk-rating__count">(${GOOGLE.count})</span>
+    <span class="mk-rating__ext" aria-hidden="true">${icon('arrowUpRight')}</span>
     <span class="mk-sr">${esc(GOOGLE.rating)} ${en ? t.reviewsSr : 'von 5 Sternen aus'} ${GOOGLE.count} Google ${en ? 'reviews' : 'Bewertungen'}</span>
   </a>
-  <a class="mk-rating__link" href="${en ? attr(GOOGLE.url) : '/bewertung/'}"${en ? ' target="_blank" rel="noopener"' : ''}>${en ? t.reviewsAll : 'Alle Bewertungen anzeigen'} ${icon('arrowUpRight')}</a>
 </aside>`;
 }
 

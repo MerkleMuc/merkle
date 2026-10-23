@@ -3024,3 +3024,43 @@ html:not(.mk-js) .mk-bottle__pic{opacity:1}
 .mk-reviewbtn__g svg{width:17px;height:17px;display:block}
 .mk-reviewbtn__star{display:inline-flex;color:var(--mk-ink)}
 .mk-reviewbtn__star svg{width:14px;height:14px}
+
+/* ==========================================================================
+   65. Bewertungsleiste schlichter, Speichern-Schaltfläche dezent
+   ========================================================================== */
+/* Der Wert steht nicht mehr in Gold, sondern im selben Grau wie die Anzahl.
+   Der Pfeil hinter der Anzahl zeigt, dass der Knopf zum Maps-Eintrag führt.
+   Ohne den Textlink darunter rückt die Leiste von selbst nach unten. */
+.mk-rating__value{
+  background:none;
+  -webkit-background-clip:border-box;background-clip:border-box;
+  -webkit-text-fill-color:currentColor;
+  color:var(--mk-ink-2);font-weight:500;
+}
+.mk-rating__ext{display:inline-flex;color:var(--mk-ink-2);margin-left:-4px}
+.mk-rating__ext .mk-icon{width:11px;height:11px}
+@media (max-width:767px){.mk-rating__ext{display:none}}
+
+/* Halb so groß, ohne Rand und fast ohne Schatten — nur ein leiser Hinweis. */
+.mk-rating{align-items:flex-start}
+.mk-rating__save{
+  align-self:flex-start;
+  gap:7px;padding:3px 3px 3px 11px;
+  border:0;
+  box-shadow:0 4px 12px rgba(15,25,30,.08);
+  font-size:.6875rem;font-weight:500;
+}
+.mk-rating__savecheck{width:18px;height:18px;flex-basis:18px}
+.mk-rating__savecheck .mk-icon{width:10px;height:10px}
+@media (max-width:767px){
+  .mk-rating__save{padding:3px}
+  .mk-rating__savecheck{width:18px;height:18px;flex-basis:18px}
+}
+
+/* ==========================================================================
+   66. Logofeld: kein grauer Platzhaltergrund hinter den Logos
+   ========================================================================== */
+/* Jedes Bild bekommt global einen hellgrauen Grund für die Ladezeit. Hinter
+   freigestellten Logos lag der als Kasten — hier ist alles weiß. */
+.mk-logos__item img,
+.mk-logos__item picture{background:transparent}
